@@ -11,6 +11,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="theme-color" content="#222">
+<meta name="referrer" content="never">
 
 
 
@@ -272,6 +273,290 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn7.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="7.html" itemprop="url">关于投资复利快速计算</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-07-15T12:19:53+08:00">
+                2022-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>假设我有本金一万元, 第一次投资获取<code>8%</code>的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取<code>3%</code>的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少?</p>
+<p>是<code>8%+3%=11%</code>吗? 肯定不是  <strong>实际收益率要比这个值要高</strong> </p>
+<p>最后我们获取的收益率应该是初始本金的<code>1.08x1.03=1.1124</code>倍, 也就是说实际总收益率是<code>11.24%</code></p>
+<p>大家可能会觉得差距不大, 那我们次数增加, 比如我一共投资了20次, 每次收益率都是8%, 那最后的总收益则是初始本金的<code>1.08x1.08.......x1.08=4.66</code>倍, 总收益是<code>366%</code>, 而不是<code>8%x20=160%</code>,  这个差距是不是挺大的</p>
+<p><strong>将赚的钱追加到本金中再次投资形成利滚利的收益体系叫做复利体系</strong></p>
+<p>复利效应堪称世界奇迹  懂得都懂 不再赘述</p>
+<p>接下来主要介绍复利收益和年化收益的快速计算, 方便我们平常进行投资分析</p>
+<h3 id="不同收益率复利计算"><a href="#不同收益率复利计算" class="headerlink" title="不同收益率复利计算"></a>不同收益率复利计算</h3><p>针对每次收益率不同的情况, 也就是上面介绍的那个例子</p>
+<p><strong>计算方法:</strong></p>
+<p>只需将每次的收益率加1后相乘即可得到最终的收益倍数, 把计算的结果减去1就是最终收益率, 大于0表示正收益  小于0表示亏损</p>
+<blockquote>
+<p>既然是投资, 那么有可能存在亏损情况, 比如第一次收益20%, 第二次收益-30%, 那么最终收益率为(0.2+1)x(-0.3+1)-1=-0.16 也就是-16%收益, 两次投资下来亏损了16%</p>
+</blockquote>
+<h3 id="同收益率复利计算"><a href="#同收益率复利计算" class="headerlink" title="同收益率复利计算"></a>同收益率复利计算</h3><p>针对每次收益相同的情况, 这就更加简单了</p>
+<p><strong>计算方法:</strong></p>
+<p>(1+收益率)的<code>n</code>次方, 这个<code>n</code>表示次数</p>
+<p><strong>计算器演示:</strong></p>
+<p>比如, 按照<code>26%</code>的年化收益, 持续三年 本金就能翻一倍, <code>26%</code>的持续年化, 在实际的投资中很难达到</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fuli.gif" alt="fuli"></p>
+<h3 id="年化收益推导"><a href="#年化收益推导" class="headerlink" title="年化收益推导"></a>年化收益推导</h3><p>假设我们想知道投资五年 最后总金额是初始本金的十倍 需要年化收益保持在多少才能实现</p>
+<p><strong>计算方法:</strong></p>
+<p>对<code>10</code>进行开<code>n</code>次方运算, 这个<code>n</code>表示投资年数, 具体公式如下:</p>
+<p>$$<br>\sqrt[5]{10}<br>$$</p>
+<p><strong>计算器演示:</strong></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/nianhua.gif" alt="nianhua"></p>
+<p>也就是说需要保持<code>58%</code>左右的年化收益才能实现五年十倍</p>
+<h3 id="投资次数推导"><a href="#投资次数推导" class="headerlink" title="投资次数推导"></a>投资次数推导</h3><p>假设我们有一个年化<code>15%</code>的投资产品, 想要实现最后总收益是初始本金的10倍, 那么需要花多少年才能实现</p>
+<p><strong>计算方法:</strong></p>
+<p>进行以<code>1.15</code>为底的求<code>10</code>的对数运算, 具体公式如下:<br>$$<br>\log_{1.15} 10<br>$$<br><strong>计算器演示:</strong></p>
+<p>由于计算器上的<code>log</code>都是默认以<code>10</code>为底的对数, 这里我们以<code>1.15</code>为底, 需要转换一下, 在计算器上的具体运算是:<br>$$<br>(\log_{10}10)/(\log_{10}1.15)<br>$$<br><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/duishu.gif" alt="duishu"></p>
+<p>也就是说大概需要持续17年才能实现</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn6.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="6.html" itemprop="url">信用卡账单分期的真实年化利率</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-07-10T12:19:53+08:00">
+                2022-07-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>昨晚接到招商银行信用卡部门电话，极力怂恿我做账单分期，还给了我5折优惠的诱惑。本着事情不弄清楚不轻易做决定的原则，我没有立刻答应。挂了电话我开始琢磨这个号称月利率0.33%的账单分期是否合算，真是不算不知道，一算吓一跳啊。</p>
+<h3 id="标称年化利率"><a href="#标称年化利率" class="headerlink" title="标称年化利率"></a>标称年化利率</h3><p>以招行信用卡为例，我是招行10年老客户了，哈哈，下表是不同分期数的标称利率。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8f414b2a96186054036924d8f5fb6008_720w.png" alt="img"></p>
+<p>以其中年化最合算的12期为例，我们再来看看我们所付出的真实利率是多少。假设把1.2w元账单做12期的账单分期，每期还款1000+12000<em>0.66%=1079.2元，全年总计还款12950.4。现在看来也没啥问题利率是7.92%，但是真实情况确不是这样的，*</em>因为这12000元银行并没有借给我们一年，银行确是按照1年来算的利息**。</p>
+<h4 id="实际年化利率"><a href="#实际年化利率" class="headerlink" title="实际年化利率"></a>实际年化利率</h4><p>我们把这个账单分成12份，每份1000元，分析一下银行到底借给了我们多少钱，借了多久。分期当月不用还款，第二个月把第一份1000元还了，也就是说第一份1000元银行只借给了我们1个月，依次类推，第二份2个月，第三份3个月……，最后一份银行借给我们1年。如果换一种表达方式的话，就是我们向银行借款1000元，总计78个月，银行收了我们这1000块多少个月利息呢，12(份)<em>12</em>(月)=144个月，<strong>我们所付出的真实利率是7.92%*(144/78)=14.62%。</strong></p>
+<p>下表就是不同期数的真实年化利率。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-6972cb58e2ed63449c1031a54ba8b1d3_720w.png" alt="img"></p>
+<p>蓦然发现，账单分期的日利率（0.04%）和预借现金（0.05%）的日率还真的是差不多啊，还好昨天没有别忽悠，要不然虽然给了5折优惠，年利率也要7.3%啊。</p>
+<p>最后，给出计算信用卡账单分期真实年化利率的公式：</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-177bf28088e8ef5462e3b5cc3d1ab2eb_720w.png" alt="img"></p>
+<p>以上公司并不完全精确 存在<code>0.02%</code>上下浮动误差, 不过用于大体换算没问题了 </p>
+<p>本文转载自<a href="https://zhuanlan.zhihu.com/p/22920169" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/22920169</a></p>
+<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://money.newban.cn4.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -344,7 +629,7 @@
         
           
             <h3 id="什么是做空"><a href="#什么是做空" class="headerlink" title="什么是做空"></a>什么是做空</h3><p>在股票市场里，做空指的是预测股票未来会跌，所以在当前价位高时卖出股票(或者借别人的股票卖出，称作“融劵”)，再在股价跌了之后买回股票，先卖后买，赚了一个差价。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/31676c924db04daab2bc1f3fae282b3a.png" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/31676c924db04daab2bc1f3fae282b3a.png" alt="img"></p>
 <p><strong>中国股市允许做空吗?</strong></p>
 <p>国内A股市场目前严格来说是不允许做空的，但是有其他金融衍生品种可以做空，比如期权、融券、期货。</p>
 <p><strong>1.融劵</strong></p>
@@ -484,12 +769,12 @@
 <p><strong>但是，场内对场内却出现了较强的套利信号。</strong></p>
 <p>从具体行情来看，中概互联ETF（513050）经常出现较高溢价；成立不久的中概互联ETF（159605），成交额也很活跃，却经常出现不小的折价。</p>
 <p>以前段时间为例，就出现套利机会。3月14日，中概互联ETF（159605）折价4.23%，中概互联ETF（513050）却溢价7.57%。可以卖出后者，买入前者。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/17faf727bfb70b13fdfd2826.png!800.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/17faf727bfb70b13fdfd2826.png!800.jpg" alt="img"></p>
 <p>具体指数对比、ETF测评，老张之前跟大家写过，成分股比较相似，主要是对单一个股的仓位限制。尤其是后两者，相似度更高，可以构成套利交易。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/17faf727c4770993fe446889.png!800.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/17faf727c4770993fe446889.png!800.jpg" alt="img"></p>
 <p>以近3个交易日为例，中概互联ETF（513050）涨幅为7.35%、0%、-1.47%，中概互联ETF（159605）则是两天涨停，第3天-1.24%。</p>
 <p><strong>这里面固然有指数成分股权重的差异，但是也有较高的折溢价问题。</strong>相比之下，套利多赚10%以上。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/17faf727b9970fc3fbb53b84.png!800.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/17faf727b9970fc3fbb53b84.png!800.jpg" alt="img"></p>
 <p>它们的套利交易也很方便，几只中概互联ETF都是T+0交易。也就是随时可以买，也可以随时卖。</p>
 <p><strong>因此，当两只ETF出现明显的折溢价之差时，比如折溢价率差8-10%以上，可以执行套利的策略</strong>。</p>
 <p><strong>其套利逻辑在于：</strong></p>
@@ -618,22 +903,22 @@
         
           
             <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>你好，我是廊坊周润发，主业养猫，副业赚钱。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-6d7f5e6c0083796347994593954e7e57_1440w.jpg" alt="img">图片源自网络，侵删</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-6d7f5e6c0083796347994593954e7e57_1440w.jpg" alt="img">图片源自网络，侵删</p>
 <p>补之前的作业，之前介绍了什么是基金，以及基金中常见的名词，今天正式进入正题，说一下什么是基金套利，以及两种操作方法。</p>
 <h2 id="什么是基金套利？"><a href="#什么是基金套利？" class="headerlink" title="什么是基金套利？"></a><strong>什么是基金套利？</strong></h2><p>第一篇文章中说道，基金中有一类基金叫做上市型开放式基金（LOF），它的特点是既可以在场内外申赎，也可以在场内交易，恰好两边的价格计算方式还不同，于是套利的机会就来了。</p>
 <p>场内外申赎是以当日基金净值成交，场内买卖是按照市场买卖双方的报价成交。简单来说，就是场内外申赎是按照真实的价值卖，场内买卖是根据当天市场的情绪卖，情绪波动越大，两个价格差的也越大，套利收益越高。</p>
 <p><strong>所以基金套利就是在价格低的渠道买，在价格高的渠道卖，低买高卖永远是赚钱的不二法则。</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-6eb46c29947182337b70814f61e27a39_1440w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-6eb46c29947182337b70814f61e27a39_1440w.jpg" alt="img"></p>
 <h2 id="基金套利的两种操作方法"><a href="#基金套利的两种操作方法" class="headerlink" title="基金套利的两种操作方法"></a><strong>基金套利的两种操作方法</strong></h2><p>上文说到，套利的空间取决于当天市场情绪波动的大小。</p>
 <p>情绪平稳，就没什么套利空间，今日歇业，情绪波动大，就是吃肉行情，开工干活。</p>
 <p>但是情绪也分正情绪和负情绪，对应着两种套利方式，<strong>溢价套利</strong>和<strong>折价套利</strong>。</p>
 <ol>
 <li>当正情绪出现时，说明市场上的人都看好这个基金，追着买，所以场内买卖的价格高于基金净值，处于溢价状态，可进行溢价套利。</li>
 </ol>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-c471cc7f39f6e74bb064bb1ca4f1381e_1440w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-c471cc7f39f6e74bb064bb1ca4f1381e_1440w.jpg" alt="img"></p>
 <p><strong>溢价套利步骤：先在场内高价卖出（尾盘操作），然后在下午3点收盘前场内申购，达到先高价卖出，再低价买入的效果。</strong></p>
 <p>\2. 当负情绪出现时，说明市场上的人处于恐慌状态，抢着卖，所以场内买卖的价格对于基金的净值，处于折价状态，可进行折价套利。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-7e3d451b2668290ac681c1395562861c_1440w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-7e3d451b2668290ac681c1395562861c_1440w.jpg" alt="img"></p>
 <p><strong>折价套利步骤：先在场内低价买入（尾盘操作），然后在下午3点收盘前场内赎回，达到先低价买入，再高价卖出的效果。</strong></p>
 <p>折价套利和溢价套利有一点不同，因为持有不超过N天赎回，手续费也是不一样的没，不同基金赎回的的天数和费率有差异。</p>
 <p>通常来说，持有日不超过7天（可以去支付宝搜索查看），会按照1.5%的手续费扣除，超过7天扣除0.5%手续费。所以，折价套利都是要持有7天以上，不然容易偷鸡不成反蚀米。</p>
@@ -791,7 +1076,7 @@
 <li>二是从10月25日开始对尚未归还的1800元欠款以每天万分之五的利息计收，直到持卡人还清为止。通过计算，即便持卡人在10月26日全部归还欠款，也会因为一天之差需要多支付38.9元利息</li>
 </ul>
 <p>所以, 信用卡只还最低, 非常不划算, 前后都算利息</p>
-<h3 id="关于融资融券利率"><a href="#关于融资融券利率" class="headerlink" title="关于融资融券利率"></a>关于融资融券利率</h3><p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-0d942806fa468e4b230314e2dcabbf45_720w.jpg" alt="img"></p>
+<h3 id="关于融资融券利率"><a href="#关于融资融券利率" class="headerlink" title="关于融资融券利率"></a>关于融资融券利率</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-0d942806fa468e4b230314e2dcabbf45_720w.jpg" alt="img"></p>
 <p>可参考知乎回答<a href="https://www.zhihu.com/question/63532304" target="_blank" rel="noopener">《现在融资融券利率是多少？两融去哪家券商做比较好？》</a></p>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>公积金贷款最划算, 其次是保单贷款和融资融券, 再者是商业贷款</p>
 <p>公积金贷款–&gt;保单贷款–&gt;融资融券–&gt;商业贷款–&gt;银行内部贷款产品–&gt;支付宝微信–&gt;信用卡之还最低</p>
@@ -918,45 +1203,45 @@
           
             <h3 id><a href="#" class="headerlink" title></a></h3><h3 id="adfly"><a href="#adfly" class="headerlink" title="adfly"></a><a href="https://link.zhihu.com/?target=http%3A//adf.ly" target="_blank" rel="noopener">adfly</a></h3><p>提供将正常网址转化为短网址的服务，如果有人点击生成的短网址，你便能够赚钱</p>
 <p><a href="https://link.zhihu.com/?target=http%3A//adf.ly" target="_blank" rel="noopener">The URL shortener service that pays you! Earn money for every visitor to your links.adf.ly</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-15b86829c87ef39de758c202e97e10d7_720w.jpg" alt="img">adfly界面，操作简单</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-af01ad9d2db272e768e3645e88f1c84f_720w.jpg" alt="img">对应点击量的收益</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-15b86829c87ef39de758c202e97e10d7_720w.jpg" alt="img">adfly界面，操作简单</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-af01ad9d2db272e768e3645e88f1c84f_720w.jpg" alt="img">对应点击量的收益</p>
 <h3 id="Flippa"><a href="#Flippa" class="headerlink" title="Flippa"></a><a href="https://link.zhihu.com/?target=https%3A//www.flippa.com/" target="_blank" rel="noopener">Flippa</a></h3><p>platform to buy and sell online businesses</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//flippa.com/" target="_blank" rel="noopener">https://flippa.com/flippa.com/</a></p>
 <p>可以在Flippa上买卖域名、网站、内容等等，赚取差价</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-b0a7029d504d37894b96065789853419_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-b0a7029d504d37894b96065789853419_720w.jpg" alt="img"></p>
 <h3 id="Auctions"><a href="#Auctions" class="headerlink" title="Auctions"></a><a href="https://link.zhihu.com/?target=https%3A//auctions.godaddy.com/" target="_blank" rel="noopener">Auctions</a></h3><p>Godaddy下域名买卖平台</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//auctions.godaddy.com/" target="_blank" rel="noopener">https://auctions.godaddy.com/auctions.godaddy.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-e03e3433ef6722da7e84870f87c28a54_720w.jpg" alt="img">主界面</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-34fe74425b89b7bb4acaac2b58ea7c3a_720w.jpg" alt="img">对域名进行竞价</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-e03e3433ef6722da7e84870f87c28a54_720w.jpg" alt="img">主界面</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-34fe74425b89b7bb4acaac2b58ea7c3a_720w.jpg" alt="img">对域名进行竞价</p>
 <h3 id="Fiverr"><a href="#Fiverr" class="headerlink" title="Fiverr"></a><a href="https://link.zhihu.com/?target=https%3A//www.fiverr.com/" target="_blank" rel="noopener">Fiverr</a></h3><p>利用你的一技之长来换取报酬</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//www.fiverr.com/" target="_blank" rel="noopener">https://www.fiverr.com/www.fiverr.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-4b5ae84aa135dce311c23d755914be9f_720w.jpg" alt="img"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-3544c8b94daffc1bc85aa2aadc73698d_720w.jpg" alt="img">各式各样的一技之长在这里都能找到对应的需求，你不会觉得自己啥也不会</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-4b5ae84aa135dce311c23d755914be9f_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-3544c8b94daffc1bc85aa2aadc73698d_720w.jpg" alt="img">各式各样的一技之长在这里都能找到对应的需求，你不会觉得自己啥也不会</p>
 <h3 id="Upwork"><a href="#Upwork" class="headerlink" title="Upwork"></a>Upwork</h3><p>和Fiverr类似，但这里更加长期和稳定</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//www.upwork.com/" target="_blank" rel="noopener">https://www.upwork.com/www.upwork.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-0fd62be98a31840103ce817cec8a7111_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-0fd62be98a31840103ce817cec8a7111_720w.jpg" alt="img"></p>
 <h3 id="Freelancer"><a href="#Freelancer" class="headerlink" title="Freelancer"></a>Freelancer</h3><p>自由职业者找工作的网站</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//www.freelancer.com/" target="_blank" rel="noopener">https://www.freelancer.com/www.freelancer.com/</a></p>
 <p>和upwork、Fiverr不同之处，Freelancer分类特别全，拥有超过1350种不同类别的工作</p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-eee83c6c2fb48c7306c0a13776ff07c0_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-eee83c6c2fb48c7306c0a13776ff07c0_720w.jpg" alt="img"></p>
 <h3 id="Kindle-Direct-Publishing"><a href="#Kindle-Direct-Publishing" class="headerlink" title="Kindle Direct Publishing"></a>Kindle Direct Publishing</h3><p>免费自发出版电子书和平装本，并在Amazon上吸引数百万读者。通过在上面创作出书（不一定需要是长篇巨制，也可以是简短教程等等），如果有人在上面购买你的书，便可以赚取70%的佣金。</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//kdp.amazon.com/en_US/" target="_blank" rel="noopener">https://kdp.amazon.com/en_US/kdp.amazon.com/en_US/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-8874df2d49c2aec561e1813022aee071_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8874df2d49c2aec561e1813022aee071_720w.jpg" alt="img"></p>
 <h3 id="Amazon-Associates"><a href="#Amazon-Associates" class="headerlink" title="Amazon Associates"></a>Amazon Associates</h3><p>通过你分享的链接产生消费，你便可以赚取高达10%的分红。</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//affiliate-program.amazon.com/" target="_blank" rel="noopener">The web’s most popular and successful Affiliate Programaffiliate-program.amazon.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-334541c603d2899cf4c4b3115d68418c_720w.jpg" alt="img">不同类型商品的分红</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-334541c603d2899cf4c4b3115d68418c_720w.jpg" alt="img">不同类型商品的分红</p>
 <h3 id="Peerfly"><a href="#Peerfly" class="headerlink" title="Peerfly"></a>Peerfly</h3><p>与<code>Amazon Associates</code>类似，通过你分享的链接注册新用户之后，便可以赚取收益。</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//peerfly.com/" target="_blank" rel="noopener">https://peerfly.com/peerfly.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-a9a2fdf5f238ea36a43e2550384f5b79_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-a9a2fdf5f238ea36a43e2550384f5b79_720w.jpg" alt="img"></p>
 <h3 id="shutterstock"><a href="#shutterstock" class="headerlink" title="shutterstock"></a>shutterstock</h3><p>可以将自己高清的图片、视频上传上去，如果有人购买你的照片，你就有收入</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//www.shutterstock.com/zh/" target="_blank" rel="noopener">https://www.shutterstock.com/zh/www.shutterstock.com/zh/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-a41bc80b747fff96ef9b53fc8e0bf657_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-a41bc80b747fff96ef9b53fc8e0bf657_720w.jpg" alt="img"></p>
 <h3 id="Skillshare"><a href="#Skillshare" class="headerlink" title="Skillshare"></a>Skillshare</h3><p>在线分享你的技能，例如教别人唱歌、跳舞、游泳、写代码、生活习惯等等，通过观看你视频的时长来获取利益</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//www.skillshare.com/" target="_blank" rel="noopener">https://www.skillshare.com/www.skillshare.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-94c9aadf377cb8a1b3f5f97695085f1c_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-94c9aadf377cb8a1b3f5f97695085f1c_720w.jpg" alt="img"></p>
 <h3 id="Udemy"><a href="#Udemy" class="headerlink" title="Udemy"></a>Udemy</h3><p>在线网络课程平台，与<code>skillshare</code>不同之处在于<code>Udemy</code>用户会一次性买断你的视频，例如你视频标价100美元，<code>Udemy</code>会抽取30%～40%的提成，你的收益就是60～70美元。</p>
 <p><a href="https://link.zhihu.com/?target=https%3A//www.udemy.com/" target="_blank" rel="noopener">https://www.udemy.com/www.udemy.com/</a></p>
-<p><img src="https://cdn.jsdelivr.net/gh/songjianzaina/lunanzb_img/img/v2-8691de06e41c7519ab6b400ca793c435_720w.jpg" alt="img"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8691de06e41c7519ab6b400ca793c435_720w.jpg" alt="img"></p>
 <p>最后，大家可以发挥聪明才智，例如在同类型的不同网站之间相互赚取差价呀～～～</p>
 <p><strong>本文转载自</strong>:<a href="https://zhuanlan.zhihu.com/p/134121757" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/134121757</a></p>
 <p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
@@ -1041,7 +1326,7 @@
               
                 <a href="http://money.newban.cn/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1054,7 +1339,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -1124,6 +1409,21 @@
 
 
 
+  <script type="text/javascript" src="https://unpkg.com/mermaid@9.0.0/dist/mermaid.min.js"></script>
+  <script>
+  if (window.mermaid) {
+        var mermaid_config = {
+            startOnLoad: true,
+            theme: 'default',
+            flowchart:{
+                useMaxWidth: false,
+                htmlLabels: true
+            }                
+        }
+        mermaid.initialize(mermaid_config);
+  }
+  </script>
+  
         
 
 

@@ -41,7 +41,7 @@
 
   
   
-  <link href="../../../lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -49,46 +49,55 @@
 
 
 
-<link href="../../../lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="../../../css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="../../../images/apple-touch-icon-next.png?v=5.1.4">
+<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../../../images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="../../../images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="../../../images/logo.svg?v=5.1.4" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
 
 
-
-
-
-  <meta name="keywords" content="Hexo, NexT">
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
 
 
-  <link rel="alternate" href="../../../atom.xml" title="投资与财富 – 打造属于自己的财富管道" type="application/atom+xml">
+  <meta name="keywords" content="复利,">
+
+
+
+
+
+  <link rel="alternate" href="atom.xml" title="投资与财富 – 打造属于自己的财富管道" type="application/atom+xml">
 
 
 
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="投资与财富 – 打造属于自己的财富管道">
-<meta property="og:url" content="https://money.newban.cn/archives/2022/04/index.html">
+<meta name="description" content="前言假设我有本金一万元, 第一次投资获取8%的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取3%的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少? 是8%+3%=11%吗? 肯定不是  实际收益率要比这个值要高  最后我们获取的收益率应该是初始本金的1.08x1.03=1.1124倍, 也就是说实际总收益率是11.24% 大家可能会觉得差距不大, 那我们次数增加">
+<meta name="keywords" content="复利">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于投资复利快速计算">
+<meta property="og:url" content="https://money.newban.cn/7.html">
 <meta property="og:site_name" content="投资与财富 – 打造属于自己的财富管道">
+<meta property="og:description" content="前言假设我有本金一万元, 第一次投资获取8%的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取3%的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少? 是8%+3%=11%吗? 肯定不是  实际收益率要比这个值要高  最后我们获取的收益率应该是初始本金的1.08x1.03=1.1124倍, 也就是说实际总收益率是11.24% 大家可能会觉得差距不大, 那我们次数增加">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fuli.gif">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/nianhua.gif">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/duishu.gif">
+<meta property="og:updated_time" content="2022-07-19T05:53:39.525Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="投资与财富 – 打造属于自己的财富管道">
+<meta name="twitter:title" content="关于投资复利快速计算">
+<meta name="twitter:description" content="前言假设我有本金一万元, 第一次投资获取8%的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取3%的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少? 是8%+3%=11%吗? 肯定不是  实际收益率要比这个值要高  最后我们获取的收益率应该是初始本金的1.08x1.03=1.1124倍, 也就是说实际总收益率是11.24% 大家可能会觉得差距不大, 那我们次数增加">
+<meta name="twitter:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fuli.gif">
 
 
 
@@ -127,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="https://money.newban.cn/archives/2022/04/">
+  <link rel="canonical" href="https://money.newban.cn/7.html">
 
 
 
 
 
-  <title>归档 | 投资与财富 – 打造属于自己的财富管道</title>
+  <title>关于投资复利快速计算 | 投资与财富 – 打造属于自己的财富管道</title>
   
 
 
@@ -152,7 +161,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -258,142 +267,191 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">关于投资复利快速计算</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-07-15T12:19:53+08:00">
+                2022-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 7 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2022">2022</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="../../../4.html" itemprop="url">
-              
-                <span itemprop="name">国内可以做空交易的三大品种</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2022-04-10T12:19:53+08:00" content="2022-04-10">
-          04-10
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="../../../5.html" itemprop="url">
-              
-                <span itemprop="name">ETF套利之场内对场内套利</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2022-04-10T12:19:53+08:00" content="2022-04-10">
-          04-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="../../../3.html" itemprop="url">
-              
-                <span itemprop="name">什么是基金套利 该怎么操作套利?</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2022-04-10T11:19:53+08:00" content="2022-04-10">
-          04-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>假设我有本金一万元, 第一次投资获取<code>8%</code>的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取<code>3%</code>的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少?</p>
+<p>是<code>8%+3%=11%</code>吗? 肯定不是  <strong>实际收益率要比这个值要高</strong> </p>
+<p>最后我们获取的收益率应该是初始本金的<code>1.08x1.03=1.1124</code>倍, 也就是说实际总收益率是<code>11.24%</code></p>
+<p>大家可能会觉得差距不大, 那我们次数增加, 比如我一共投资了20次, 每次收益率都是8%, 那最后的总收益则是初始本金的<code>1.08x1.08.......x1.08=4.66</code>倍, 总收益是<code>366%</code>, 而不是<code>8%x20=160%</code>,  这个差距是不是挺大的</p>
+<p><strong>将赚的钱追加到本金中再次投资形成利滚利的收益体系叫做复利体系</strong></p>
+<p>复利效应堪称世界奇迹  懂得都懂 不再赘述</p>
+<p>接下来主要介绍复利收益和年化收益的快速计算, 方便我们平常进行投资分析</p>
+<h3 id="不同收益率复利计算"><a href="#不同收益率复利计算" class="headerlink" title="不同收益率复利计算"></a>不同收益率复利计算</h3><p>针对每次收益率不同的情况, 也就是上面介绍的那个例子</p>
+<p><strong>计算方法:</strong></p>
+<p>只需将每次的收益率加1后相乘即可得到最终的收益倍数, 把计算的结果减去1就是最终收益率, 大于0表示正收益  小于0表示亏损</p>
+<blockquote>
+<p>既然是投资, 那么有可能存在亏损情况, 比如第一次收益20%, 第二次收益-30%, 那么最终收益率为(0.2+1)x(-0.3+1)-1=-0.16 也就是-16%收益, 两次投资下来亏损了16%</p>
+</blockquote>
+<h3 id="同收益率复利计算"><a href="#同收益率复利计算" class="headerlink" title="同收益率复利计算"></a>同收益率复利计算</h3><p>针对每次收益相同的情况, 这就更加简单了</p>
+<p><strong>计算方法:</strong></p>
+<p>(1+收益率)的<code>n</code>次方, 这个<code>n</code>表示次数</p>
+<p><strong>计算器演示:</strong></p>
+<p>比如, 按照<code>26%</code>的年化收益, 持续三年 本金就能翻一倍, <code>26%</code>的持续年化, 在实际的投资中很难达到</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fuli.gif" alt="fuli"></p>
+<h3 id="年化收益推导"><a href="#年化收益推导" class="headerlink" title="年化收益推导"></a>年化收益推导</h3><p>假设我们想知道投资五年 最后总金额是初始本金的十倍 需要年化收益保持在多少才能实现</p>
+<p><strong>计算方法:</strong></p>
+<p>对<code>10</code>进行开<code>n</code>次方运算, 这个<code>n</code>表示投资年数, 具体公式如下:</p>
+<p>$$<br>\sqrt[5]{10}<br>$$</p>
+<p><strong>计算器演示:</strong></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/nianhua.gif" alt="nianhua"></p>
+<p>也就是说需要保持<code>58%</code>左右的年化收益才能实现五年十倍</p>
+<h3 id="投资次数推导"><a href="#投资次数推导" class="headerlink" title="投资次数推导"></a>投资次数推导</h3><p>假设我们有一个年化<code>15%</code>的投资产品, 想要实现最后总收益是初始本金的10倍, 那么需要花多少年才能实现</p>
+<p><strong>计算方法:</strong></p>
+<p>进行以<code>1.15</code>为底的求<code>10</code>的对数运算, 具体公式如下:<br>$$<br>\log_{1.15} 10<br>$$<br><strong>计算器演示:</strong></p>
+<p>由于计算器上的<code>log</code>都是默认以<code>10</code>为底的对数, 这里我们以<code>1.15</code>为底, 需要转换一下, 在计算器上的具体运算是:<br>$$<br>(\log_{10}10)/(\log_{10}1.15)<br>$$<br><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/duishu.gif" alt="duishu"></p>
+<p>也就是说大概需要持续17年才能实现</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
       
-
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="tags/复利/" rel="tag"># 复利</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="6.html" rel="next" title="信用卡账单分期的真实年化利率">
+                <i class="fa fa-chevron-left"></i> 信用卡账单分期的真实年化利率
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+    <!-- 有瓣音频文章内嵌广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6145016388"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+  <!-- 有瓣音频信息流广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6455528644"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
           </div>
@@ -401,6 +459,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -421,8 +483,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -460,7 +531,7 @@
 
           
             <div class="feed-link motion-element">
-              <a href="../../../atom.xml" rel="alternate">
+              <a href="atom.xml" rel="alternate">
                 <i class="fa fa-rss"></i>
                 RSS
               </a>
@@ -480,6 +551,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#不同收益率复利计算"><span class="nav-number">2.</span> <span class="nav-text">不同收益率复利计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同收益率复利计算"><span class="nav-number">3.</span> <span class="nav-text">同收益率复利计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#年化收益推导"><span class="nav-number">4.</span> <span class="nav-text">年化收益推导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#投资次数推导"><span class="nav-number">5.</span> <span class="nav-text">投资次数推导</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -591,53 +678,57 @@
 
   
   
-    <script type="text/javascript" src="../../../lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="../../../lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script type="text/javascript" src="../../../lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
   
-    <script type="text/javascript" src="../../../lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="../../../lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="../../../lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
 
   
 
 
-  <script type="text/javascript" src="../../../js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
 
-  <script type="text/javascript" src="../../../js/src/motion.js?v=5.1.4"></script>
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="js/src/post-details.js?v=5.1.4"></script>
 
 
 
   
-  
-
-  
-
-  
 
 
-  <script type="text/javascript" src="../../../js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
