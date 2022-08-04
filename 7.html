@@ -93,7 +93,7 @@
 <meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fuli.gif">
 <meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/nianhua.gif">
 <meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/duishu.gif">
-<meta property="og:updated_time" content="2022-07-19T05:53:39.525Z">
+<meta property="og:updated_time" content="2022-07-27T04:06:37.259Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于投资复利快速计算">
 <meta name="twitter:description" content="前言假设我有本金一万元, 第一次投资获取8%的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取3%的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少? 是8%+3%=11%吗? 肯定不是  实际收益率要比这个值要高  最后我们获取的收益率应该是初始本金的1.08x1.03=1.1124倍, 也就是说实际总收益率是11.24% 大家可能会觉得差距不大, 那我们次数增加">
@@ -379,6 +379,9 @@
 <p>进行以<code>1.15</code>为底的求<code>10</code>的对数运算, 具体公式如下:<br>$$<br>\log_{1.15} 10<br>$$<br><strong>计算器演示:</strong></p>
 <p>由于计算器上的<code>log</code>都是默认以<code>10</code>为底的对数, 这里我们以<code>1.15</code>为底, 需要转换一下, 在计算器上的具体运算是:<br>$$<br>(\log_{10}10)/(\log_{10}1.15)<br>$$<br><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/duishu.gif" alt="duishu"></p>
 <p>也就是说大概需要持续17年才能实现</p>
+<h3 id="涨幅和跌幅计算"><a href="#涨幅和跌幅计算" class="headerlink" title="涨幅和跌幅计算"></a>涨幅和跌幅计算</h3><p>假设我们以<code>0.685</code>的成本价买入一个指数基金, 最后以<code>1.036</code>的价格卖出, 那么本次投资我们赚了<code>(1.036-0.685)/0.685=0.5124</code> 也就是<code>51.24%</code></p>
+<p>这种计算方法有些繁琐, 我们简化一下 就是直接用<code>1.036</code>除以<code>0.685</code>, 然后把计算的结果减去1就是最终收益率, 大于0表示正收益  小于0表示亏损</p>
+<p>其实是很简单的数学运算, 但是两者思维起点不一样, 效率也完全不同, 这种感觉在进行频繁计算的时候尤其明显</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
@@ -420,6 +423,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="8.html" rel="prev" title="策略组合之目标长投+回撤网格策略">
+                策略组合之目标长投+回撤网格策略 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -508,7 +515,7 @@
               
                 <a href="http://money.newban.cn/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -521,7 +528,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -561,7 +568,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#不同收益率复利计算"><span class="nav-number">2.</span> <span class="nav-text">不同收益率复利计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同收益率复利计算"><span class="nav-number">3.</span> <span class="nav-text">同收益率复利计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#年化收益推导"><span class="nav-number">4.</span> <span class="nav-text">年化收益推导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#投资次数推导"><span class="nav-number">5.</span> <span class="nav-text">投资次数推导</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#不同收益率复利计算"><span class="nav-number">2.</span> <span class="nav-text">不同收益率复利计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同收益率复利计算"><span class="nav-number">3.</span> <span class="nav-text">同收益率复利计算</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#年化收益推导"><span class="nav-number">4.</span> <span class="nav-text">年化收益推导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#投资次数推导"><span class="nav-number">5.</span> <span class="nav-text">投资次数推导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#涨幅和跌幅计算"><span class="nav-number">6.</span> <span class="nav-text">涨幅和跌幅计算</span></a></li></ol></div>
             
 
           </div>
