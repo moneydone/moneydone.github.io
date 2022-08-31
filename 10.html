@@ -91,7 +91,7 @@
 <meta property="og:description" content="前言该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍 回撤策略简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出 大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹 以下图策略组合为例:  经回测发现 历史5年该策略 最大回撤为-9.82%, 那我们可以考虑下一次回撤达到-8%以上时买入, 这样能大大降低">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220803141303796.png">
-<meta property="og:updated_time" content="2022-08-03T07:01:09.072Z">
+<meta property="og:updated_time" content="2022-08-05T05:58:00.830Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="策略组合之回撤策略">
 <meta name="twitter:description" content="前言该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍 回撤策略简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出 大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹 以下图策略组合为例:  经回测发现 历史5年该策略 最大回撤为-9.82%, 那我们可以考虑下一次回撤达到-8%以上时买入, 这样能大大降低">
@@ -372,8 +372,11 @@
 <p>也许你看中的某个标的估值已经很低了, 但是<strong>全市场估</strong>值依然居高不下, 这种情况下并不建议入场</p>
 <p>因为 <strong>单个品种是整个市场的一份子, 两者相互依存, 当整个市场估值回归时, 单个品种焉能独善其身</strong>, 这个道理想必大家都明白</p>
 <p>如果只局限于单个品种分析, 那么你以为的很便宜, 在全市场的带动下, 它还可以更便宜或者直接横盘不动, 这样一来 岂不白白浪费时间</p>
+<h3 id="结合回撤估底"><a href="#结合回撤估底" class="headerlink" title="结合回撤估底"></a>结合回撤估底</h3><p>针对ETF我们通常可以借助估值表来大致判断当前市场估值状态, 当然了 针对股票也是有一定的参考价值的 </p>
+<p>不过 如果我们在估值表的基础上在结合历史最大回撤分析, 那么也许在我们对熊市估底时起到一定的帮助作用  </p>
+<p>另外 一些资产配置组合 可以在接近历史最大回撤的时候进行补仓操作, 从而增加整体收益率</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
       
     </div>
@@ -505,7 +508,7 @@
               
                 <a href="http://money.newban.cn/archives/">
               
-                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -518,7 +521,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -558,7 +561,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回撤策略"><span class="nav-number">2.</span> <span class="nav-text">回撤策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拓展思考"><span class="nav-number">3.</span> <span class="nav-text">拓展思考</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#回撤-网格策略"><span class="nav-number">3.0.1.</span> <span class="nav-text">回撤+网格策略</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#回撤-网格-估值择时策略"><span class="nav-number">3.0.2.</span> <span class="nav-text">回撤+网格+估值择时策略</span></a></li></ol></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#关于择时"><span class="nav-number">4.</span> <span class="nav-text">关于择时</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#全市场估值和单品种估值"><span class="nav-number">5.</span> <span class="nav-text">全市场估值和单品种估值</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#回撤策略"><span class="nav-number">2.</span> <span class="nav-text">回撤策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拓展思考"><span class="nav-number">3.</span> <span class="nav-text">拓展思考</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#回撤-网格策略"><span class="nav-number">3.0.1.</span> <span class="nav-text">回撤+网格策略</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#回撤-网格-估值择时策略"><span class="nav-number">3.0.2.</span> <span class="nav-text">回撤+网格+估值择时策略</span></a></li></ol></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#关于择时"><span class="nav-number">4.</span> <span class="nav-text">关于择时</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#全市场估值和单品种估值"><span class="nav-number">5.</span> <span class="nav-text">全市场估值和单品种估值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结合回撤估底"><span class="nav-number">6.</span> <span class="nav-text">结合回撤估底</span></a></li></div>
             
 
           </div>

@@ -273,6 +273,856 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../10.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../10.html" itemprop="url">策略组合之回撤策略</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-08-05T12:19:53+08:00">
+                2022-08-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍</p>
+<h3 id="回撤策略"><a href="#回撤策略" class="headerlink" title="回撤策略"></a>回撤策略</h3><p>简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出</p>
+<p>大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹</p>
+<p>以下图策略组合为例:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220803141303796.png" alt="image-20220803141303796"></p>
+<p>经回测发现 历史5年该策略 最大回撤为<code>-9.82%</code>, 那我们可以考虑下一次回撤达到<code>-8%</code>以上时买入, 这样能大大降低投资风险 </p>
+<p>最大回撤理论仅仅是一个点子, 权当抛砖引玉之用, 大家可以发散思维, 思考是否可以运用到某只基金或者股票上</p>
+<h3 id="拓展思考"><a href="#拓展思考" class="headerlink" title="拓展思考"></a>拓展思考</h3><h5 id="回撤-网格策略"><a href="#回撤-网格策略" class="headerlink" title="回撤+网格策略"></a>回撤+网格策略</h5><p>我们知道短期市场是不可预测的, 历史回测只能代表过去, 不能预测未来</p>
+<p>历史最大回撤是<code>-8%</code> , 那么下一次回撤可能超过这个值, 那么这种情况 我们该如何应对呢</p>
+<p>此时 我们可以考虑加入网格策略, 当回撤超过历史最大回撤时 我们可以来一网 这样 即便多回撤一些咱也不怕</p>
+<h5 id="回撤-网格-估值择时策略"><a href="#回撤-网格-估值择时策略" class="headerlink" title="回撤+网格+估值择时策略"></a>回撤+网格+估值择时策略</h5><p>如果在估值高位进行回撤买入, 心里难免有些小慌, 因为买的太贵了, 所谓高出不胜寒, 一旦不幸刚好赶上了一波熊市, 那么接下来面临的可能就是漫长的等待期, 虽然这种情况在配合良好策略模型的前提下出现的几率很小, 但也不得不防</p>
+<p>想要解决这个问题也很简单, 加入估值择时即可</p>
+<p>也就是当整个市场处在低估阶段的时候我们进行回撤买入操作, 这样不管怎么买 不会买贵, 心里稳当当的</p>
+<h3 id="关于择时"><a href="#关于择时" class="headerlink" title="关于择时"></a>关于择时</h3><p>在我的投资理念中, 择时是必须的, 再好的品种, 买贵了也不行</p>
+<p><strong>低买高卖才是正常的赚钱逻辑</strong></p>
+<p>目前的择时方案普遍采用的是估值择时, 估值数据现在网上一大堆 已经非常透明化了</p>
+<blockquote>
+<p>除了估值择时之外还有周期择时(针对周期性比较强品种) 这里不做过多介绍</p>
+</blockquote>
+<p><strong>当大部分人都用估值来抄底时, 我推测 这个底线会变得较为可控</strong></p>
+<p>比如 所有的估值表都已<code>30%</code>作为低估基准点, 那么当人们以这个基准点作为抄底条件时, 你认为估值还会继续降低至<code>20%</code>甚至更低吗, 也许不会</p>
+<p>市场是由人控制的, 买的人多了 自然就容易反弹, 说这么多的意思很简单, 就是建议大家不要一味地守过低的底然后一把梭, 在估值还没有降低到理想值时分批买入是个不错的选择, 比如估值降到30%时开始分批买入, 而不是非得等到20%, 因为不一定等得来  踏空的滋味可不好受</p>
+<h3 id="全市场估值和单品种估值"><a href="#全市场估值和单品种估值" class="headerlink" title="全市场估值和单品种估值"></a>全市场估值和单品种估值</h3><p>在之前的各个估值策略文章中, 我无一例外都提到了<strong>市场估值</strong>, 没错 是全市场估值, 并非某个标的的估值</p>
+<p>也许你看中的某个标的估值已经很低了, 但是<strong>全市场估</strong>值依然居高不下, 这种情况下并不建议入场</p>
+<p>因为 <strong>单个品种是整个市场的一份子, 两者相互依存, 当整个市场估值回归时, 单个品种焉能独善其身</strong>, 这个道理想必大家都明白</p>
+<p>如果只局限于单个品种分析, 那么你以为的很便宜, 在全市场的带动下, 它还可以更便宜或者直接横盘不动, 这样一来 岂不白白浪费时间</p>
+<h3 id="结合回撤估底"><a href="#结合回撤估底" class="headerlink" title="结合回撤估底"></a>结合回撤估底</h3><p>针对ETF我们通常可以借助估值表来大致判断当前市场估值状态, 当然了 针对股票也是有一定的参考价值的 </p>
+<p>不过 如果我们在估值表的基础上在结合历史最大回撤分析, 那么也许在我们对熊市估底时起到一定的帮助作用  </p>
+<p>另外 一些资产配置组合 可以在接近历史最大回撤的时候进行补仓操作, 从而增加整体收益率</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../9.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../9.html" itemprop="url">策略组合之配置策略+估值择时策略+定期不定额</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-08-04T12:19:53+08:00">
+                2022-08-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="配置策略"><a href="#配置策略" class="headerlink" title="配置策略"></a>配置策略</h3><p>这里指的是资产配置策略, 该策略无需择时 选好几个品种后按照一定的比例分别买入, 然后定期平衡即可, 这种策略平滑风险,收益稳健,生命力顽强 对于资金量大的投资者非常友好, 大部分家族基本都在使用</p>
+<p>而对于个人投资者而言, 有一些经典资产配置策略是非常不错的, 比如:</p>
+<ul>
+<li><strong>股债平衡策略</strong>: 50%股票+50%债券</li>
+<li><strong>全球ETF平衡策略</strong>: 20%纳指ETF+20%标普ETF+20%中证500+20%沪深300ETF+20%国债ETF</li>
+</ul>
+<p>类似的策略有很多, 大家可以自行延伸</p>
+<h5 id="关于平衡"><a href="#关于平衡" class="headerlink" title="关于平衡"></a>关于平衡</h5><p>资产配置的平衡就是将偏移的比例归置回原位, 我们可以选择按季度平衡, 也可以选择按照比例偏差度平衡, 比如比例偏差超过7%后平衡一次</p>
+<h3 id="估值策略"><a href="#估值策略" class="headerlink" title="估值策略"></a>估值策略</h3><p>单纯的资产配置策略是不择时的, 但是如果我们加上估值择时买入的话, 收益效果会大幅提升</p>
+<p>具体做法就是, 比如当市场估值低于30% 然后进行资产配置, 足够低的起点 自然上涨空间大增</p>
+<h3 id="定期不定额策略"><a href="#定期不定额策略" class="headerlink" title="定期不定额策略"></a>定期不定额策略</h3><p>短期市场不可预测, 估值不会按照我们的想法来走, 也许它到不了30%, 为了避免踏空, 我们可以定期不定额分批进行资产配置, 虽然成本上相比一把梭要高一些 但是这样可以应对各种突发状况</p>
+<p>毕竟策略并不是完美的 有的就有失, 根据自己的喜好使用即可</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>以上就是以资产配置为核心的策略组合</p>
+<p>各种各样的策略都可以组合到一起, 如果它们合到一起能让整体策略变得更好, 那为何不用呢</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../8.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../8.html" itemprop="url">策略组合之目标长投+回撤网格策略</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-08-03T12:19:53+08:00">
+                2022-08-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>投资策略有很多, 大家听得最多的可能就是定投策略了, 定投主要分为以下两大类:</p>
+<ul>
+<li><strong>定期定额策略</strong>: 比如每月1号固定投资1000元</li>
+<li><strong>定期不定额策略</strong>: 比如每月1号根据投资标的净值涨跌买入不同额度资金, 跌得越多买的越多 反之减少投入资金</li>
+</ul>
+<p>简单且行之有效的策略, 非常适合有固定收入的群体, 比如上班族</p>
+<p><strong>利用定投策略, 我们可以有效的降低投资成本, 再配合上市场估值,几乎可以秒杀大部分人</strong>,  比如整体市场估值低于50%的时候开启定投, 在50%以上则停止定投, 最后等到估值超过90%全部卖出</p>
+<p>但是市场是非常考验人性的, 人总是贪得无厌 跌的时候忍不住想买 想多吃点  涨的时候忍不住想卖 担心回撤错过了利润 , 我就是这种贪得无厌的人 </p>
+<p>一只股票或者基金在上涨的过程中绝对不是扶摇直上, 而是来回震荡着上涨的, 这种过山车的感觉, 对于任何一个投资者而言都不太好受, 于是我不禁思考 是否能在上涨回撤震荡过程加入网格策略来弥补内心的缺失感</p>
+<h3 id="网格策略"><a href="#网格策略" class="headerlink" title="网格策略"></a>网格策略</h3><p>简单举栗, 以某只股票为例, 比如我们在43块时投入了1万元, 当它回撤到40块时我们补了1万五, 回撤到38块时又补了2万元, 那么当股票反弹回40块时我们可以将38块买的2万元那部分卖出, 反弹回43块时将40块买的1万五那部分卖出, 最后涨到45元后将43块买的1万元那部分卖出  全部收网</p>
+<p>这种一格一格的买 一格一格的卖的投资手法, 我们称之为网格策略</p>
+<p><strong>这种策略非常适合震荡市场, 股票虽然没怎么上涨仅仅是来回波动, 我们也依然能获取收益</strong></p>
+<p>具体回撤多少买 也就是每一网的宽度, 这个自己来定 , 你可以选择百分比来买 不如每下跌5%买一份, 也可以选择股价来买, 比如每下跌5块</p>
+<p>同样的 你可以每一网投入相同的资金, 也可以跌的越多投入越多, 这个看自己的经济情况而定</p>
+<h3 id="目标长投"><a href="#目标长投" class="headerlink" title="目标长投"></a>目标长投</h3><p>网格策略可以让我们在震荡市场获取收益, 但它并不能成为我们的主要投资策略, 因为一旦收网后投资标的持续上涨, 那么可操作的空间就会非常小, 大头的利润压根吃不到, 也就是所谓的只能喝汤不能吃肉</p>
+<p><strong>要想吃肉, 那就必须长投, 也就是低位减仓 高位清仓, 这种利润一次下来非常可观</strong></p>
+<p>长投策略应该成为我们的主要投资策略, 而所谓的目标长投, 就是给投资标的定一个卖出的价格, 不到这个目标价咱不卖</p>
+<p>假设我们在43块买了一只股票, 有足够的把握认定这只股票能涨到100块以上, 那么 我们只需要静静等待那一天的到来即可</p>
+<p>但是 等待是煎熬的, 中途的反反复复可能让一部分人丧心病狂, 能坚持初心吗? 不好说</p>
+<h3 id="目标长投-回撤网格策略"><a href="#目标长投-回撤网格策略" class="headerlink" title="目标长投+回撤网格策略"></a>目标长投+回撤网格策略</h3><p>投资者也需要一些安慰剂, 而网格策略就是最好的安慰剂, 在等待的过程中配合网格策略应对来回的震荡, 享受长投利润的同时多捞取一部分利润,  这样 不至于在大幅回撤时懊恼不已, 不管涨与跌, 都稳如泰山, 幸福稳稳</p>
+<p>至于回撤多少买入, 根据自己的资金存量而定, <strong>在上涨趋势中 我个人认为 回撤逼近均线支撑点是个不错的位置</strong> </p>
+<p>目标长投+回撤网格策略 这种等待而又不失风度的组合策略 也许并不完美 不过没关系 策略本就用来完善的</p>
+<p>一个优良的策略 能让投资者不慌不忙 心情舒畅  如果你的策略做到了这一点, 那么它对于你而言就是好的策略</p>
+<h3 id="投资标的选择"><a href="#投资标的选择" class="headerlink" title="投资标的选择"></a>投资标的选择</h3><p>无论是网格策略还是长投策略, 我都极力推荐大家选择ETF(尤其是宽基ETF), 而非股票, 股票可能退市, ETF的生命力可不是股票能比的</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../7.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../7.html" itemprop="url">关于投资复利快速计算</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-07-15T12:19:53+08:00">
+                2022-07-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>假设我有本金一万元, 第一次投资获取<code>8%</code>的收益率后赎回, 然后将赚的钱加上原来的本金再进行第二次投资,  等到获取<code>3%</code>的收益率后赎回, 请问, 这两次投资下来 整体收益率是多少?</p>
+<p>是<code>8%+3%=11%</code>吗? 肯定不是  <strong>实际收益率要比这个值要高</strong> </p>
+<p>最后我们获取的收益率应该是初始本金的<code>1.08x1.03=1.1124</code>倍, 也就是说实际总收益率是<code>11.24%</code></p>
+<p>大家可能会觉得差距不大, 那我们次数增加, 比如我一共投资了20次, 每次收益率都是8%, 那最后的总收益则是初始本金的<code>1.08x1.08.......x1.08=4.66</code>倍, 总收益是<code>366%</code>, 而不是<code>8%x20=160%</code>,  这个差距是不是挺大的</p>
+<p><strong>将赚的钱追加到本金中再次投资形成利滚利的收益体系叫做复利体系</strong></p>
+<p>复利效应堪称世界奇迹  懂得都懂 不再赘述</p>
+<p>接下来主要介绍复利收益和年化收益的快速计算, 方便我们平常进行投资分析</p>
+<h3 id="不同收益率复利计算"><a href="#不同收益率复利计算" class="headerlink" title="不同收益率复利计算"></a>不同收益率复利计算</h3><p>针对每次收益率不同的情况, 也就是上面介绍的那个例子</p>
+<p><strong>计算方法:</strong></p>
+<p>只需将每次的收益率加1后相乘即可得到最终的收益倍数, 把计算的结果减去1就是最终收益率, 大于0表示正收益  小于0表示亏损</p>
+<blockquote>
+<p>既然是投资, 那么有可能存在亏损情况, 比如第一次收益20%, 第二次收益-30%, 那么最终收益率为(0.2+1)x(-0.3+1)-1=-0.16 也就是-16%收益, 两次投资下来亏损了16%</p>
+</blockquote>
+<h3 id="同收益率复利计算"><a href="#同收益率复利计算" class="headerlink" title="同收益率复利计算"></a>同收益率复利计算</h3><p>针对每次收益相同的情况, 这就更加简单了</p>
+<p><strong>计算方法:</strong></p>
+<p>(1+收益率)的<code>n</code>次方, 这个<code>n</code>表示次数</p>
+<p><strong>计算器演示:</strong></p>
+<p>比如, 按照<code>26%</code>的年化收益, 持续三年 本金就能翻一倍, <code>26%</code>的持续年化, 在实际的投资中很难达到</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fuli.gif" alt="fuli"></p>
+<h3 id="年化收益推导"><a href="#年化收益推导" class="headerlink" title="年化收益推导"></a>年化收益推导</h3><p>假设我们想知道投资五年 最后总金额是初始本金的十倍 需要年化收益保持在多少才能实现</p>
+<p><strong>计算方法:</strong></p>
+<p>对<code>10</code>进行开<code>n</code>次方运算, 这个<code>n</code>表示投资年数, 具体公式如下:</p>
+<p>$$<br>\sqrt[5]{10}<br>$$</p>
+<p><strong>计算器演示:</strong></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/nianhua.gif" alt="nianhua"></p>
+<p>也就是说需要保持<code>58%</code>左右的年化收益才能实现五年十倍</p>
+<h3 id="投资次数推导"><a href="#投资次数推导" class="headerlink" title="投资次数推导"></a>投资次数推导</h3><p>假设我们有一个年化<code>15%</code>的投资产品, 想要实现最后总收益是初始本金的10倍, 那么需要花多少年才能实现</p>
+<p><strong>计算方法:</strong></p>
+<p>进行以<code>1.15</code>为底的求<code>10</code>的对数运算, 具体公式如下:<br>$$<br>\log_{1.15} 10<br>$$<br><strong>计算器演示:</strong></p>
+<p>由于计算器上的<code>log</code>都是默认以<code>10</code>为底的对数, 这里我们以<code>1.15</code>为底, 需要转换一下, 在计算器上的具体运算是:<br>$$<br>(\log_{10}10)/(\log_{10}1.15)<br>$$<br><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/duishu.gif" alt="duishu"></p>
+<p>也就是说大概需要持续17年才能实现</p>
+<h3 id="涨幅和跌幅计算"><a href="#涨幅和跌幅计算" class="headerlink" title="涨幅和跌幅计算"></a>涨幅和跌幅计算</h3><p>假设我们以<code>0.685</code>的成本价买入一个指数基金, 最后以<code>1.036</code>的价格卖出, 那么本次投资我们赚了<code>(1.036-0.685)/0.685=0.5124</code> 也就是<code>51.24%</code></p>
+<p>这种计算方法有些繁琐, 我们简化一下 就是直接用<code>1.036</code>除以<code>0.685</code>, 然后把计算的结果减去1就是最终收益率, 大于0表示正收益  小于0表示亏损</p>
+<p>其实是很简单的数学运算, 但是两者思维起点不一样, 效率也完全不同, 这种感觉在进行频繁计算的时候尤其明显</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../6.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../6.html" itemprop="url">信用卡账单分期的真实年化利率</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-07-10T12:19:53+08:00">
+                2022-07-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>昨晚接到招商银行信用卡部门电话，极力怂恿我做账单分期，还给了我5折优惠的诱惑。本着事情不弄清楚不轻易做决定的原则，我没有立刻答应。挂了电话我开始琢磨这个号称月利率0.33%的账单分期是否合算，真是不算不知道，一算吓一跳啊。</p>
+<h3 id="标称年化利率"><a href="#标称年化利率" class="headerlink" title="标称年化利率"></a>标称年化利率</h3><p>以招行信用卡为例，我是招行10年老客户了，哈哈，下表是不同分期数的标称利率。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8f414b2a96186054036924d8f5fb6008_720w.png" alt="img"></p>
+<p>以其中年化最合算的12期为例，我们再来看看我们所付出的真实利率是多少。假设把1.2w元账单做12期的账单分期，每期还款1000+12000<em>0.66%=1079.2元，全年总计还款12950.4。现在看来也没啥问题利率是7.92%，但是真实情况确不是这样的，*</em>因为这12000元银行并没有借给我们一年，银行确是按照1年来算的利息**。</p>
+<h4 id="实际年化利率"><a href="#实际年化利率" class="headerlink" title="实际年化利率"></a>实际年化利率</h4><p>我们把这个账单分成12份，每份1000元，分析一下银行到底借给了我们多少钱，借了多久。分期当月不用还款，第二个月把第一份1000元还了，也就是说第一份1000元银行只借给了我们1个月，依次类推，第二份2个月，第三份3个月……，最后一份银行借给我们1年。如果换一种表达方式的话，就是我们向银行借款1000元，总计78个月，银行收了我们这1000块多少个月利息呢，12(份)<em>12</em>(月)=144个月，<strong>我们所付出的真实利率是7.92%*(144/78)=14.62%。</strong></p>
+<p>下表就是不同期数的真实年化利率。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-6972cb58e2ed63449c1031a54ba8b1d3_720w.png" alt="img"></p>
+<p>蓦然发现，账单分期的日利率（0.04%）和预借现金（0.05%）的日率还真的是差不多啊，还好昨天没有别忽悠，要不然虽然给了5折优惠，年利率也要7.3%啊。</p>
+<p>最后，给出计算信用卡账单分期真实年化利率的公式：</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-177bf28088e8ef5462e3b5cc3d1ab2eb_720w.png" alt="img"></p>
+<p>以上公司并不完全精确 存在<code>0.02%</code>上下浮动误差, 不过用于大体换算没问题了 </p>
+<p>本文转载自<a href="https://zhuanlan.zhihu.com/p/22920169" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/22920169</a></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="投资与财富">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="投资与财富 – 打造属于自己的财富管道">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../4.html" itemprop="url">国内可以做空交易的三大品种</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-04-10T12:19:53+08:00">
+                2022-04-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="什么是做空"><a href="#什么是做空" class="headerlink" title="什么是做空"></a>什么是做空</h3><p>在股票市场里，做空指的是预测股票未来会跌，所以在当前价位高时卖出股票(或者借别人的股票卖出，称作“融劵”)，再在股价跌了之后买回股票，先卖后买，赚了一个差价。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/31676c924db04daab2bc1f3fae282b3a.png" alt="img"></p>
+<p><strong>中国股市允许做空吗?</strong></p>
+<p>国内A股市场目前严格来说是不允许做空的，但是有其他金融衍生品种可以做空，比如期权、融券、期货。</p>
+<p><strong>1.融劵</strong></p>
+<p>融券就是向券商借入股票，需要付一定的费用。不过券商在特殊时期不一定有股票可以给你借，散户通过融券来赚钱的成本很高，赚钱几率很小。</p>
+<p><strong>2.股指期货</strong></p>
+<p>股指期货是可以做空的，这种方式向相当于对冲了买股票的风险。不过期货资金门槛高，风险比股票更大，不适合个人投资者。</p>
+<p><strong>3.期权</strong></p>
+<p>期权又分为商品期权跟指数期权，目前发展较为火热的是50ETF期权，它的投资目标是紧跟上证50指数的，上证50ETF的代码是510050。</p>
+<p>50指数是上海证券交易所中市场规模大、流动性好的具有代表性的50只股票组成的样板股，我们可以通过认沽期权来做空。</p>
+<p>如果交易50etf期权作为买方的风险是固定的，也就是你所投入的成本，不存在爆仓的风险，比较适合个人投资者交易，期权自带杠杆，也属于风险性投资品种，在投资前要做好充分的交易规则理解和风险的认知，再投入到期权交易中来</p>
+<p>本文转载自<a href="https://m.sohu.com/a/460868693_121090503" target="_blank" rel="noopener">https://m.sohu.com/a/460868693_121090503</a></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://money.newban.cn../../5.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -365,7 +1215,7 @@
 <p>最后，两者之间的折溢价率之差缩小</p>
 <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>该套利方式适合持有底仓套利, 若上涨则多赚 若下跌则少跌</p>
 <p>本文转载自<a href="https://xueqiu.com/1571617732/214824223" target="_blank" rel="noopener">https://xueqiu.com/1571617732/214824223</a></p>
-<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
           
         
@@ -521,7 +1371,7 @@
 <li><strong>无底仓套利</strong>: 指的是未持有该基金, 纯粹是为了套利, 赚一波走人, 又称为裸套</li>
 </ul>
 <p>本文转载自<a href="https://zhuanlan.zhihu.com/p/337198088" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/337198088</a></p>
-<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
           
         
@@ -664,7 +1514,7 @@
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>公积金贷款最划算, 其次是保单贷款和融资融券, 再者是商业贷款</p>
 <p>公积金贷款–&gt;保单贷款–&gt;融资融券–&gt;商业贷款–&gt;银行内部贷款产品–&gt;支付宝微信–&gt;信用卡之还最低</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
           
         
@@ -827,7 +1677,7 @@
 <p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8691de06e41c7519ab6b400ca793c435_720w.jpg" alt="img"></p>
 <p>最后，大家可以发挥聪明才智，例如在同类型的不同网站之间相互赚取差价呀～～～</p>
 <p><strong>本文转载自</strong>:<a href="https://zhuanlan.zhihu.com/p/134121757" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/134121757</a></p>
-<p><em><a href="(http://money.newban.cn/)">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+<p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
           
         
@@ -913,7 +1763,7 @@
               
                 <a href="http://money.newban.cn/archives/">
               
-                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -926,7 +1776,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>

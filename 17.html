@@ -69,7 +69,7 @@
 
 
 
-  <meta name="keywords" content="年化利率,">
+  <meta name="keywords" content="可转债,">
 
 
 
@@ -82,22 +82,23 @@
 
 
 
-<meta name="description" content="起因昨晚接到招商银行信用卡部门电话，极力怂恿我做账单分期，还给了我5折优惠的诱惑。本着事情不弄清楚不轻易做决定的原则，我没有立刻答应。挂了电话我开始琢磨这个号称月利率0.33%的账单分期是否合算，真是不算不知道，一算吓一跳啊。 标称年化利率以招行信用卡为例，我是招行10年老客户了，哈哈，下表是不同分期数的标称利率。  以其中年化最合算的12期为例，我们再来看看我们所付出的真实利率是多少。假设把1.">
-<meta name="keywords" content="年化利率">
+<meta name="description" content="前言网格交易存在三个不足之处: 破网、资金利用率不高和交易成本高。 而可转债，下有债性保底，T+0交易，佣金成本低，是最适合的网格品种。 但是单一的可转债网格仍然面临很多问题：比如资金利用率低，对具体转债的选择要求高，网格参数设置的容错性差等等。 今天给大家分享的可转债双低网格轮动策略，可以很大程度上解决刚说的这些问题。  为了大家能很好地理解这个策略，今天的内容包括五大部分：双低网格轮动策略的定">
+<meta name="keywords" content="可转债">
 <meta property="og:type" content="article">
-<meta property="og:title" content="信用卡账单分期的真实年化利率">
-<meta property="og:url" content="https://money.newban.cn/6.html">
+<meta property="og:title" content="可转债双低网格轮动策略">
+<meta property="og:url" content="https://money.newban.cn/17.html">
 <meta property="og:site_name" content="投资与财富 – 打造属于自己的财富管道">
-<meta property="og:description" content="起因昨晚接到招商银行信用卡部门电话，极力怂恿我做账单分期，还给了我5折优惠的诱惑。本着事情不弄清楚不轻易做决定的原则，我没有立刻答应。挂了电话我开始琢磨这个号称月利率0.33%的账单分期是否合算，真是不算不知道，一算吓一跳啊。 标称年化利率以招行信用卡为例，我是招行10年老客户了，哈哈，下表是不同分期数的标称利率。  以其中年化最合算的12期为例，我们再来看看我们所付出的真实利率是多少。假设把1.">
+<meta property="og:description" content="前言网格交易存在三个不足之处: 破网、资金利用率不高和交易成本高。 而可转债，下有债性保底，T+0交易，佣金成本低，是最适合的网格品种。 但是单一的可转债网格仍然面临很多问题：比如资金利用率低，对具体转债的选择要求高，网格参数设置的容错性差等等。 今天给大家分享的可转债双低网格轮动策略，可以很大程度上解决刚说的这些问题。  为了大家能很好地理解这个策略，今天的内容包括五大部分：双低网格轮动策略的定">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8f414b2a96186054036924d8f5fb6008_720w.png">
-<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-6972cb58e2ed63449c1031a54ba8b1d3_720w.png">
-<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-177bf28088e8ef5462e3b5cc3d1ab2eb_720w.png">
-<meta property="og:updated_time" content="2022-08-04T07:37:12.563Z">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/63d0f703918fa0ec4e182390710779e43f6ddbee.jpeg">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/9c16fdfaaf51f3de2ffcf736cf7ed0153b2979b4.jpeg">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/42166d224f4a20a4e42317decac2b828720ed000.jpeg">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fcfaaf51f3deb48fd3772ee9a98f1a232df57801.jpeg">
+<meta property="og:updated_time" content="2022-08-10T08:56:49.434Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="信用卡账单分期的真实年化利率">
-<meta name="twitter:description" content="起因昨晚接到招商银行信用卡部门电话，极力怂恿我做账单分期，还给了我5折优惠的诱惑。本着事情不弄清楚不轻易做决定的原则，我没有立刻答应。挂了电话我开始琢磨这个号称月利率0.33%的账单分期是否合算，真是不算不知道，一算吓一跳啊。 标称年化利率以招行信用卡为例，我是招行10年老客户了，哈哈，下表是不同分期数的标称利率。  以其中年化最合算的12期为例，我们再来看看我们所付出的真实利率是多少。假设把1.">
-<meta name="twitter:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8f414b2a96186054036924d8f5fb6008_720w.png">
+<meta name="twitter:title" content="可转债双低网格轮动策略">
+<meta name="twitter:description" content="前言网格交易存在三个不足之处: 破网、资金利用率不高和交易成本高。 而可转债，下有债性保底，T+0交易，佣金成本低，是最适合的网格品种。 但是单一的可转债网格仍然面临很多问题：比如资金利用率低，对具体转债的选择要求高，网格参数设置的容错性差等等。 今天给大家分享的可转债双低网格轮动策略，可以很大程度上解决刚说的这些问题。  为了大家能很好地理解这个策略，今天的内容包括五大部分：双低网格轮动策略的定">
+<meta name="twitter:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/63d0f703918fa0ec4e182390710779e43f6ddbee.jpeg">
 
 
 
@@ -136,13 +137,13 @@
 
 
 
-  <link rel="canonical" href="https://money.newban.cn/6.html">
+  <link rel="canonical" href="https://money.newban.cn/17.html">
 
 
 
 
 
-  <title>信用卡账单分期的真实年化利率 | 投资与财富 – 打造属于自己的财富管道</title>
+  <title>可转债双低网格轮动策略 | 投资与财富 – 打造属于自己的财富管道</title>
   
 
 
@@ -298,7 +299,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">信用卡账单分期的真实年化利率</h1>
+          <h1 class="post-title" itemprop="name headline">可转债双低网格轮动策略</h1>
         
 
         <div class="post-meta">
@@ -310,8 +311,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-07-10T12:19:53+08:00">
-                2022-07-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-08-10T18:19:53+08:00">
+                2022-08-10
               </time>
             
 
@@ -348,18 +349,59 @@
       
 
       
-        <h3 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h3><p>昨晚接到招商银行信用卡部门电话，极力怂恿我做账单分期，还给了我5折优惠的诱惑。本着事情不弄清楚不轻易做决定的原则，我没有立刻答应。挂了电话我开始琢磨这个号称月利率0.33%的账单分期是否合算，真是不算不知道，一算吓一跳啊。</p>
-<h3 id="标称年化利率"><a href="#标称年化利率" class="headerlink" title="标称年化利率"></a>标称年化利率</h3><p>以招行信用卡为例，我是招行10年老客户了，哈哈，下表是不同分期数的标称利率。</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-8f414b2a96186054036924d8f5fb6008_720w.png" alt="img"></p>
-<p>以其中年化最合算的12期为例，我们再来看看我们所付出的真实利率是多少。假设把1.2w元账单做12期的账单分期，每期还款1000+12000<em>0.66%=1079.2元，全年总计还款12950.4。现在看来也没啥问题利率是7.92%，但是真实情况确不是这样的，*</em>因为这12000元银行并没有借给我们一年，银行确是按照1年来算的利息**。</p>
-<h4 id="实际年化利率"><a href="#实际年化利率" class="headerlink" title="实际年化利率"></a>实际年化利率</h4><p>我们把这个账单分成12份，每份1000元，分析一下银行到底借给了我们多少钱，借了多久。分期当月不用还款，第二个月把第一份1000元还了，也就是说第一份1000元银行只借给了我们1个月，依次类推，第二份2个月，第三份3个月……，最后一份银行借给我们1年。如果换一种表达方式的话，就是我们向银行借款1000元，总计78个月，银行收了我们这1000块多少个月利息呢，12(份)<em>12</em>(月)=144个月，<strong>我们所付出的真实利率是7.92%*(144/78)=14.62%。</strong></p>
-<p>下表就是不同期数的真实年化利率。</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-6972cb58e2ed63449c1031a54ba8b1d3_720w.png" alt="img"></p>
-<p>蓦然发现，账单分期的日利率（0.04%）和预借现金（0.05%）的日率还真的是差不多啊，还好昨天没有别忽悠，要不然虽然给了5折优惠，年利率也要7.3%啊。</p>
-<p>最后，给出计算信用卡账单分期真实年化利率的公式：</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/v2-177bf28088e8ef5462e3b5cc3d1ab2eb_720w.png" alt="img"></p>
-<p>以上公司并不完全精确 存在<code>0.02%</code>上下浮动误差, 不过用于大体换算没问题了 </p>
-<p>本文转载自<a href="https://zhuanlan.zhihu.com/p/22920169" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/22920169</a></p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>网格交易存在三个不足之处: 破网、资金利用率不高和交易成本高。</p>
+<p>而可转债，下有债性保底，T+0交易，佣金成本低，是最适合的网格品种。</p>
+<p>但是单一的可转债网格仍然面临很多问题：比如资金利用率低，对具体转债的选择要求高，网格参数设置的容错性差等等。</p>
+<p>今天给大家分享的可转债双低网格轮动策略，可以很大程度上解决刚说的这些问题。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/63d0f703918fa0ec4e182390710779e43f6ddbee.jpeg" alt="img"></p>
+<p>为了大家能很好地理解这个策略，今天的内容包括五大部分：双低网格轮动策略的定义和原理、操作步骤、策略技巧、适合人群以及风险应对。</p>
+<h3 id="一、什么是双低网格轮动策略"><a href="#一、什么是双低网格轮动策略" class="headerlink" title="一、什么是双低网格轮动策略"></a><strong>一、什么是双低网格轮动策略</strong></h3><p>双低网格轮动策略，是指在双低转债中，选取价格较低并且股性较强的一批可转债（最少5只、一般10只，最多20只），按相同仓位建立底仓摊大饼，并利用网格条件单进行反复低买高卖获取差价；当某只转债突破网格上限结束交易后，轮入另一只符合条件的双低转债并开启网格交易。</p>
+<p>它的原理是什么？犇犇总结了5点：</p>
+<p>1、<strong>选择低价的双低转债</strong>，比如价格不超过120元。网格区间下限为100元（或接近100元），由转债的100元债券底作为安全性的保证，向下破网的概率小，即使破网被套，解套也更容易。</p>
+<p>2、<strong>在双低转债中，参考“弹性”这个指标，选出股性更强的品种</strong>。股性强，则跟随正股波动得越厉害，满足了网格标的首要条件—“底部震荡”。</p>
+<p>3、<strong>通过定期或实时的轮动，解决了向上破网、踏空行情的困扰</strong>。因为越快向上破网，越快完成一笔网格交易，才能轮动开启第二笔网格。由于网格都是以赚钱结束交易，因此每笔网格耗时越短、资金周转越快，收益率就越高。</p>
+<p>4、关于资金利用率的问题：单一转债的网格，资金闲置较多，影响账户整体收益。<strong>通过摊大饼，多只转债公用资金池**</strong>，预留的现金比例就可以大幅减少。尤其是我们选择不同行业、不同概念（尽量选择热门概念）的转债，它们的价格波动方向形成互补，也就是有的涨、有的跌，那么资金的利用效率会更高**，所需备用资金更少。</p>
+<p>5、双低网格轮动策略具有传统摊大饼的优势，比如分散风险，能抓住板块轮动的机会。但同时，<strong>建仓条件比传统的双低策略宽松，市场在高位震荡的时候仍然能捕捉到交易机会。</strong></p>
+<h3 id="二、双低网格轮动策略操作步骤"><a href="#二、双低网格轮动策略操作步骤" class="headerlink" title="二、双低网格轮动策略操作步骤"></a><strong>二、双低网格轮动策略操作步骤</strong></h3><p>共3步：包括筛选标的、建立底仓并设置网格策略，以及轮动调仓</p>
+<p><strong>第一步，筛选标的</strong></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/9c16fdfaaf51f3de2ffcf736cf7ed0153b2979b4.jpeg" alt="img"></p>
+<ul>
+<li>打开宁稳网，点击“转债-策略”</li>
+<li>“含强赎”前面的“√”，取消</li>
+<li>转债价格＜112，转股溢价率&lt;30%</li>
+</ul>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/42166d224f4a20a4e42317decac2b828720ed000.jpeg" alt="img"></p>
+<ul>
+<li>按 “弹性”指标由高到低进行排序</li>
+<li>排除剩余年限不足1年的转债</li>
+<li>行业相同的，仅选取“弹性”数值最大的一只，“弹性”数值相同选价格最低的一只</li>
+</ul>
+<p><strong>第二步，建立底仓、完成网格策略设置</strong></p>
+<p>建立底仓：按照第一步筛选出来的转债标的，买入相同数量建立底仓，每只转债的底仓数量建议是10手（深市换算成张，1手=10张）或10手的整数倍，最低5手。</p>
+<p>咱们以10手底仓为例，设置网格条件单：</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/fcfaaf51f3deb48fd3772ee9a98f1a232df57801.jpeg" alt="img"></p>
+<p>价格区间为（100~120）元，基准价110元，上涨1元或1%卖出，下跌1元或1%买入，每次委托的数量是1手。如果底仓是5手，则涨跌±2元或±2%委托，每次委托数量是1手。</p>
+<p><strong>第三步，轮动调仓</strong></p>
+<p>根据以上设置的网格，当某只转债涨到120元，底仓全部卖出，这只转债的网格就以盈利结束了。这时可以轮入新的符合条件的转债并类似设置好网格条件单。</p>
+<p>一般根据券商交易软件的网格成交提醒，在一笔网格结束后轮入新的标的并开启网格。如果没有时间盯盘并且大饼持有转债数量较多，也可以做定期轮动。</p>
+<h3 id="三、策略的4点技巧"><a href="#三、策略的4点技巧" class="headerlink" title="三、策略的4点技巧"></a><strong>三、策略的4点技巧</strong></h3><p>1、大饼的数量最少5只。<strong>数量太少，一方面容易造成资金利用率不高，另一方面很难获得板块轮动的收益</strong>。但最多也不宜超过30只。</p>
+<p>2、如果筛选出的标的不足5只，<strong>可以适当放宽价格标准</strong>。比如筛选的转债价格上调到略高于120元，基准价120元，网格区间（110,130）。</p>
+<p>3、对于<strong>有下修预期的入选标的，可以只拿部分底仓做网格降低成本</strong>，剩余部分博取网格上限以上的高收益。比如建仓20手，仅用10手做网格。</p>
+<p>4、当市场极度悲观，有部分<strong>优质转债跌到百元以下，这类转债并不适合该策略</strong>，更适合买入并持有。</p>
+<h3 id="四、策略适合人群"><a href="#四、策略适合人群" class="headerlink" title="四、策略适合人群"></a><strong>四、策略适合人群</strong></h3><p>是否适合该策略，可以参考以下几点：</p>
+<ul>
+<li>首先，双低网格轮动策略，是利用网格交易，在安全性较高的低价区间内进行高抛低吸，每笔网格以赚钱结束，亏钱概率极低。所以<strong>本策略适合所有投资者，特别是中低风险投资者。但网格策略容易错过暴涨的机会，所以未必是追求暴富的激进投资者的良选</strong>。</li>
+<li>其次，本策略不需要太多的股票知识，但仍然<strong>要有一定的可转债基础</strong>。</li>
+<li>第三，<strong>本策略不需要盯盘，不需要频繁手工操作</strong>，基本属于忙人闲时策略。</li>
+<li>最后，资金投入方面，如果按照最少5只转债摊大饼，选最低仓位，大约需要3万元。<strong>金额、规模太小，策略会受到限制，收益率会受影响</strong>。</li>
+</ul>
+<h3 id="五、策略的风险及应对"><a href="#五、策略的风险及应对" class="headerlink" title="五、策略的风险及应对"></a><strong>五、策略的风险及应对</strong></h3><p>双低网格轮动策略主要有两大风险：</p>
+<p>1、<strong><em>高价转债做网格交易，可能会发生向下破网被套；同时高价债需时刻防止强赎的发生</em></strong>，这是可转债网格交易的最大风险。</p>
+<p>因此该策略在双低基础上需严格选择价格低的转债进行网格轮动。</p>
+<p>2、<strong><em>低价转债容易踩雷，触发信用风险。</em></strong>因此建议大饼数量不少于5只，对于高风险的品种尽量回避或者是降低仓位。</p>
+<p>好了，今天双低网格轮动策略的五大问题就是这些。使用中还有不够完善的地方，犇犇再做策略升级。</p>
+<p><strong>特别提醒：该策略是犇犇刚研究出来的新策略，并无太多历史数据支撑，请谨慎选择！</strong></p>
+<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1729076477762303077&wfr=spider&for=pc" target="_blank" rel="noopener">百家号</a></p>
 <p><em><a href="http://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 
       
@@ -378,7 +420,7 @@
       
         <div class="post-tags">
           
-            <a href="tags/年化利率/" rel="tag"># 年化利率</a>
+            <a href="tags/可转债/" rel="tag"># 可转债</a>
           
         </div>
       
@@ -391,8 +433,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="4.html" rel="next" title="国内可以做空交易的三大品种">
-                <i class="fa fa-chevron-left"></i> 国内可以做空交易的三大品种
+              <a href="16.html" rel="next" title="ETF交易指南">
+                <i class="fa fa-chevron-left"></i> ETF交易指南
               </a>
             
           </div>
@@ -401,8 +443,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="7.html" rel="prev" title="关于投资复利快速计算">
-                关于投资复利快速计算 <i class="fa fa-chevron-right"></i>
+              <a href="18.html" rel="prev" title="现金流量表中三个指标的正负分析">
+                现金流量表中三个指标的正负分析 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -545,7 +587,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#起因"><span class="nav-number">1.</span> <span class="nav-text">起因</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#标称年化利率"><span class="nav-number">2.</span> <span class="nav-text">标称年化利率</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#实际年化利率"><span class="nav-number">2.1.</span> <span class="nav-text">实际年化利率</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一、什么是双低网格轮动策略"><span class="nav-number">2.</span> <span class="nav-text">一、什么是双低网格轮动策略</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、双低网格轮动策略操作步骤"><span class="nav-number">3.</span> <span class="nav-text">二、双低网格轮动策略操作步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#三、策略的4点技巧"><span class="nav-number">4.</span> <span class="nav-text">三、策略的4点技巧</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#四、策略适合人群"><span class="nav-number">5.</span> <span class="nav-text">四、策略适合人群</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#五、策略的风险及应对"><span class="nav-number">6.</span> <span class="nav-text">五、策略的风险及应对</span></a></li></ol></div>
             
 
           </div>
