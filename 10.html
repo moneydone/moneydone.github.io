@@ -82,20 +82,20 @@
 
 
 
-<meta name="description" content="前言该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍 回撤策略简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出 大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹 以下图策略组合为例:  经回测发现 历史5年该策略 最大回撤为-9.82%, 那我们可以考虑下一次回撤达到-8%以上时买入, 这样能大大降低">
+<meta name="description" content="&amp;#x524D;&amp;#x8A00;&amp;#x8BE5;&amp;#x7B56;&amp;#x7565;&amp;#x9700;&amp;#x8981;&amp;#x7ED3;&amp;#x5408;&amp;#x91CF;&amp;#x5316;&amp;#x56DE;&amp;#x6D4B;&amp;#x4F7F;&amp;#x7528;, &amp;#x7531;&amp;#x4E8E;&amp;#x7B56;&amp;#x7565;&amp;#x98CE;&amp;#x9669;&amp;#x504F;&amp;#x5927;, &amp;#x4E0D;&amp;#x6">
 <meta name="keywords" content="投资策略">
 <meta property="og:type" content="article">
 <meta property="og:title" content="策略组合之回撤策略">
 <meta property="og:url" content="https://money.newban.cn/10.html">
 <meta property="og:site_name" content="投资与财富 – 打造属于自己的财富管道">
-<meta property="og:description" content="前言该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍 回撤策略简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出 大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹 以下图策略组合为例:  经回测发现 历史5年该策略 最大回撤为-9.82%, 那我们可以考虑下一次回撤达到-8%以上时买入, 这样能大大降低">
+<meta property="og:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x8BE5;&amp;#x7B56;&amp;#x7565;&amp;#x9700;&amp;#x8981;&amp;#x7ED3;&amp;#x5408;&amp;#x91CF;&amp;#x5316;&amp;#x56DE;&amp;#x6D4B;&amp;#x4F7F;&amp;#x7528;, &amp;#x7531;&amp;#x4E8E;&amp;#x7B56;&amp;#x7565;&amp;#x98CE;&amp;#x9669;&amp;#x504F;&amp;#x5927;, &amp;#x4E0D;&amp;#x6">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220803141303796.png">
-<meta property="og:updated_time" content="2023-07-11T02:28:07.688Z">
+<meta property="og:image" content="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220803141303796.png">
+<meta property="og:updated_time" content="2024-04-08T14:16:19.165Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="策略组合之回撤策略">
-<meta name="twitter:description" content="前言该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍 回撤策略简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出 大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹 以下图策略组合为例:  经回测发现 历史5年该策略 最大回撤为-9.82%, 那我们可以考虑下一次回撤达到-8%以上时买入, 这样能大大降低">
-<meta name="twitter:image" content="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220803141303796.png">
+<meta name="twitter:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x8BE5;&amp;#x7B56;&amp;#x7565;&amp;#x9700;&amp;#x8981;&amp;#x7ED3;&amp;#x5408;&amp;#x91CF;&amp;#x5316;&amp;#x56DE;&amp;#x6D4B;&amp;#x4F7F;&amp;#x7528;, &amp;#x7531;&amp;#x4E8E;&amp;#x7B56;&amp;#x7565;&amp;#x98CE;&amp;#x9669;&amp;#x504F;&amp;#x5927;, &amp;#x4E0D;&amp;#x6">
+<meta name="twitter:image" content="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220803141303796.png">
 
 
 
@@ -346,37 +346,37 @@
       
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍</p>
-<h3 id="回撤策略"><a href="#回撤策略" class="headerlink" title="回撤策略"></a>回撤策略</h3><p>简而言之 就是当回撤接近历史最大回撤时买入, 然后等待反弹卖出</p>
-<p>大部分情况下, 该策略能帮助我们用相对较短的时间获取利润, 因为 接近最大回撤之后基本会迅速反弹</p>
-<p>以下图策略组合为例:</p>
-<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220803141303796.png" alt="image-20220803141303796"></p>
-<p>经回测发现 历史5年该策略 最大回撤为<code>-9.82%</code>, 那我们可以考虑下一次回撤达到<code>-8%</code>以上时买入, 这样能大大降低投资风险 </p>
-<p>最大回撤理论仅仅是一个点子, 权当抛砖引玉之用, 大家可以发散思维, 思考是否可以运用到某只基金或者股票上</p>
-<h3 id="拓展思考"><a href="#拓展思考" class="headerlink" title="拓展思考"></a>拓展思考</h3><h5 id="回撤-网格策略"><a href="#回撤-网格策略" class="headerlink" title="回撤+网格策略"></a>回撤+网格策略</h5><p>我们知道短期市场是不可预测的, 历史回测只能代表过去, 不能预测未来</p>
-<p>历史最大回撤是<code>-8%</code> , 那么下一次回撤可能超过这个值, 那么这种情况 我们该如何应对呢</p>
-<p>此时 我们可以考虑加入网格策略, 当回撤超过历史最大回撤时 我们可以来一网 这样 即便多回撤一些咱也不怕</p>
-<h5 id="回撤-网格-估值择时策略"><a href="#回撤-网格-估值择时策略" class="headerlink" title="回撤+网格+估值择时策略"></a>回撤+网格+估值择时策略</h5><p>如果在估值高位进行回撤买入, 心里难免有些小慌, 因为买的太贵了, 所谓高出不胜寒, 一旦不幸刚好赶上了一波熊市, 那么接下来面临的可能就是漫长的等待期, 虽然这种情况在配合良好策略模型的前提下出现的几率很小, 但也不得不防</p>
-<p>想要解决这个问题也很简单, 加入估值择时即可</p>
-<p>也就是当整个市场处在低估阶段的时候我们进行回撤买入操作, 这样不管怎么买 不会买贵, 心里稳当当的</p>
-<h3 id="关于择时"><a href="#关于择时" class="headerlink" title="关于择时"></a>关于择时</h3><p>在我的投资理念中, 择时是必须的, 再好的品种, 买贵了也不行</p>
-<p><strong>低买高卖才是正常的赚钱逻辑</strong></p>
-<p>目前的择时方案普遍采用的是估值择时, 估值数据现在网上一大堆 已经非常透明化了</p>
+        <h3 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h3><p>&#x8BE5;&#x7B56;&#x7565;&#x9700;&#x8981;&#x7ED3;&#x5408;&#x91CF;&#x5316;&#x56DE;&#x6D4B;&#x4F7F;&#x7528;, &#x7531;&#x4E8E;&#x7B56;&#x7565;&#x98CE;&#x9669;&#x504F;&#x5927;, &#x4E0D;&#x63A8;&#x8350;&#x65B0;&#x624B;&#x4F7F;&#x7528;, &#x8FD9;&#x91CC;&#x4EC5;&#x505A;&#x7406;&#x8BBA;&#x4ECB;&#x7ECD;</p>
+<h3 id="&#x56DE;&#x64A4;&#x7B56;&#x7565;"><a href="#&#x56DE;&#x64A4;&#x7B56;&#x7565;" class="headerlink" title="&#x56DE;&#x64A4;&#x7B56;&#x7565;"></a>&#x56DE;&#x64A4;&#x7B56;&#x7565;</h3><p>&#x7B80;&#x800C;&#x8A00;&#x4E4B; &#x5C31;&#x662F;&#x5F53;&#x56DE;&#x64A4;&#x63A5;&#x8FD1;&#x5386;&#x53F2;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x65F6;&#x4E70;&#x5165;, &#x7136;&#x540E;&#x7B49;&#x5F85;&#x53CD;&#x5F39;&#x5356;&#x51FA;</p>
+<p>&#x5927;&#x90E8;&#x5206;&#x60C5;&#x51B5;&#x4E0B;, &#x8BE5;&#x7B56;&#x7565;&#x80FD;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x7528;&#x76F8;&#x5BF9;&#x8F83;&#x77ED;&#x7684;&#x65F6;&#x95F4;&#x83B7;&#x53D6;&#x5229;&#x6DA6;, &#x56E0;&#x4E3A; &#x63A5;&#x8FD1;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x4E4B;&#x540E;&#x57FA;&#x672C;&#x4F1A;&#x8FC5;&#x901F;&#x53CD;&#x5F39;</p>
+<p>&#x4EE5;&#x4E0B;&#x56FE;&#x7B56;&#x7565;&#x7EC4;&#x5408;&#x4E3A;&#x4F8B;:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220803141303796.png" alt="image-20220803141303796"></p>
+<p>&#x7ECF;&#x56DE;&#x6D4B;&#x53D1;&#x73B0; &#x5386;&#x53F2;5&#x5E74;&#x8BE5;&#x7B56;&#x7565; &#x6700;&#x5927;&#x56DE;&#x64A4;&#x4E3A;<code>-9.82%</code>, &#x90A3;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x4E0B;&#x4E00;&#x6B21;&#x56DE;&#x64A4;&#x8FBE;&#x5230;<code>-8%</code>&#x4EE5;&#x4E0A;&#x65F6;&#x4E70;&#x5165;, &#x8FD9;&#x6837;&#x80FD;&#x5927;&#x5927;&#x964D;&#x4F4E;&#x6295;&#x8D44;&#x98CE;&#x9669; </p>
+<p>&#x6700;&#x5927;&#x56DE;&#x64A4;&#x7406;&#x8BBA;&#x4EC5;&#x4EC5;&#x662F;&#x4E00;&#x4E2A;&#x70B9;&#x5B50;, &#x6743;&#x5F53;&#x629B;&#x7816;&#x5F15;&#x7389;&#x4E4B;&#x7528;, &#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x53D1;&#x6563;&#x601D;&#x7EF4;, &#x601D;&#x8003;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x8FD0;&#x7528;&#x5230;&#x67D0;&#x53EA;&#x57FA;&#x91D1;&#x6216;&#x8005;&#x80A1;&#x7968;&#x4E0A;</p>
+<h3 id="&#x62D3;&#x5C55;&#x601D;&#x8003;"><a href="#&#x62D3;&#x5C55;&#x601D;&#x8003;" class="headerlink" title="&#x62D3;&#x5C55;&#x601D;&#x8003;"></a>&#x62D3;&#x5C55;&#x601D;&#x8003;</h3><h5 id="&#x56DE;&#x64A4;-&#x7F51;&#x683C;&#x7B56;&#x7565;"><a href="#&#x56DE;&#x64A4;-&#x7F51;&#x683C;&#x7B56;&#x7565;" class="headerlink" title="&#x56DE;&#x64A4;+&#x7F51;&#x683C;&#x7B56;&#x7565;"></a>&#x56DE;&#x64A4;+&#x7F51;&#x683C;&#x7B56;&#x7565;</h5><p>&#x6211;&#x4EEC;&#x77E5;&#x9053;&#x77ED;&#x671F;&#x5E02;&#x573A;&#x662F;&#x4E0D;&#x53EF;&#x9884;&#x6D4B;&#x7684;, &#x5386;&#x53F2;&#x56DE;&#x6D4B;&#x53EA;&#x80FD;&#x4EE3;&#x8868;&#x8FC7;&#x53BB;, &#x4E0D;&#x80FD;&#x9884;&#x6D4B;&#x672A;&#x6765;</p>
+<p>&#x5386;&#x53F2;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x662F;<code>-8%</code> , &#x90A3;&#x4E48;&#x4E0B;&#x4E00;&#x6B21;&#x56DE;&#x64A4;&#x53EF;&#x80FD;&#x8D85;&#x8FC7;&#x8FD9;&#x4E2A;&#x503C;, &#x90A3;&#x4E48;&#x8FD9;&#x79CD;&#x60C5;&#x51B5; &#x6211;&#x4EEC;&#x8BE5;&#x5982;&#x4F55;&#x5E94;&#x5BF9;&#x5462;</p>
+<p>&#x6B64;&#x65F6; &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x52A0;&#x5165;&#x7F51;&#x683C;&#x7B56;&#x7565;, &#x5F53;&#x56DE;&#x64A4;&#x8D85;&#x8FC7;&#x5386;&#x53F2;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x65F6; &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6765;&#x4E00;&#x7F51; &#x8FD9;&#x6837; &#x5373;&#x4FBF;&#x591A;&#x56DE;&#x64A4;&#x4E00;&#x4E9B;&#x54B1;&#x4E5F;&#x4E0D;&#x6015;</p>
+<h5 id="&#x56DE;&#x64A4;-&#x7F51;&#x683C;-&#x4F30;&#x503C;&#x62E9;&#x65F6;&#x7B56;&#x7565;"><a href="#&#x56DE;&#x64A4;-&#x7F51;&#x683C;-&#x4F30;&#x503C;&#x62E9;&#x65F6;&#x7B56;&#x7565;" class="headerlink" title="&#x56DE;&#x64A4;+&#x7F51;&#x683C;+&#x4F30;&#x503C;&#x62E9;&#x65F6;&#x7B56;&#x7565;"></a>&#x56DE;&#x64A4;+&#x7F51;&#x683C;+&#x4F30;&#x503C;&#x62E9;&#x65F6;&#x7B56;&#x7565;</h5><p>&#x5982;&#x679C;&#x5728;&#x4F30;&#x503C;&#x9AD8;&#x4F4D;&#x8FDB;&#x884C;&#x56DE;&#x64A4;&#x4E70;&#x5165;, &#x5FC3;&#x91CC;&#x96BE;&#x514D;&#x6709;&#x4E9B;&#x5C0F;&#x614C;, &#x56E0;&#x4E3A;&#x4E70;&#x7684;&#x592A;&#x8D35;&#x4E86;, &#x6240;&#x8C13;&#x9AD8;&#x51FA;&#x4E0D;&#x80DC;&#x5BD2;, &#x4E00;&#x65E6;&#x4E0D;&#x5E78;&#x521A;&#x597D;&#x8D76;&#x4E0A;&#x4E86;&#x4E00;&#x6CE2;&#x718A;&#x5E02;, &#x90A3;&#x4E48;&#x63A5;&#x4E0B;&#x6765;&#x9762;&#x4E34;&#x7684;&#x53EF;&#x80FD;&#x5C31;&#x662F;&#x6F2B;&#x957F;&#x7684;&#x7B49;&#x5F85;&#x671F;, &#x867D;&#x7136;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x5728;&#x914D;&#x5408;&#x826F;&#x597D;&#x7B56;&#x7565;&#x6A21;&#x578B;&#x7684;&#x524D;&#x63D0;&#x4E0B;&#x51FA;&#x73B0;&#x7684;&#x51E0;&#x7387;&#x5F88;&#x5C0F;, &#x4F46;&#x4E5F;&#x4E0D;&#x5F97;&#x4E0D;&#x9632;</p>
+<p>&#x60F3;&#x8981;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x4E5F;&#x5F88;&#x7B80;&#x5355;, &#x52A0;&#x5165;&#x4F30;&#x503C;&#x62E9;&#x65F6;&#x5373;&#x53EF;</p>
+<p>&#x4E5F;&#x5C31;&#x662F;&#x5F53;&#x6574;&#x4E2A;&#x5E02;&#x573A;&#x5904;&#x5728;&#x4F4E;&#x4F30;&#x9636;&#x6BB5;&#x7684;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x8FDB;&#x884C;&#x56DE;&#x64A4;&#x4E70;&#x5165;&#x64CD;&#x4F5C;, &#x8FD9;&#x6837;&#x4E0D;&#x7BA1;&#x600E;&#x4E48;&#x4E70; &#x4E0D;&#x4F1A;&#x4E70;&#x8D35;, &#x5FC3;&#x91CC;&#x7A33;&#x5F53;&#x5F53;&#x7684;</p>
+<h3 id="&#x5173;&#x4E8E;&#x62E9;&#x65F6;"><a href="#&#x5173;&#x4E8E;&#x62E9;&#x65F6;" class="headerlink" title="&#x5173;&#x4E8E;&#x62E9;&#x65F6;"></a>&#x5173;&#x4E8E;&#x62E9;&#x65F6;</h3><p>&#x5728;&#x6211;&#x7684;&#x6295;&#x8D44;&#x7406;&#x5FF5;&#x4E2D;, &#x62E9;&#x65F6;&#x662F;&#x5FC5;&#x987B;&#x7684;, &#x518D;&#x597D;&#x7684;&#x54C1;&#x79CD;, &#x4E70;&#x8D35;&#x4E86;&#x4E5F;&#x4E0D;&#x884C;</p>
+<p><strong>&#x4F4E;&#x4E70;&#x9AD8;&#x5356;&#x624D;&#x662F;&#x6B63;&#x5E38;&#x7684;&#x8D5A;&#x94B1;&#x903B;&#x8F91;</strong></p>
+<p>&#x76EE;&#x524D;&#x7684;&#x62E9;&#x65F6;&#x65B9;&#x6848;&#x666E;&#x904D;&#x91C7;&#x7528;&#x7684;&#x662F;&#x4F30;&#x503C;&#x62E9;&#x65F6;, &#x4F30;&#x503C;&#x6570;&#x636E;&#x73B0;&#x5728;&#x7F51;&#x4E0A;&#x4E00;&#x5927;&#x5806; &#x5DF2;&#x7ECF;&#x975E;&#x5E38;&#x900F;&#x660E;&#x5316;&#x4E86;</p>
 <blockquote>
-<p>除了估值择时之外还有周期择时(针对周期性比较强品种) 这里不做过多介绍</p>
+<p>&#x9664;&#x4E86;&#x4F30;&#x503C;&#x62E9;&#x65F6;&#x4E4B;&#x5916;&#x8FD8;&#x6709;&#x5468;&#x671F;&#x62E9;&#x65F6;(&#x9488;&#x5BF9;&#x5468;&#x671F;&#x6027;&#x6BD4;&#x8F83;&#x5F3A;&#x54C1;&#x79CD;) &#x8FD9;&#x91CC;&#x4E0D;&#x505A;&#x8FC7;&#x591A;&#x4ECB;&#x7ECD;</p>
 </blockquote>
-<p><strong>当大部分人都用估值来抄底时, 我推测 这个底线会变得较为可控</strong></p>
-<p>比如 所有的估值表都已<code>30%</code>作为低估基准点, 那么当人们以这个基准点作为抄底条件时, 你认为估值还会继续降低至<code>20%</code>甚至更低吗, 也许不会</p>
-<p>市场是由人控制的, 买的人多了 自然就容易反弹, 说这么多的意思很简单, 就是建议大家不要一味地守过低的底然后一把梭, 在估值还没有降低到理想值时分批买入是个不错的选择, 比如估值降到30%时开始分批买入, 而不是非得等到20%, 因为不一定等得来  踏空的滋味可不好受</p>
-<h3 id="全市场估值和单品种估值"><a href="#全市场估值和单品种估值" class="headerlink" title="全市场估值和单品种估值"></a>全市场估值和单品种估值</h3><p>在之前的各个估值策略文章中, 我无一例外都提到了<strong>市场估值</strong>, 没错 是全市场估值, 并非某个标的的估值</p>
-<p>也许你看中的某个标的估值已经很低了, 但是<strong>全市场估</strong>值依然居高不下, 这种情况下并不建议入场</p>
-<p>因为 <strong>单个品种是整个市场的一份子, 两者相互依存, 当整个市场估值回归时, 单个品种焉能独善其身</strong>, 这个道理想必大家都明白</p>
-<p>如果只局限于单个品种分析, 那么你以为的很便宜, 在全市场的带动下, 它还可以更便宜或者直接横盘不动, 这样一来 岂不白白浪费时间</p>
-<h3 id="结合回撤估底"><a href="#结合回撤估底" class="headerlink" title="结合回撤估底"></a>结合回撤估底</h3><p>针对ETF我们通常可以借助估值表来大致判断当前市场估值状态, 当然了 针对股票也是有一定的参考价值的 </p>
-<p>不过 如果我们在估值表的基础上在结合历史最大回撤分析, 那么也许在我们对熊市估底时起到一定的帮助作用  </p>
-<p>另外 一些资产配置组合 可以在接近历史最大回撤的时候进行补仓操作, 从而增加整体收益率</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+<p><strong>&#x5F53;&#x5927;&#x90E8;&#x5206;&#x4EBA;&#x90FD;&#x7528;&#x4F30;&#x503C;&#x6765;&#x6284;&#x5E95;&#x65F6;, &#x6211;&#x63A8;&#x6D4B; &#x8FD9;&#x4E2A;&#x5E95;&#x7EBF;&#x4F1A;&#x53D8;&#x5F97;&#x8F83;&#x4E3A;&#x53EF;&#x63A7;</strong></p>
+<p>&#x6BD4;&#x5982; &#x6240;&#x6709;&#x7684;&#x4F30;&#x503C;&#x8868;&#x90FD;&#x5DF2;<code>30%</code>&#x4F5C;&#x4E3A;&#x4F4E;&#x4F30;&#x57FA;&#x51C6;&#x70B9;, &#x90A3;&#x4E48;&#x5F53;&#x4EBA;&#x4EEC;&#x4EE5;&#x8FD9;&#x4E2A;&#x57FA;&#x51C6;&#x70B9;&#x4F5C;&#x4E3A;&#x6284;&#x5E95;&#x6761;&#x4EF6;&#x65F6;, &#x4F60;&#x8BA4;&#x4E3A;&#x4F30;&#x503C;&#x8FD8;&#x4F1A;&#x7EE7;&#x7EED;&#x964D;&#x4F4E;&#x81F3;<code>20%</code>&#x751A;&#x81F3;&#x66F4;&#x4F4E;&#x5417;, &#x4E5F;&#x8BB8;&#x4E0D;&#x4F1A;</p>
+<p>&#x5E02;&#x573A;&#x662F;&#x7531;&#x4EBA;&#x63A7;&#x5236;&#x7684;, &#x4E70;&#x7684;&#x4EBA;&#x591A;&#x4E86; &#x81EA;&#x7136;&#x5C31;&#x5BB9;&#x6613;&#x53CD;&#x5F39;, &#x8BF4;&#x8FD9;&#x4E48;&#x591A;&#x7684;&#x610F;&#x601D;&#x5F88;&#x7B80;&#x5355;, &#x5C31;&#x662F;&#x5EFA;&#x8BAE;&#x5927;&#x5BB6;&#x4E0D;&#x8981;&#x4E00;&#x5473;&#x5730;&#x5B88;&#x8FC7;&#x4F4E;&#x7684;&#x5E95;&#x7136;&#x540E;&#x4E00;&#x628A;&#x68AD;, &#x5728;&#x4F30;&#x503C;&#x8FD8;&#x6CA1;&#x6709;&#x964D;&#x4F4E;&#x5230;&#x7406;&#x60F3;&#x503C;&#x65F6;&#x5206;&#x6279;&#x4E70;&#x5165;&#x662F;&#x4E2A;&#x4E0D;&#x9519;&#x7684;&#x9009;&#x62E9;, &#x6BD4;&#x5982;&#x4F30;&#x503C;&#x964D;&#x5230;30%&#x65F6;&#x5F00;&#x59CB;&#x5206;&#x6279;&#x4E70;&#x5165;, &#x800C;&#x4E0D;&#x662F;&#x975E;&#x5F97;&#x7B49;&#x5230;20%, &#x56E0;&#x4E3A;&#x4E0D;&#x4E00;&#x5B9A;&#x7B49;&#x5F97;&#x6765;  &#x8E0F;&#x7A7A;&#x7684;&#x6ECB;&#x5473;&#x53EF;&#x4E0D;&#x597D;&#x53D7;</p>
+<h3 id="&#x5168;&#x5E02;&#x573A;&#x4F30;&#x503C;&#x548C;&#x5355;&#x54C1;&#x79CD;&#x4F30;&#x503C;"><a href="#&#x5168;&#x5E02;&#x573A;&#x4F30;&#x503C;&#x548C;&#x5355;&#x54C1;&#x79CD;&#x4F30;&#x503C;" class="headerlink" title="&#x5168;&#x5E02;&#x573A;&#x4F30;&#x503C;&#x548C;&#x5355;&#x54C1;&#x79CD;&#x4F30;&#x503C;"></a>&#x5168;&#x5E02;&#x573A;&#x4F30;&#x503C;&#x548C;&#x5355;&#x54C1;&#x79CD;&#x4F30;&#x503C;</h3><p>&#x5728;&#x4E4B;&#x524D;&#x7684;&#x5404;&#x4E2A;&#x4F30;&#x503C;&#x7B56;&#x7565;&#x6587;&#x7AE0;&#x4E2D;, &#x6211;&#x65E0;&#x4E00;&#x4F8B;&#x5916;&#x90FD;&#x63D0;&#x5230;&#x4E86;<strong>&#x5E02;&#x573A;&#x4F30;&#x503C;</strong>, &#x6CA1;&#x9519; &#x662F;&#x5168;&#x5E02;&#x573A;&#x4F30;&#x503C;, &#x5E76;&#x975E;&#x67D0;&#x4E2A;&#x6807;&#x7684;&#x7684;&#x4F30;&#x503C;</p>
+<p>&#x4E5F;&#x8BB8;&#x4F60;&#x770B;&#x4E2D;&#x7684;&#x67D0;&#x4E2A;&#x6807;&#x7684;&#x4F30;&#x503C;&#x5DF2;&#x7ECF;&#x5F88;&#x4F4E;&#x4E86;, &#x4F46;&#x662F;<strong>&#x5168;&#x5E02;&#x573A;&#x4F30;</strong>&#x503C;&#x4F9D;&#x7136;&#x5C45;&#x9AD8;&#x4E0D;&#x4E0B;, &#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x5E76;&#x4E0D;&#x5EFA;&#x8BAE;&#x5165;&#x573A;</p>
+<p>&#x56E0;&#x4E3A; <strong>&#x5355;&#x4E2A;&#x54C1;&#x79CD;&#x662F;&#x6574;&#x4E2A;&#x5E02;&#x573A;&#x7684;&#x4E00;&#x4EFD;&#x5B50;, &#x4E24;&#x8005;&#x76F8;&#x4E92;&#x4F9D;&#x5B58;, &#x5F53;&#x6574;&#x4E2A;&#x5E02;&#x573A;&#x4F30;&#x503C;&#x56DE;&#x5F52;&#x65F6;, &#x5355;&#x4E2A;&#x54C1;&#x79CD;&#x7109;&#x80FD;&#x72EC;&#x5584;&#x5176;&#x8EAB;</strong>, &#x8FD9;&#x4E2A;&#x9053;&#x7406;&#x60F3;&#x5FC5;&#x5927;&#x5BB6;&#x90FD;&#x660E;&#x767D;</p>
+<p>&#x5982;&#x679C;&#x53EA;&#x5C40;&#x9650;&#x4E8E;&#x5355;&#x4E2A;&#x54C1;&#x79CD;&#x5206;&#x6790;, &#x90A3;&#x4E48;&#x4F60;&#x4EE5;&#x4E3A;&#x7684;&#x5F88;&#x4FBF;&#x5B9C;, &#x5728;&#x5168;&#x5E02;&#x573A;&#x7684;&#x5E26;&#x52A8;&#x4E0B;, &#x5B83;&#x8FD8;&#x53EF;&#x4EE5;&#x66F4;&#x4FBF;&#x5B9C;&#x6216;&#x8005;&#x76F4;&#x63A5;&#x6A2A;&#x76D8;&#x4E0D;&#x52A8;, &#x8FD9;&#x6837;&#x4E00;&#x6765; &#x5C82;&#x4E0D;&#x767D;&#x767D;&#x6D6A;&#x8D39;&#x65F6;&#x95F4;</p>
+<h3 id="&#x7ED3;&#x5408;&#x56DE;&#x64A4;&#x4F30;&#x5E95;"><a href="#&#x7ED3;&#x5408;&#x56DE;&#x64A4;&#x4F30;&#x5E95;" class="headerlink" title="&#x7ED3;&#x5408;&#x56DE;&#x64A4;&#x4F30;&#x5E95;"></a>&#x7ED3;&#x5408;&#x56DE;&#x64A4;&#x4F30;&#x5E95;</h3><p>&#x9488;&#x5BF9;ETF&#x6211;&#x4EEC;&#x901A;&#x5E38;&#x53EF;&#x4EE5;&#x501F;&#x52A9;&#x4F30;&#x503C;&#x8868;&#x6765;&#x5927;&#x81F4;&#x5224;&#x65AD;&#x5F53;&#x524D;&#x5E02;&#x573A;&#x4F30;&#x503C;&#x72B6;&#x6001;, &#x5F53;&#x7136;&#x4E86; &#x9488;&#x5BF9;&#x80A1;&#x7968;&#x4E5F;&#x662F;&#x6709;&#x4E00;&#x5B9A;&#x7684;&#x53C2;&#x8003;&#x4EF7;&#x503C;&#x7684; </p>
+<p>&#x4E0D;&#x8FC7; &#x5982;&#x679C;&#x6211;&#x4EEC;&#x5728;&#x4F30;&#x503C;&#x8868;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x5728;&#x7ED3;&#x5408;&#x5386;&#x53F2;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x5206;&#x6790;, &#x90A3;&#x4E48;&#x4E5F;&#x8BB8;&#x5728;&#x6211;&#x4EEC;&#x5BF9;&#x718A;&#x5E02;&#x4F30;&#x5E95;&#x65F6;&#x8D77;&#x5230;&#x4E00;&#x5B9A;&#x7684;&#x5E2E;&#x52A9;&#x4F5C;&#x7528;  </p>
+<p>&#x53E6;&#x5916; &#x4E00;&#x4E9B;&#x8D44;&#x4EA7;&#x914D;&#x7F6E;&#x7EC4;&#x5408; &#x53EF;&#x4EE5;&#x5728;&#x63A5;&#x8FD1;&#x5386;&#x53F2;&#x6700;&#x5927;&#x56DE;&#x64A4;&#x7684;&#x65F6;&#x5019;&#x8FDB;&#x884C;&#x8865;&#x4ED3;&#x64CD;&#x4F5C;, &#x4ECE;&#x800C;&#x589E;&#x52A0;&#x6574;&#x4F53;&#x6536;&#x76CA;&#x7387;</p>
+<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
+<p><em><a href="https://money.newban.cn/">&#x6295;&#x8D44;&#x4E0E;&#x8D22;&#x5BCC; &#x2013; &#x5BCC;&#x8D35;&#x5982;&#x9F99; &#x6E38;&#x5C3D;&#x4E94;&#x6E56;&#x56DB;&#x6D77; &#x8D2B;&#x7A77;&#x5982;&#x864E; &#x60CA;&#x6563;&#x4E5D;&#x65CF;&#x516D;&#x4EB2;</a></em></p>
 
       
     </div>
@@ -508,7 +508,7 @@
               
                 <a href="https://money.newban.cn/archives/">
               
-                  <span class="site-state-item-count">22</span>
+                  <span class="site-state-item-count">49</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -521,7 +521,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>
@@ -581,7 +581,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2023</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
