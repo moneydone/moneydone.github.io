@@ -33,6 +33,47 @@
       </tags>
   </entry>
   <entry>
+    <title>策略组合之小红包策略</title>
+    <url>/11.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在国家法定长假期间 比如国庆 春节  这个时期大部分人有资金回笼需求, 会导致市场短暂下跌  这种和估值以及技术趋势无关的因素导致的下跌, 放假结束后 市场通常会快速反弹恢复 </p>
+<p>利用这一特性, 我们可以尝试利用一些小策略套个小利润, 投资周期大概在15天左右, 投资收益率大概在<code>3%-5%</code>不能, 对很多人来说可能只是牙缝小肉</p>
+<p>我称这种策略为小红包策略</p>
+<h3 id="买卖的条件"><a href="#买卖的条件" class="headerlink" title="买卖的条件"></a>买卖的条件</h3><p>而买入的条件也很简单, 主要以趋势为主 节前处于下跌趋势  节前5天无涨幅 </p>
+<p>买入后等待放假结束然后持有一周后卖出即可</p>
+<h3 id="品种的选择"><a href="#品种的选择" class="headerlink" title="品种的选择"></a>品种的选择</h3><p>我主要以宽基ETF作为回测标的, 国庆和春节选择的品种并不一样, 建议大家用回测来选择具体品种 配合策略使用为佳</p>
+<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>该策略算是投机策略 存在比较大的风险, 从某些品种的回测来看, 虽然大部分情况下都能盈利 但也存在少部分亏损的情况</p>
+<p>所以 这个策略只能当做娱乐 毕竟一年就两次, 家里有矿的可以当盲盒玩</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>投资策略</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于量化投资和策略模型</title>
+    <url>/12.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>投资阵营中主要有三大流派:</p>
+<ul>
+<li><strong>价值投资派</strong>: 选好行业 好公司 好价格</li>
+<li><strong>趋势投资派</strong>: 追涨杀跌 以K线图为核心的各类趋势指标分析</li>
+<li><strong>量化投资派</strong>: 按照一定的买卖条件进行程序化交易</li>
+</ul>
+<p>没有好与不好, 只有适与不适合</p>
+<p>不过 小孩子才做选择  不管黑猫白猫  能抓老鼠那就是好猫</p>
+<h3 id="量化投资"><a href="#量化投资" class="headerlink" title="量化投资"></a>量化投资</h3><p>其实量化投资延伸的范围很广, 甚至可以囊括价值和趋势, 尤其针对ETF而言, 界限已经变得非常模糊, 比如:</p>
+<p>我在交易条件中加入估值判断, 就融入一定的价值理念, 在加上一些趋势指标条件, 那么趋势的理念也进来了</p>
+<p>所以 我个人认为  量化投资 更加适合散户</p>
+<p>反正我挺喜欢 嘿嘿</p>
+<h3 id="策略模型"><a href="#策略模型" class="headerlink" title="策略模型"></a>策略模型</h3><p>其实就是交易的条件, 什么时候买什么时候卖, 这个才是盈利的核心</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>投资策略</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>策略组合之回撤策略</title>
     <url>/10.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>该策略需要结合量化回测使用, 由于策略风险偏大, 不推荐新手使用, 这里仅做理论介绍</p>
@@ -141,47 +182,6 @@
       </tags>
   </entry>
   <entry>
-    <title>策略组合之小红包策略</title>
-    <url>/11.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在国家法定长假期间 比如国庆 春节  这个时期大部分人有资金回笼需求, 会导致市场短暂下跌  这种和估值以及技术趋势无关的因素导致的下跌, 放假结束后 市场通常会快速反弹恢复 </p>
-<p>利用这一特性, 我们可以尝试利用一些小策略套个小利润, 投资周期大概在15天左右, 投资收益率大概在<code>3%-5%</code>不能, 对很多人来说可能只是牙缝小肉</p>
-<p>我称这种策略为小红包策略</p>
-<h3 id="买卖的条件"><a href="#买卖的条件" class="headerlink" title="买卖的条件"></a>买卖的条件</h3><p>而买入的条件也很简单, 主要以趋势为主 节前处于下跌趋势  节前5天无涨幅 </p>
-<p>买入后等待放假结束然后持有一周后卖出即可</p>
-<h3 id="品种的选择"><a href="#品种的选择" class="headerlink" title="品种的选择"></a>品种的选择</h3><p>我主要以宽基ETF作为回测标的, 国庆和春节选择的品种并不一样, 建议大家用回测来选择具体品种 配合策略使用为佳</p>
-<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p>该策略算是投机策略 存在比较大的风险, 从某些品种的回测来看, 虽然大部分情况下都能盈利 但也存在少部分亏损的情况</p>
-<p>所以 这个策略只能当做娱乐 毕竟一年就两次, 家里有矿的可以当盲盒玩</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>投资策略</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于量化投资和策略模型</title>
-    <url>/12.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>投资阵营中主要有三大流派:</p>
-<ul>
-<li><strong>价值投资派</strong>: 选好行业 好公司 好价格</li>
-<li><strong>趋势投资派</strong>: 追涨杀跌 以K线图为核心的各类趋势指标分析</li>
-<li><strong>量化投资派</strong>: 按照一定的买卖条件进行程序化交易</li>
-</ul>
-<p>没有好与不好, 只有适与不适合</p>
-<p>不过 小孩子才做选择  不管黑猫白猫  能抓老鼠那就是好猫</p>
-<h3 id="量化投资"><a href="#量化投资" class="headerlink" title="量化投资"></a>量化投资</h3><p>其实量化投资延伸的范围很广, 甚至可以囊括价值和趋势, 尤其针对ETF而言, 界限已经变得非常模糊, 比如:</p>
-<p>我在交易条件中加入估值判断, 就融入一定的价值理念, 在加上一些趋势指标条件, 那么趋势的理念也进来了</p>
-<p>所以 我个人认为  量化投资 更加适合散户</p>
-<p>反正我挺喜欢 嘿嘿</p>
-<h3 id="策略模型"><a href="#策略模型" class="headerlink" title="策略模型"></a>策略模型</h3><p>其实就是交易的条件, 什么时候买什么时候卖, 这个才是盈利的核心</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>投资策略</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ETF融资融券全梳理</title>
     <url>/14.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="什么是ETF融资融券"><a href="#什么是ETF融资融券" class="headerlink" title="什么是ETF融资融券"></a><strong>什么是ETF融资融券</strong></h3><p>银行为信用良好的客户和企业会提供一种增值服务，帮助有需要资金周转客户群体解决燃眉之急，只要有良好的信用记录和稳定的收入来源，便可提供授信资金，例如审批额度100万，你需要使用时随提取，当然需要支付一定的利息费用，大部分银行支持随借随还，不使用不收费。</p>
@@ -227,115 +227,6 @@
 ]]></content>
       <tags>
         <tag>融资融券</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基金分红一文搞懂</title>
-    <url>/15.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>听到分红两字，有的同学是不是两眼发光，又赚钱了。</p>
-<p>基金分红到底是怎么一回事？今天，小编带着打破砂锅问到底的好奇心，一起把基金分红讲透了。</p>
-<p>既然聊分红就得先从分红源头股票说起。</p>
-<h3 id="股票分红的来龙去脉"><a href="#股票分红的来龙去脉" class="headerlink" title="股票分红的来龙去脉"></a><strong>股票分红的来龙去脉</strong></h3><p>股票分红就是购买的股票，由于这家公司经营有道上一年度赚钱了，公司决定拿出利润的一部分作为回报，犒劳支持公司的广大投资者。</p>
-<p>通常情况下通过：送股、转股、现金派发方式实现。</p>
-<p><strong>案例1. 送股、转股方式</strong>：持有A公司股票1000股，股价10元/股，公司去年盈利大增，要分红了，公告：10送5转5。分红后，你的持股变成2000股，股价变为5元，权益还是1000元。</p>
-<p><strong>案例2. 现金派发方式</strong>：A公司股价10元/股，你持有1000股，公告：每股分红1元。分红后你的持仓还是1000股，股价变成9元/股。账户权益变化为：900元股票+100元现金。</p>
-<p>股票分红对投资者来讲，总资产没有变化，那么对投资者有何意义？</p>
-<p>案例1中我们可以看到，你获得的股份更多了，来年获得的分红也就更多；案例2，原来10元/股的票，现在9元即可买到，相当于打折购买，从股息率看变得更加有吸引力（更低的价格获得同样的利润回报）。</p>
-<h3 id="股票有分红，那么基金有分红吗"><a href="#股票有分红，那么基金有分红吗" class="headerlink" title="股票有分红，那么基金有分红吗"></a><strong>股票有分红，那么基金有分红吗</strong></h3><p>答案是非常肯定的，股票分红的前提是这家公司的盈利，公司作为一个运营主体，实现盈利就得给投资人回报，因此产生股票分红。</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/20220804174158.png" alt></p>
-<p>同样，基金在财务管理体系中，也属于一个会计主体，是否具备分红的前提是基金的运营能力，基金投资股票实现盈利因此产生分红。但是，说明白了，这里的基金特指：<strong>主动型基金，指数基金的分红略有区别</strong>。</p>
-<p>明白了吗？<strong>主动型基金的分红主要来自投资盈利</strong>，所以熊市中只能呵呵呵了。</p>
-<p>天天基金官网能找到3800多只基金的分红情况，今年基金分红公示中，债券类和货币类基金占据主要板面，谁叫指数这么不争气。</p>
-<p>基金分红查询</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/20220804174214.png" alt>来源：天天基金官网</p>
-<h3 id="ETF指数基金分红由何而来"><a href="#ETF指数基金分红由何而来" class="headerlink" title="ETF指数基金分红由何而来"></a><strong>ETF指数基金分红由何而来</strong></h3><p>以上讲的是主动基金分红，那么指数基金的分红又是由何而来？</p>
-<p>还是刨根问底，指数基金跟踪的就是指数，众所周知指数的点数是不考虑成分股分红的，我们通过案例来分析。</p>
-<p>案例：A公司股价10元/股，公告：分红0.2元/股。分红前，指数按10元/股计算点数；分红后，指数按9.8元/股计算点数，相当于股价下跌0.2元。这0.2元分红，通过现金分红的方式给到了指数基金。</p>
-<p>当然，案例中分红后指数肯定是下跌的，因为持有的股票价格已经下跌；但是指数基金拿到了这0.2元/股的分红后，指数基金的净值自然就上涨了。</p>
-<p>所以，不管指数涨跌，只要成分股有分红，指数基金就能分到钱。而这些钱是否直接当做基金分红给到投资者，由基金管理人安排。</p>
-<p>由此看，<strong>指数基金的分红主要来自成分股分红</strong>，不管牛市还是熊市，只要成分股有分红指数基金就有分红，分红的前提是“基金份额净值增长率超过同期指数1%”。</p>
-<h3 id="既然基金有分红，怎么分呢"><a href="#既然基金有分红，怎么分呢" class="headerlink" title="既然基金有分红，怎么分呢"></a><strong>既然基金有分红，怎么分呢</strong></h3><p>基金分红的两种方式：<strong>1、现金分红；2、红利再投资</strong>。</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/20220804174247.png" alt></p>
-<p>现金分红：基金份额不会有变化，但是基金的净值会降低。</p>
-<p>案例：持有1000份A基金，1元/份，分红公告：现金分红0.1元/份。分红以后，你的账户变900元A基金，100元现金，持仓为1000份A基金，基金的净值变为0.9，也就是价格变为0.9元/份。</p>
-<p>红利再投资：把分红的钱，转换为相应的基金份额，基金份额增加，基金的净值同样会降低。</p>
-<p>案例：持有1000份A基金，1元/份，分红公告：分红0.1元/份，分红方式为红利再投资。分红以后，你的账户变900元A基金，100元现金，基金单位净值变成0.9；同时，管理人会把100元现金全部买入A基金（111份），这时你的账户权益还是1000元，但是持仓变为1111份A基金。</p>
-<p>国内发行的公募基金产品，<strong>默认分红方式为现金分红</strong>，但是分红之前你会收到基金管理人的通知，这时可自主选择你想要的方式。</p>
-<h3 id="分红方式如何选"><a href="#分红方式如何选" class="headerlink" title="分红方式如何选"></a><strong>分红方式如何选</strong></h3><p>看好后市，选择红利再投资更有优势。你持有的份额更多，上涨带来的收益更大；红利再投资由于未发生现金流出，所以不用收取申购费用，有省下一笔交易成本。</p>
-<p>看空后市，选择现金分红。规避市场下跌风险，获利了结，还免了赎回费用，一举两得。</p>
-<h3 id="基金分红到底好不好"><a href="#基金分红到底好不好" class="headerlink" title="基金分红到底好不好"></a><strong>基金分红到底好不好</strong></h3><p>1、基金分红就是左手的钱放到右手，不管分红多少，不会影响基金的总收益，因为分红是已实现的收益，于现金的形式保存在基金中，分还是不分取决于基金管理人。</p>
-<p>2、能够实现基金分红说明这只基金在过往的业绩不错，但是并不是作为判断基金未来走势的依据，投资基金之前得综合考量。</p>
-<p>3、长期投资，选择红利再投资更优，省了交易成本还享受投资“复利”。</p>
-<p>通过以上对比分析，同学们是否发现基金分红实际是一种中性事件，并没有带来额外的收益，分钱走人还是红利再投资，<strong>哪种方式更优，完全取决于投资者对后市的看法</strong>。</p>
-<p><strong>总结</strong></p>
-<p>无论是股票还是主动基金或是指数基金，<strong>分红的前提就是盈利</strong>，即使是指数基金，如果基金运营很差，假若个股有分红，受制于基金亏钱，还是得把成分股的分红用来弥补亏损，与投资者无缘。</p>
-<p><strong>本文转载自</strong>:<a href="https://mp.weixin.qq.com/s?__biz=MzU1MzkyOTA4MA==&mid=2247483811&idx=1&sn=8719e72d811042fddac5e8656704c7cf&chksm=fbea11b4cc9d98a20aeb90217fe3cb4df3e3a3166471de543c65b1c56617af3076dfb8aced43&token=590923884&lang=zh_CN#rd" target="_blank" rel="noopener">ETF之家</a></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>基金分红</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可转债双低网格轮动策略</title>
-    <url>/17.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>网格交易存在三个不足之处: 破网、资金利用率不高和交易成本高。</p>
-<p>而可转债，下有债性保底，T+0交易，佣金成本低，是最适合的网格品种。</p>
-<p>但是单一的可转债网格仍然面临很多问题：比如资金利用率低，对具体转债的选择要求高，网格参数设置的容错性差等等。</p>
-<p>今天给大家分享的可转债双低网格轮动策略，可以很大程度上解决刚说的这些问题。</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/63d0f703918fa0ec4e182390710779e43f6ddbee.jpeg" alt="img"></p>
-<p>为了大家能很好地理解这个策略，今天的内容包括五大部分：双低网格轮动策略的定义和原理、操作步骤、策略技巧、适合人群以及风险应对。</p>
-<h3 id="一、什么是双低网格轮动策略"><a href="#一、什么是双低网格轮动策略" class="headerlink" title="一、什么是双低网格轮动策略"></a><strong>一、什么是双低网格轮动策略</strong></h3><p>双低网格轮动策略，是指在双低转债中，选取价格较低并且股性较强的一批可转债（最少5只、一般10只，最多20只），按相同仓位建立底仓摊大饼，并利用网格条件单进行反复低买高卖获取差价；当某只转债突破网格上限结束交易后，轮入另一只符合条件的双低转债并开启网格交易。</p>
-<p>它的原理是什么？犇犇总结了5点：</p>
-<p>1、<strong>选择低价的双低转债</strong>，比如价格不超过120元。网格区间下限为100元（或接近100元），由转债的100元债券底作为安全性的保证，向下破网的概率小，即使破网被套，解套也更容易。</p>
-<p>2、<strong>在双低转债中，参考“弹性”这个指标，选出股性更强的品种</strong>。股性强，则跟随正股波动得越厉害，满足了网格标的首要条件—“底部震荡”。</p>
-<p>3、<strong>通过定期或实时的轮动，解决了向上破网、踏空行情的困扰</strong>。因为越快向上破网，越快完成一笔网格交易，才能轮动开启第二笔网格。由于网格都是以赚钱结束交易，因此每笔网格耗时越短、资金周转越快，收益率就越高。</p>
-<p>4、关于资金利用率的问题：单一转债的网格，资金闲置较多，影响账户整体收益。<strong>通过摊大饼，多只转债公用资金池**</strong>，预留的现金比例就可以大幅减少。尤其是我们选择不同行业、不同概念（尽量选择热门概念）的转债，它们的价格波动方向形成互补，也就是有的涨、有的跌，那么资金的利用效率会更高**，所需备用资金更少。</p>
-<p>5、双低网格轮动策略具有传统摊大饼的优势，比如分散风险，能抓住板块轮动的机会。但同时，<strong>建仓条件比传统的双低策略宽松，市场在高位震荡的时候仍然能捕捉到交易机会。</strong></p>
-<h3 id="二、双低网格轮动策略操作步骤"><a href="#二、双低网格轮动策略操作步骤" class="headerlink" title="二、双低网格轮动策略操作步骤"></a><strong>二、双低网格轮动策略操作步骤</strong></h3><p>共3步：包括筛选标的、建立底仓并设置网格策略，以及轮动调仓</p>
-<p><strong>第一步，筛选标的</strong></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/9c16fdfaaf51f3de2ffcf736cf7ed0153b2979b4.jpeg" alt="img"></p>
-<ul>
-<li>打开宁稳网，点击“转债-策略”</li>
-<li>“含强赎”前面的“√”，取消</li>
-<li>转债价格＜112，转股溢价率&lt;30%</li>
-</ul>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/42166d224f4a20a4e42317decac2b828720ed000.jpeg" alt="img"></p>
-<ul>
-<li>按 “弹性”指标由高到低进行排序</li>
-<li>排除剩余年限不足1年的转债</li>
-<li>行业相同的，仅选取“弹性”数值最大的一只，“弹性”数值相同选价格最低的一只</li>
-</ul>
-<p><strong>第二步，建立底仓、完成网格策略设置</strong></p>
-<p>建立底仓：按照第一步筛选出来的转债标的，买入相同数量建立底仓，每只转债的底仓数量建议是10手（深市换算成张，1手=10张）或10手的整数倍，最低5手。</p>
-<p>咱们以10手底仓为例，设置网格条件单：</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/fcfaaf51f3deb48fd3772ee9a98f1a232df57801.jpeg" alt="img"></p>
-<p>价格区间为（100~120）元，基准价110元，上涨1元或1%卖出，下跌1元或1%买入，每次委托的数量是1手。如果底仓是5手，则涨跌±2元或±2%委托，每次委托数量是1手。</p>
-<p><strong>第三步，轮动调仓</strong></p>
-<p>根据以上设置的网格，当某只转债涨到120元，底仓全部卖出，这只转债的网格就以盈利结束了。这时可以轮入新的符合条件的转债并类似设置好网格条件单。</p>
-<p>一般根据券商交易软件的网格成交提醒，在一笔网格结束后轮入新的标的并开启网格。如果没有时间盯盘并且大饼持有转债数量较多，也可以做定期轮动。</p>
-<h3 id="三、策略的4点技巧"><a href="#三、策略的4点技巧" class="headerlink" title="三、策略的4点技巧"></a><strong>三、策略的4点技巧</strong></h3><p>1、大饼的数量最少5只。<strong>数量太少，一方面容易造成资金利用率不高，另一方面很难获得板块轮动的收益</strong>。但最多也不宜超过30只。</p>
-<p>2、如果筛选出的标的不足5只，<strong>可以适当放宽价格标准</strong>。比如筛选的转债价格上调到略高于120元，基准价120元，网格区间（110,130）。</p>
-<p>3、对于<strong>有下修预期的入选标的，可以只拿部分底仓做网格降低成本</strong>，剩余部分博取网格上限以上的高收益。比如建仓20手，仅用10手做网格。</p>
-<p>4、当市场极度悲观，有部分<strong>优质转债跌到百元以下，这类转债并不适合该策略</strong>，更适合买入并持有。</p>
-<h3 id="四、策略适合人群"><a href="#四、策略适合人群" class="headerlink" title="四、策略适合人群"></a><strong>四、策略适合人群</strong></h3><p>是否适合该策略，可以参考以下几点：</p>
-<ul>
-<li>首先，双低网格轮动策略，是利用网格交易，在安全性较高的低价区间内进行高抛低吸，每笔网格以赚钱结束，亏钱概率极低。所以<strong>本策略适合所有投资者，特别是中低风险投资者。但网格策略容易错过暴涨的机会，所以未必是追求暴富的激进投资者的良选</strong>。</li>
-<li>其次，本策略不需要太多的股票知识，但仍然<strong>要有一定的可转债基础</strong>。</li>
-<li>第三，<strong>本策略不需要盯盘，不需要频繁手工操作</strong>，基本属于忙人闲时策略。</li>
-<li>最后，资金投入方面，如果按照最少5只转债摊大饼，选最低仓位，大约需要3万元。<strong>金额、规模太小，策略会受到限制，收益率会受影响</strong>。</li>
-</ul>
-<h3 id="五、策略的风险及应对"><a href="#五、策略的风险及应对" class="headerlink" title="五、策略的风险及应对"></a><strong>五、策略的风险及应对</strong></h3><p>双低网格轮动策略主要有两大风险：</p>
-<p>1、<strong><em>高价转债做网格交易，可能会发生向下破网被套；同时高价债需时刻防止强赎的发生</em></strong>，这是可转债网格交易的最大风险。</p>
-<p>因此该策略在双低基础上需严格选择价格低的转债进行网格轮动。</p>
-<p>2、<strong><em>低价转债容易踩雷，触发信用风险。</em></strong>因此建议大饼数量不少于5只，对于高风险的品种尽量回避或者是降低仓位。</p>
-<p>好了，今天双低网格轮动策略的五大问题就是这些。使用中还有不够完善的地方，犇犇再做策略升级。</p>
-<p><strong>特别提醒：该策略是犇犇刚研究出来的新策略，并无太多历史数据支撑，请谨慎选择！</strong></p>
-<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1729076477762303077&wfr=spider&for=pc" target="_blank" rel="noopener">百家号</a></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>可转债</tag>
       </tags>
   </entry>
   <entry>
@@ -448,6 +339,156 @@
       </tags>
   </entry>
   <entry>
+    <title>基金分红一文搞懂</title>
+    <url>/15.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>听到分红两字，有的同学是不是两眼发光，又赚钱了。</p>
+<p>基金分红到底是怎么一回事？今天，小编带着打破砂锅问到底的好奇心，一起把基金分红讲透了。</p>
+<p>既然聊分红就得先从分红源头股票说起。</p>
+<h3 id="股票分红的来龙去脉"><a href="#股票分红的来龙去脉" class="headerlink" title="股票分红的来龙去脉"></a><strong>股票分红的来龙去脉</strong></h3><p>股票分红就是购买的股票，由于这家公司经营有道上一年度赚钱了，公司决定拿出利润的一部分作为回报，犒劳支持公司的广大投资者。</p>
+<p>通常情况下通过：送股、转股、现金派发方式实现。</p>
+<p><strong>案例1. 送股、转股方式</strong>：持有A公司股票1000股，股价10元/股，公司去年盈利大增，要分红了，公告：10送5转5。分红后，你的持股变成2000股，股价变为5元，权益还是1000元。</p>
+<p><strong>案例2. 现金派发方式</strong>：A公司股价10元/股，你持有1000股，公告：每股分红1元。分红后你的持仓还是1000股，股价变成9元/股。账户权益变化为：900元股票+100元现金。</p>
+<p>股票分红对投资者来讲，总资产没有变化，那么对投资者有何意义？</p>
+<p>案例1中我们可以看到，你获得的股份更多了，来年获得的分红也就更多；案例2，原来10元/股的票，现在9元即可买到，相当于打折购买，从股息率看变得更加有吸引力（更低的价格获得同样的利润回报）。</p>
+<h3 id="股票有分红，那么基金有分红吗"><a href="#股票有分红，那么基金有分红吗" class="headerlink" title="股票有分红，那么基金有分红吗"></a><strong>股票有分红，那么基金有分红吗</strong></h3><p>答案是非常肯定的，股票分红的前提是这家公司的盈利，公司作为一个运营主体，实现盈利就得给投资人回报，因此产生股票分红。</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/20220804174158.png" alt></p>
+<p>同样，基金在财务管理体系中，也属于一个会计主体，是否具备分红的前提是基金的运营能力，基金投资股票实现盈利因此产生分红。但是，说明白了，这里的基金特指：<strong>主动型基金，指数基金的分红略有区别</strong>。</p>
+<p>明白了吗？<strong>主动型基金的分红主要来自投资盈利</strong>，所以熊市中只能呵呵呵了。</p>
+<p>天天基金官网能找到3800多只基金的分红情况，今年基金分红公示中，债券类和货币类基金占据主要板面，谁叫指数这么不争气。</p>
+<p>基金分红查询</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/20220804174214.png" alt>来源：天天基金官网</p>
+<h3 id="ETF指数基金分红由何而来"><a href="#ETF指数基金分红由何而来" class="headerlink" title="ETF指数基金分红由何而来"></a><strong>ETF指数基金分红由何而来</strong></h3><p>以上讲的是主动基金分红，那么指数基金的分红又是由何而来？</p>
+<p>还是刨根问底，指数基金跟踪的就是指数，众所周知指数的点数是不考虑成分股分红的，我们通过案例来分析。</p>
+<p>案例：A公司股价10元/股，公告：分红0.2元/股。分红前，指数按10元/股计算点数；分红后，指数按9.8元/股计算点数，相当于股价下跌0.2元。这0.2元分红，通过现金分红的方式给到了指数基金。</p>
+<p>当然，案例中分红后指数肯定是下跌的，因为持有的股票价格已经下跌；但是指数基金拿到了这0.2元/股的分红后，指数基金的净值自然就上涨了。</p>
+<p>所以，不管指数涨跌，只要成分股有分红，指数基金就能分到钱。而这些钱是否直接当做基金分红给到投资者，由基金管理人安排。</p>
+<p>由此看，<strong>指数基金的分红主要来自成分股分红</strong>，不管牛市还是熊市，只要成分股有分红指数基金就有分红，分红的前提是“基金份额净值增长率超过同期指数1%”。</p>
+<h3 id="既然基金有分红，怎么分呢"><a href="#既然基金有分红，怎么分呢" class="headerlink" title="既然基金有分红，怎么分呢"></a><strong>既然基金有分红，怎么分呢</strong></h3><p>基金分红的两种方式：<strong>1、现金分红；2、红利再投资</strong>。</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/20220804174247.png" alt></p>
+<p>现金分红：基金份额不会有变化，但是基金的净值会降低。</p>
+<p>案例：持有1000份A基金，1元/份，分红公告：现金分红0.1元/份。分红以后，你的账户变900元A基金，100元现金，持仓为1000份A基金，基金的净值变为0.9，也就是价格变为0.9元/份。</p>
+<p>红利再投资：把分红的钱，转换为相应的基金份额，基金份额增加，基金的净值同样会降低。</p>
+<p>案例：持有1000份A基金，1元/份，分红公告：分红0.1元/份，分红方式为红利再投资。分红以后，你的账户变900元A基金，100元现金，基金单位净值变成0.9；同时，管理人会把100元现金全部买入A基金（111份），这时你的账户权益还是1000元，但是持仓变为1111份A基金。</p>
+<p>国内发行的公募基金产品，<strong>默认分红方式为现金分红</strong>，但是分红之前你会收到基金管理人的通知，这时可自主选择你想要的方式。</p>
+<h3 id="分红方式如何选"><a href="#分红方式如何选" class="headerlink" title="分红方式如何选"></a><strong>分红方式如何选</strong></h3><p>看好后市，选择红利再投资更有优势。你持有的份额更多，上涨带来的收益更大；红利再投资由于未发生现金流出，所以不用收取申购费用，有省下一笔交易成本。</p>
+<p>看空后市，选择现金分红。规避市场下跌风险，获利了结，还免了赎回费用，一举两得。</p>
+<h3 id="基金分红到底好不好"><a href="#基金分红到底好不好" class="headerlink" title="基金分红到底好不好"></a><strong>基金分红到底好不好</strong></h3><p>1、基金分红就是左手的钱放到右手，不管分红多少，不会影响基金的总收益，因为分红是已实现的收益，于现金的形式保存在基金中，分还是不分取决于基金管理人。</p>
+<p>2、能够实现基金分红说明这只基金在过往的业绩不错，但是并不是作为判断基金未来走势的依据，投资基金之前得综合考量。</p>
+<p>3、长期投资，选择红利再投资更优，省了交易成本还享受投资“复利”。</p>
+<p>通过以上对比分析，同学们是否发现基金分红实际是一种中性事件，并没有带来额外的收益，分钱走人还是红利再投资，<strong>哪种方式更优，完全取决于投资者对后市的看法</strong>。</p>
+<p><strong>总结</strong></p>
+<p>无论是股票还是主动基金或是指数基金，<strong>分红的前提就是盈利</strong>，即使是指数基金，如果基金运营很差，假若个股有分红，受制于基金亏钱，还是得把成分股的分红用来弥补亏损，与投资者无缘。</p>
+<p><strong>本文转载自</strong>:<a href="https://mp.weixin.qq.com/s?__biz=MzU1MzkyOTA4MA==&mid=2247483811&idx=1&sn=8719e72d811042fddac5e8656704c7cf&chksm=fbea11b4cc9d98a20aeb90217fe3cb4df3e3a3166471de543c65b1c56617af3076dfb8aced43&token=590923884&lang=zh_CN#rd" target="_blank" rel="noopener">ETF之家</a></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>基金分红</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可转债双低网格轮动策略</title>
+    <url>/17.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>网格交易存在三个不足之处: 破网、资金利用率不高和交易成本高。</p>
+<p>而可转债，下有债性保底，T+0交易，佣金成本低，是最适合的网格品种。</p>
+<p>但是单一的可转债网格仍然面临很多问题：比如资金利用率低，对具体转债的选择要求高，网格参数设置的容错性差等等。</p>
+<p>今天给大家分享的可转债双低网格轮动策略，可以很大程度上解决刚说的这些问题。</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/63d0f703918fa0ec4e182390710779e43f6ddbee.jpeg" alt="img"></p>
+<p>为了大家能很好地理解这个策略，今天的内容包括五大部分：双低网格轮动策略的定义和原理、操作步骤、策略技巧、适合人群以及风险应对。</p>
+<h3 id="一、什么是双低网格轮动策略"><a href="#一、什么是双低网格轮动策略" class="headerlink" title="一、什么是双低网格轮动策略"></a><strong>一、什么是双低网格轮动策略</strong></h3><p>双低网格轮动策略，是指在双低转债中，选取价格较低并且股性较强的一批可转债（最少5只、一般10只，最多20只），按相同仓位建立底仓摊大饼，并利用网格条件单进行反复低买高卖获取差价；当某只转债突破网格上限结束交易后，轮入另一只符合条件的双低转债并开启网格交易。</p>
+<p>它的原理是什么？犇犇总结了5点：</p>
+<p>1、<strong>选择低价的双低转债</strong>，比如价格不超过120元。网格区间下限为100元（或接近100元），由转债的100元债券底作为安全性的保证，向下破网的概率小，即使破网被套，解套也更容易。</p>
+<p>2、<strong>在双低转债中，参考“弹性”这个指标，选出股性更强的品种</strong>。股性强，则跟随正股波动得越厉害，满足了网格标的首要条件—“底部震荡”。</p>
+<p>3、<strong>通过定期或实时的轮动，解决了向上破网、踏空行情的困扰</strong>。因为越快向上破网，越快完成一笔网格交易，才能轮动开启第二笔网格。由于网格都是以赚钱结束交易，因此每笔网格耗时越短、资金周转越快，收益率就越高。</p>
+<p>4、关于资金利用率的问题：单一转债的网格，资金闲置较多，影响账户整体收益。<strong>通过摊大饼，多只转债公用资金池**</strong>，预留的现金比例就可以大幅减少。尤其是我们选择不同行业、不同概念（尽量选择热门概念）的转债，它们的价格波动方向形成互补，也就是有的涨、有的跌，那么资金的利用效率会更高**，所需备用资金更少。</p>
+<p>5、双低网格轮动策略具有传统摊大饼的优势，比如分散风险，能抓住板块轮动的机会。但同时，<strong>建仓条件比传统的双低策略宽松，市场在高位震荡的时候仍然能捕捉到交易机会。</strong></p>
+<h3 id="二、双低网格轮动策略操作步骤"><a href="#二、双低网格轮动策略操作步骤" class="headerlink" title="二、双低网格轮动策略操作步骤"></a><strong>二、双低网格轮动策略操作步骤</strong></h3><p>共3步：包括筛选标的、建立底仓并设置网格策略，以及轮动调仓</p>
+<p><strong>第一步，筛选标的</strong></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/9c16fdfaaf51f3de2ffcf736cf7ed0153b2979b4.jpeg" alt="img"></p>
+<ul>
+<li>打开宁稳网，点击“转债-策略”</li>
+<li>“含强赎”前面的“√”，取消</li>
+<li>转债价格＜112，转股溢价率&lt;30%</li>
+</ul>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/42166d224f4a20a4e42317decac2b828720ed000.jpeg" alt="img"></p>
+<ul>
+<li>按 “弹性”指标由高到低进行排序</li>
+<li>排除剩余年限不足1年的转债</li>
+<li>行业相同的，仅选取“弹性”数值最大的一只，“弹性”数值相同选价格最低的一只</li>
+</ul>
+<p><strong>第二步，建立底仓、完成网格策略设置</strong></p>
+<p>建立底仓：按照第一步筛选出来的转债标的，买入相同数量建立底仓，每只转债的底仓数量建议是10手（深市换算成张，1手=10张）或10手的整数倍，最低5手。</p>
+<p>咱们以10手底仓为例，设置网格条件单：</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/fcfaaf51f3deb48fd3772ee9a98f1a232df57801.jpeg" alt="img"></p>
+<p>价格区间为（100~120）元，基准价110元，上涨1元或1%卖出，下跌1元或1%买入，每次委托的数量是1手。如果底仓是5手，则涨跌±2元或±2%委托，每次委托数量是1手。</p>
+<p><strong>第三步，轮动调仓</strong></p>
+<p>根据以上设置的网格，当某只转债涨到120元，底仓全部卖出，这只转债的网格就以盈利结束了。这时可以轮入新的符合条件的转债并类似设置好网格条件单。</p>
+<p>一般根据券商交易软件的网格成交提醒，在一笔网格结束后轮入新的标的并开启网格。如果没有时间盯盘并且大饼持有转债数量较多，也可以做定期轮动。</p>
+<h3 id="三、策略的4点技巧"><a href="#三、策略的4点技巧" class="headerlink" title="三、策略的4点技巧"></a><strong>三、策略的4点技巧</strong></h3><p>1、大饼的数量最少5只。<strong>数量太少，一方面容易造成资金利用率不高，另一方面很难获得板块轮动的收益</strong>。但最多也不宜超过30只。</p>
+<p>2、如果筛选出的标的不足5只，<strong>可以适当放宽价格标准</strong>。比如筛选的转债价格上调到略高于120元，基准价120元，网格区间（110,130）。</p>
+<p>3、对于<strong>有下修预期的入选标的，可以只拿部分底仓做网格降低成本</strong>，剩余部分博取网格上限以上的高收益。比如建仓20手，仅用10手做网格。</p>
+<p>4、当市场极度悲观，有部分<strong>优质转债跌到百元以下，这类转债并不适合该策略</strong>，更适合买入并持有。</p>
+<h3 id="四、策略适合人群"><a href="#四、策略适合人群" class="headerlink" title="四、策略适合人群"></a><strong>四、策略适合人群</strong></h3><p>是否适合该策略，可以参考以下几点：</p>
+<ul>
+<li>首先，双低网格轮动策略，是利用网格交易，在安全性较高的低价区间内进行高抛低吸，每笔网格以赚钱结束，亏钱概率极低。所以<strong>本策略适合所有投资者，特别是中低风险投资者。但网格策略容易错过暴涨的机会，所以未必是追求暴富的激进投资者的良选</strong>。</li>
+<li>其次，本策略不需要太多的股票知识，但仍然<strong>要有一定的可转债基础</strong>。</li>
+<li>第三，<strong>本策略不需要盯盘，不需要频繁手工操作</strong>，基本属于忙人闲时策略。</li>
+<li>最后，资金投入方面，如果按照最少5只转债摊大饼，选最低仓位，大约需要3万元。<strong>金额、规模太小，策略会受到限制，收益率会受影响</strong>。</li>
+</ul>
+<h3 id="五、策略的风险及应对"><a href="#五、策略的风险及应对" class="headerlink" title="五、策略的风险及应对"></a><strong>五、策略的风险及应对</strong></h3><p>双低网格轮动策略主要有两大风险：</p>
+<p>1、<strong><em>高价转债做网格交易，可能会发生向下破网被套；同时高价债需时刻防止强赎的发生</em></strong>，这是可转债网格交易的最大风险。</p>
+<p>因此该策略在双低基础上需严格选择价格低的转债进行网格轮动。</p>
+<p>2、<strong><em>低价转债容易踩雷，触发信用风险。</em></strong>因此建议大饼数量不少于5只，对于高风险的品种尽量回避或者是降低仓位。</p>
+<p>好了，今天双低网格轮动策略的五大问题就是这些。使用中还有不够完善的地方，犇犇再做策略升级。</p>
+<p><strong>特别提醒：该策略是犇犇刚研究出来的新策略，并无太多历史数据支撑，请谨慎选择！</strong></p>
+<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1729076477762303077&wfr=spider&for=pc" target="_blank" rel="noopener">百家号</a></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>可转债</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何有效地控制投资仓位和成本</title>
+    <url>/20.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>假设我们看中某一个标的, 认定它未来一定会上涨 打算在它身上投入10万元左右的资金, 该标的当前价位在43块, 然而我们希望能在40以下买到它, 买入价格自然是越低越好</p>
+<p>那么问题来了 我们当前价买入还是等它下跌到期望价格再买呢?  由于市场短期走势不好判断 有可能下跌到40以下 也有可能从43块反弹持续上涨</p>
+<p>那怎么办?</p>
+<p>有人首先想到的是分批买入 比如将10万分成十份或者五份  然后越跌越买, 采用这种方式的前提是 要有很大把握它接下来会下跌 否则一旦上涨 仓位过低 悔恨不已</p>
+<p>所以在这种情况下 <strong>分批买入</strong> 并不适合</p>
+<p>为了解决这个问题 我们可以考虑使用<strong>底仓+网格</strong>的策略</p>
+<h3 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h3><p>以股票为例 我们可以在当前价位将10万元全部投入建立底仓, 假设10万元一共买了100股, 如果接下来上涨 则万事大吉 坐等收益 </p>
+<p>如果接下来下跌到40 那么我们就追加买入100股, 然后等价格反弹上涨到43以上时卖出100股, 这一百股是第一批买入的那部分</p>
+<p>这一通操作下来 你的成本立马就降到了40元 同时仓位也控制在了计划的10万元</p>
+<p>一个是40元的100股 一个是43元的100股  这个流程大家可以细细琢磨一下</p>
+<hr>
+<p>以上是理论 然而实际情况有可能是:</p>
+<p>股票下跌到42后就开始反弹上涨, 或者在42左右来回震荡, 那么这种情况我们就可以将用于追加的资金分成多份 然后分批买入 比如42买一部分 如果跌到41那就再买一部分, 追加了多少份 等反弹上涨时就卖出多少份</p>
+<p>那么 也就是说 在实际过程中 我们只能做到尽量降低成本 很难精准到心里预估值 因为市场不会按照我们的想法来走 </p>
+<p>这部分追加的资金 相当于是一种网格 用低价的部分替换高价的部分 从而实现降低成本</p>
+<h3 id="策略使用条件"><a href="#策略使用条件" class="headerlink" title="策略使用条件"></a>策略使用条件</h3><ul>
+<li><p>标的处在低估区域 下跌空间有限</p>
+</li>
+<li><p>有多余的资金用于网格追加</p>
+</li>
+<li><p>该标的未来大概率会上涨</p>
+</li>
+</ul>
+<h3 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h3><p>这种底仓+网格替换策略非常适合那种 便宜买了某个标的 但还想更便宜的投资者</p>
+<p>利用好该策略 可以有效降低投资成本 </p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>人性总是贪婪的 喜欢拿过去对比  涨了 就庆幸自己及时买了  跌了就抱怨自己买早了</p>
+<p>对于人性的丑陋 我们要做的不是克服它打压它 而是想方设法来适应它</p>
+<p>对于投资而言 适当的策略就是一种很好的方式</p>
+<p>在投资过程中 我们需要保持心态的平稳   许许多多的投资者也许都有过类似的经历:  原本想捡个大便宜 到最后等来了不得不高位买入的结局 恨不得扇自己两巴掌  反正要么就是买早了 要么就没买够 各种情况 马失前蹄  </p>
+<p>这很影响心态的  投资伤钱就算了 居然还伤身体  这哪能忍呢</p>
+<p>一旦我们有了策略的配合 具备了一定的挽回余地 那情况就完全不一样了 进可攻退可守  这局面  岂不美哉  舒服的很~</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>投资策略</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>代客理财的收益来源</title>
     <url>/19.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>代客理财 顾名思义 就是受客户委托帮忙投资理财 </p>
@@ -481,6 +522,54 @@
 ]]></content>
       <tags>
         <tag>投资分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>现金流量表中三个指标的正负分析</title>
+    <url>/18.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="现金流表三个指标"><a href="#现金流表三个指标" class="headerlink" title="现金流表三个指标"></a>现金流表三个指标</h3><p>现金流量表中一共有三个指标:</p>
+<ul>
+<li><strong>经营现金流</strong>:  用于生产经营的现金</li>
+<li><strong>投资现金流</strong>: 用于投资的现金</li>
+<li><strong>筹资活动现金流</strong>: 贷款筹资的现金</li>
+</ul>
+<p>这三个指标数据值有正有负, <strong>正数表示现金流入 负数表示现金流出</strong></p>
+<h3 id="分析公司经营状况"><a href="#分析公司经营状况" class="headerlink" title="分析公司经营状况"></a>分析公司经营状况</h3><p>那我们如何通过现金流量表中这三个指标来大体分析该公司当前的经营状况呢?</p>
+<p>首先 公司的发展大体可分为以下几个阶段:</p>
+<ul>
+<li><strong>市场开发期</strong></li>
+<li><strong>高速增长期</strong></li>
+<li><strong>产品成熟期</strong></li>
+<li><strong>产业衰退期</strong></li>
+</ul>
+<h5 id="市场开发期"><a href="#市场开发期" class="headerlink" title="市场开发期"></a>市场开发期</h5><p>这一时期为开发产品以及开拓市场  公司需要流出大量资金用于生产经营和投资活动, 所以经营现金流和投资现金流一般为负数</p>
+<p>同时为了满足现金需求 公司会从各个渠道贷款筹资 这笔钱由外部流入公司, 筹资活动现金流为正数</p>
+<h5 id="高速增长期"><a href="#高速增长期" class="headerlink" title="高速增长期"></a>高速增长期</h5><p>在高速增长期，产品销售快速增长，经营现金流量为正</p>
+<p>同时为扩大市场份额企业不断追加投资，投资现金流量依然为负</p>
+<p>但经营现金流量很可能不足以满足投资所需现金，因此筹资活动现金流量可能继续为正</p>
+<h5 id="产品成熟期"><a href="#产品成熟期" class="headerlink" title="产品成熟期"></a>产品成熟期</h5><p>在产品成熟期，产品销售稳定，并进入投资回收期，因此经营现金流量和投资现金流量均为正</p>
+<p>由于现金被用来偿债，筹资现金流量为负</p>
+<h3 id="产业衰退期"><a href="#产业衰退期" class="headerlink" title="产业衰退期"></a>产业衰退期</h3><p>进入衰退期后，市场萎缩，销售下降，企业经营活动现金流量为负</p>
+<p>企业大规模收回投资并偿还债务，因此企业投资活动现金流量为正，筹资活动现金流量为负</p>
+<h3 id="情况细分"><a href="#情况细分" class="headerlink" title="情况细分"></a>情况细分</h3><ol>
+<li><strong>经营现金净流为”＋”，投资现金净流为”＋”，筹资现金净流为”＋”。</strong>这种公司主营业务在现金流方面能自给自足，投资方面收益状况良好，这时仍然进行融资，如果没有新的投资机会，会造成资金浪费。</li>
+<li><strong>经营现金净流为”＋”，投资现金净流为”＋”，筹资现金净流为”-“。</strong>这种公司经营和投资良性循环，融资活动的负数是由于偿还借款引起，不足已威胁企业的财务状况。表明企业进入产品成熟期。在这个阶段产品销售市场稳定，已进入投资回收期，但很多外部资金需要偿还，以保持企业良好的资信程度。</li>
+<li><strong>经营现金净流为”＋”，投资现金净流为”-“，筹资现金净流为”＋”。</strong>这种公司经营状况良好，通过筹集资金进行投资，企业往往是处于扩张时期，这时产品迅速占领市场，销售呈现快速上升趋势，表现为经营活动中大量货币资金回笼，同时为了扩大市场份额，企业仍需要大量追加投资，而仅靠经营活动现金流量净额可能无法满足所需投资，必须筹集必要的外部资金作为补充，这时我们应着重分析投资项目的盈利能力。</li>
+<li><strong>经营现金净流为”＋”，投资现金净流为”-“，筹资现金净流为”-“。</strong>这种公司经营状况虽然良好，但企业一方面在偿还以前的债务，另一方面要继续投资，所以应随时关注经营状况的变化，防止财务状况恶化。</li>
+<li><strong>经营现金净流为”-“，投资现金净流为”＋”，筹资现金净流为”＋”。</strong>这种公司靠借钱维持生产经营的需要，财务状况可能恶化，应着重分析投资活动现金净流入是来自投资收益还是收回投资，如果是后者，企业的形势将非常严峻。</li>
+<li><strong>经营现金净流为”-“，投资现金净流为”＋”，筹资现金净流为”-“。</strong>经营活动已经发出危险信号，如果投资活动现金流入主要来自收回投资，则企业将处于破产的边缘，需要高度警惕。可以认为企业处于衰退期。这个时期的特征是：市场萎缩，产品销售的市场占有率下降，经营活动现金流入小于流出，同时企业为了应付债务不得不大规模收回投资以弥 补现金的不足。</li>
+<li><strong>经营现金净流为”-“，投资现金净流为”-“，筹资现金净流为”＋”。</strong>企业靠借债维持日常经营和生产规模的扩大，财务状况很不稳定，如果是处于投入期的企业，一旦度过难关，还可能有发展，在这个阶段企业需要投入大量资金，形成生产能力，开拓市场，其资金来源只有举债、融资等筹资活动。如果是成长期或稳定期的企业，则非常危险。</li>
+<li><strong>经营现金净流为”-“，投资现金净流为”-“，筹资现金净流为”-“。</strong>企业财务状况危急，必须及时扭转，这样的情况往往发生在扩张时期，由于市场变化导致经营状况恶化，加上扩张时投入了大量资金，会使企业陷入进退两难的境地。</li>
+</ol>
+<h3 id="净利润和经营现金流"><a href="#净利润和经营现金流" class="headerlink" title="净利润和经营现金流"></a>净利润和经营现金流</h3><p>我们在财务报表上经常会看到净利润和经营现金流差额过大的现象</p>
+<p>公司明明赚了很多钱 但手上持有的现金却没有那么多  说明还有钱没有收回来</p>
+<p>那这部分差额是算在了应收账款上</p>
+<p>以上内容 部分转载自:<a href="https://m.weibo.cn/status/JgGLke9JG" target="_blank" rel="noopener">https://m.weibo.cn/status/JgGLke9JG</a></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>财务分析</tag>
       </tags>
   </entry>
   <entry>
@@ -536,92 +625,18 @@
       </tags>
   </entry>
   <entry>
-    <title>现金流量表中三个指标的正负分析</title>
-    <url>/18.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="现金流表三个指标"><a href="#现金流表三个指标" class="headerlink" title="现金流表三个指标"></a>现金流表三个指标</h3><p>现金流量表中一共有三个指标:</p>
-<ul>
-<li><strong>经营现金流</strong>:  用于生产经营的现金</li>
-<li><strong>投资现金流</strong>: 用于投资的现金</li>
-<li><strong>筹资活动现金流</strong>: 贷款筹资的现金</li>
-</ul>
-<p>这三个指标数据值有正有负, <strong>正数表示现金流入 负数表示现金流出</strong></p>
-<h3 id="分析公司经营状况"><a href="#分析公司经营状况" class="headerlink" title="分析公司经营状况"></a>分析公司经营状况</h3><p>那我们如何通过现金流量表中这三个指标来大体分析该公司当前的经营状况呢?</p>
-<p>首先 公司的发展大体可分为以下几个阶段:</p>
-<ul>
-<li><strong>市场开发期</strong></li>
-<li><strong>高速增长期</strong></li>
-<li><strong>产品成熟期</strong></li>
-<li><strong>产业衰退期</strong></li>
-</ul>
-<h5 id="市场开发期"><a href="#市场开发期" class="headerlink" title="市场开发期"></a>市场开发期</h5><p>这一时期为开发产品以及开拓市场  公司需要流出大量资金用于生产经营和投资活动, 所以经营现金流和投资现金流一般为负数</p>
-<p>同时为了满足现金需求 公司会从各个渠道贷款筹资 这笔钱由外部流入公司, 筹资活动现金流为正数</p>
-<h5 id="高速增长期"><a href="#高速增长期" class="headerlink" title="高速增长期"></a>高速增长期</h5><p>在高速增长期，产品销售快速增长，经营现金流量为正</p>
-<p>同时为扩大市场份额企业不断追加投资，投资现金流量依然为负</p>
-<p>但经营现金流量很可能不足以满足投资所需现金，因此筹资活动现金流量可能继续为正</p>
-<h5 id="产品成熟期"><a href="#产品成熟期" class="headerlink" title="产品成熟期"></a>产品成熟期</h5><p>在产品成熟期，产品销售稳定，并进入投资回收期，因此经营现金流量和投资现金流量均为正</p>
-<p>由于现金被用来偿债，筹资现金流量为负</p>
-<h3 id="产业衰退期"><a href="#产业衰退期" class="headerlink" title="产业衰退期"></a>产业衰退期</h3><p>进入衰退期后，市场萎缩，销售下降，企业经营活动现金流量为负</p>
-<p>企业大规模收回投资并偿还债务，因此企业投资活动现金流量为正，筹资活动现金流量为负</p>
-<h3 id="情况细分"><a href="#情况细分" class="headerlink" title="情况细分"></a>情况细分</h3><ol>
-<li><strong>经营现金净流为”＋”，投资现金净流为”＋”，筹资现金净流为”＋”。</strong>这种公司主营业务在现金流方面能自给自足，投资方面收益状况良好，这时仍然进行融资，如果没有新的投资机会，会造成资金浪费。</li>
-<li><strong>经营现金净流为”＋”，投资现金净流为”＋”，筹资现金净流为”-“。</strong>这种公司经营和投资良性循环，融资活动的负数是由于偿还借款引起，不足已威胁企业的财务状况。表明企业进入产品成熟期。在这个阶段产品销售市场稳定，已进入投资回收期，但很多外部资金需要偿还，以保持企业良好的资信程度。</li>
-<li><strong>经营现金净流为”＋”，投资现金净流为”-“，筹资现金净流为”＋”。</strong>这种公司经营状况良好，通过筹集资金进行投资，企业往往是处于扩张时期，这时产品迅速占领市场，销售呈现快速上升趋势，表现为经营活动中大量货币资金回笼，同时为了扩大市场份额，企业仍需要大量追加投资，而仅靠经营活动现金流量净额可能无法满足所需投资，必须筹集必要的外部资金作为补充，这时我们应着重分析投资项目的盈利能力。</li>
-<li><strong>经营现金净流为”＋”，投资现金净流为”-“，筹资现金净流为”-“。</strong>这种公司经营状况虽然良好，但企业一方面在偿还以前的债务，另一方面要继续投资，所以应随时关注经营状况的变化，防止财务状况恶化。</li>
-<li><strong>经营现金净流为”-“，投资现金净流为”＋”，筹资现金净流为”＋”。</strong>这种公司靠借钱维持生产经营的需要，财务状况可能恶化，应着重分析投资活动现金净流入是来自投资收益还是收回投资，如果是后者，企业的形势将非常严峻。</li>
-<li><strong>经营现金净流为”-“，投资现金净流为”＋”，筹资现金净流为”-“。</strong>经营活动已经发出危险信号，如果投资活动现金流入主要来自收回投资，则企业将处于破产的边缘，需要高度警惕。可以认为企业处于衰退期。这个时期的特征是：市场萎缩，产品销售的市场占有率下降，经营活动现金流入小于流出，同时企业为了应付债务不得不大规模收回投资以弥 补现金的不足。</li>
-<li><strong>经营现金净流为”-“，投资现金净流为”-“，筹资现金净流为”＋”。</strong>企业靠借债维持日常经营和生产规模的扩大，财务状况很不稳定，如果是处于投入期的企业，一旦度过难关，还可能有发展，在这个阶段企业需要投入大量资金，形成生产能力，开拓市场，其资金来源只有举债、融资等筹资活动。如果是成长期或稳定期的企业，则非常危险。</li>
-<li><strong>经营现金净流为”-“，投资现金净流为”-“，筹资现金净流为”-“。</strong>企业财务状况危急，必须及时扭转，这样的情况往往发生在扩张时期，由于市场变化导致经营状况恶化，加上扩张时投入了大量资金，会使企业陷入进退两难的境地。</li>
-</ol>
-<h3 id="净利润和经营现金流"><a href="#净利润和经营现金流" class="headerlink" title="净利润和经营现金流"></a>净利润和经营现金流</h3><p>我们在财务报表上经常会看到净利润和经营现金流差额过大的现象</p>
-<p>公司明明赚了很多钱 但手上持有的现金却没有那么多  说明还有钱没有收回来</p>
-<p>那这部分差额是算在了应收账款上</p>
-<p>以上内容 部分转载自:<a href="https://m.weibo.cn/status/JgGLke9JG" target="_blank" rel="noopener">https://m.weibo.cn/status/JgGLke9JG</a></p>
+    <title>可以T+0交易的ETF</title>
+    <url>/22.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="市面上常见的可T-0交易的ETF品种"><a href="#市面上常见的可T-0交易的ETF品种" class="headerlink" title="市面上常见的可T+0交易的ETF品种"></a>市面上常见的可T+0交易的ETF品种</h3><p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/6e60ae057255c658417df01ef08d3f6c_720w.jpeg" alt="6e60ae057255c658417df01ef08d3f6c_720w"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/e245010254d8936c0912cac28582cc22_720w.jpeg" alt="e245010254d8936c0912cac28582cc22_720w"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/0f818ef32934d55703e7d510827edf4a_720w.png" alt="0f818ef32934d55703e7d510827edf4a_720w"></p>
+<h2 id="T-1交易的投资品种如何实现T-0"><a href="#T-1交易的投资品种如何实现T-0" class="headerlink" title="T+1交易的投资品种如何实现T+0"></a>T+1交易的投资品种如何实现T+0</h2><p>一个词 <strong>底仓</strong></p>
+<p>没错 无论是ETF还是股票, 只要持有底仓, 就能实现T+0交易</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
       <tags>
-        <tag>财务分析</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何有效地控制投资仓位和成本</title>
-    <url>/20.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>假设我们看中某一个标的, 认定它未来一定会上涨 打算在它身上投入10万元左右的资金, 该标的当前价位在43块, 然而我们希望能在40以下买到它, 买入价格自然是越低越好</p>
-<p>那么问题来了 我们当前价买入还是等它下跌到期望价格再买呢?  由于市场短期走势不好判断 有可能下跌到40以下 也有可能从43块反弹持续上涨</p>
-<p>那怎么办?</p>
-<p>有人首先想到的是分批买入 比如将10万分成十份或者五份  然后越跌越买, 采用这种方式的前提是 要有很大把握它接下来会下跌 否则一旦上涨 仓位过低 悔恨不已</p>
-<p>所以在这种情况下 <strong>分批买入</strong> 并不适合</p>
-<p>为了解决这个问题 我们可以考虑使用<strong>底仓+网格</strong>的策略</p>
-<h3 id="具体操作"><a href="#具体操作" class="headerlink" title="具体操作"></a>具体操作</h3><p>以股票为例 我们可以在当前价位将10万元全部投入建立底仓, 假设10万元一共买了100股, 如果接下来上涨 则万事大吉 坐等收益 </p>
-<p>如果接下来下跌到40 那么我们就追加买入100股, 然后等价格反弹上涨到43以上时卖出100股, 这一百股是第一批买入的那部分</p>
-<p>这一通操作下来 你的成本立马就降到了40元 同时仓位也控制在了计划的10万元</p>
-<p>一个是40元的100股 一个是43元的100股  这个流程大家可以细细琢磨一下</p>
-<hr>
-<p>以上是理论 然而实际情况有可能是:</p>
-<p>股票下跌到42后就开始反弹上涨, 或者在42左右来回震荡, 那么这种情况我们就可以将用于追加的资金分成多份 然后分批买入 比如42买一部分 如果跌到41那就再买一部分, 追加了多少份 等反弹上涨时就卖出多少份</p>
-<p>那么 也就是说 在实际过程中 我们只能做到尽量降低成本 很难精准到心里预估值 因为市场不会按照我们的想法来走 </p>
-<p>这部分追加的资金 相当于是一种网格 用低价的部分替换高价的部分 从而实现降低成本</p>
-<h3 id="策略使用条件"><a href="#策略使用条件" class="headerlink" title="策略使用条件"></a>策略使用条件</h3><ul>
-<li><p>标的处在低估区域 下跌空间有限</p>
-</li>
-<li><p>有多余的资金用于网格追加</p>
-</li>
-<li><p>该标的未来大概率会上涨</p>
-</li>
-</ul>
-<h3 id="适用人群"><a href="#适用人群" class="headerlink" title="适用人群"></a>适用人群</h3><p>这种底仓+网格替换策略非常适合那种 便宜买了某个标的 但还想更便宜的投资者</p>
-<p>利用好该策略 可以有效降低投资成本 </p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>人性总是贪婪的 喜欢拿过去对比  涨了 就庆幸自己及时买了  跌了就抱怨自己买早了</p>
-<p>对于人性的丑陋 我们要做的不是克服它打压它 而是想方设法来适应它</p>
-<p>对于投资而言 适当的策略就是一种很好的方式</p>
-<p>在投资过程中 我们需要保持心态的平稳   许许多多的投资者也许都有过类似的经历:  原本想捡个大便宜 到最后等来了不得不高位买入的结局 恨不得扇自己两巴掌  反正要么就是买早了 要么就没买够 各种情况 马失前蹄  </p>
-<p>这很影响心态的  投资伤钱就算了 居然还伤身体  这哪能忍呢</p>
-<p>一旦我们有了策略的配合 具备了一定的挽回余地 那情况就完全不一样了 进可攻退可守  这局面  岂不美哉  舒服的很~</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>投资策略</tag>
+        <tag>ETF</tag>
       </tags>
   </entry>
   <entry>
@@ -669,21 +684,6 @@
 ]]></content>
       <tags>
         <tag>融资融券</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可以T+0交易的ETF</title>
-    <url>/22.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="市面上常见的可T-0交易的ETF品种"><a href="#市面上常见的可T-0交易的ETF品种" class="headerlink" title="市面上常见的可T+0交易的ETF品种"></a>市面上常见的可T+0交易的ETF品种</h3><p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/6e60ae057255c658417df01ef08d3f6c_720w.jpeg" alt="6e60ae057255c658417df01ef08d3f6c_720w"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/e245010254d8936c0912cac28582cc22_720w.jpeg" alt="e245010254d8936c0912cac28582cc22_720w"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/0f818ef32934d55703e7d510827edf4a_720w.png" alt="0f818ef32934d55703e7d510827edf4a_720w"></p>
-<h2 id="T-1交易的投资品种如何实现T-0"><a href="#T-1交易的投资品种如何实现T-0" class="headerlink" title="T+1交易的投资品种如何实现T+0"></a>T+1交易的投资品种如何实现T+0</h2><p>一个词 <strong>底仓</strong></p>
-<p>没错 无论是ETF还是股票, 只要持有底仓, 就能实现T+0交易</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>ETF</tag>
       </tags>
   </entry>
   <entry>
@@ -761,21 +761,6 @@
       </tags>
   </entry>
   <entry>
-    <title>彩票研究之定位胆</title>
-    <url>/24.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="定位胆"><a href="#定位胆" class="headerlink" title="定位胆"></a>定位胆</h2><ul>
-<li>热度排行前四码通常会在十期以内开出</li>
-<li>第五六名号码 开出的几率较低</li>
-</ul>
-<p>但是百十个三码连合的话，准确率大幅下降，但是也没关系，我们可以做容错，比如三定位分别取前四名开，取五六名杀， 一共六组，容错0-5 能刮痧刮掉8注号码</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>彩票研究之我的缩水方案汇总</title>
     <url>/25.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="第一种方案"><a href="#第一种方案" class="headerlink" title="第一种方案"></a>第一种方案</h2><ol>
@@ -807,6 +792,21 @@
 <p>比如，你可能有杀一码的能力，那不妨花一百来块钱买五个牛人杀号，加上你自己的一个杀号一共六个号，再去掉重复的号码，最后能剩四个杀码，这时我们得到了一个复式六码，对其进行投注即可</p>
 <p>当然了， 如果你有其他的稳定条件，也可以加入进行缩水以减少投注成本</p>
 <p>虽然这种方案也不是次次都能成功，但是配合倍投计划，基本上能抹平失误率</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>彩票研究之定位胆</title>
+    <url>/24.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="定位胆"><a href="#定位胆" class="headerlink" title="定位胆"></a>定位胆</h2><ul>
+<li>热度排行前四码通常会在十期以内开出</li>
+<li>第五六名号码 开出的几率较低</li>
+</ul>
+<p>但是百十个三码连合的话，准确率大幅下降，但是也没关系，我们可以做容错，比如三定位分别取前四名开，取五六名杀， 一共六组，容错0-5 能刮痧刮掉8注号码</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -873,85 +873,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于定位杀号之遗漏图杀号法</title>
-    <url>/27.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="遗漏图杀号法"><a href="#遗漏图杀号法" class="headerlink" title="遗漏图杀号法"></a>遗漏图杀号法</h2><p>一般来说 出了遗漏0以外其他的三连号出现的概率极低 如果碰上可以杀掉</p>
-<p>基本上不会出现四连号 三连号是极限<br>以3D定位胆为例 遗漏周期9概率10%</p>
-<ul>
-<li>平行三连 可杀</li>
-<li>出现上三连 那么接下来遗漏会高过白线</li>
-<li>出现下三连 那么接下来会在最后第三个号左右出号</li>
-<li>出现两组双蛋  那么接下来会在蛋附近出号</li>
-<li>总之遗漏图通常是两条腿形状 尤其是高脚腿  如果出现肿瘤腿(一条腿几个号) 那么另一条腿通常在白线内出号</li>
-</ul>
-<p>关于上三连和下三连的规律 ，有的时候也会出现不正常的情况 所谓事出反常必有妖，以下三连为例，我们往前翻，如果发现前面上三连不正常 那么接下来的下三连也可能不正常</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/8271ab3041d560969da2b60d5d277af0.jpg" alt="8271ab3041d560969da2b60d5d277af0"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/e997645f620902ad8614081e30821538.jpg" alt="e997645f620902ad8614081e30821538"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/jhjh.jpg" alt></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/0eacbef574bc70533af5b1f2160e5ee3.jpg" alt="0eacbef574bc70533af5b1f2160e5ee3"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/uuujk.jpg" alt></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/588ce35634dbeb2e4ebd7732d4f9947b.jpg" alt="588ce35634dbeb2e4ebd7732d4f9947b"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/hghg.jpg" alt></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/a54f944ead543451016f9a682db4141a.jpg" alt="a54f944ead543451016f9a682db4141a"></p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>彩票研究之缩水技巧</title>
-    <url>/28.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="缩水步骤"><a href="#缩水步骤" class="headerlink" title="缩水步骤"></a>缩水步骤</h2><h3 id="第一步大底-350注左右"><a href="#第一步大底-350注左右" class="headerlink" title="第一步大底 350注左右"></a>第一步大底 350注左右</h3><ul>
-<li>精准杀一码</li>
-<li>三胆码和三码二三重两组号码重复剩余号码 三码=01 用两组进行容错</li>
-<li>模糊杀码 三码=01</li>
-<li>六码重合+杀万能七码=123<br>这一步主要取决于杀号的准确率<h3 id="第二步大底瘦身-227注左右"><a href="#第二步大底瘦身-227注左右" class="headerlink" title="第二步大底瘦身 227注左右"></a>第二步大底瘦身 227注左右</h3></li>
-<li>三组六码=123</li>
-<li>六码重合号码=123</li>
-<li>八码=123 稳</li>
-<li>精准再杀一码</li>
-<li>杀和值<h3 id="第三步-大缩水-125注左右"><a href="#第三步-大缩水-125注左右" class="headerlink" title="第三步 大缩水 125注左右"></a>第三步 大缩水 125注左右</h3></li>
-<li>杀两码合</li>
-<li>杀和尾<h3 id="第四步-75注左右"><a href="#第四步-75注左右" class="headerlink" title="第四步 75注左右"></a>第四步 75注左右</h3></li>
-<li>百十个位杀号 参与容错</li>
-<li>杀小概率指标</li>
-<li>再杀一码</li>
-<li>和尾属性 跨度属性 三胆码三个条件容错0-2</li>
-</ul>
-<p>如果第一步杀一码未中 我们可以反向缩水 和上面的配合使用 能缩水到100注左右</p>
-<ul>
-<li>精准定一码</li>
-<li>三胆码和三码二三重两组号码重复剩余号码 三码=01</li>
-<li>模糊杀码 三码=01</li>
-<li>杀概率小指标</li>
-<li>杀和值</li>
-</ul>
-<p>两者450注大底包中组合 我接下来需要找到更多稳定的条件 让号码变得更少</p>
-<h2 id="关于杀和尾"><a href="#关于杀和尾" class="headerlink" title="关于杀和尾"></a>关于杀和尾</h2><p>在遗漏图中当前屏幕中出现一次的那个杀掉</p>
-<h2 id="关于四码出01的选择"><a href="#关于四码出01的选择" class="headerlink" title="关于四码出01的选择"></a>关于四码出01的选择</h2><p>可以从杀二码指标中 选择热度排行前四幅图中的四个号 准确率较高</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>彩票研究之杀和尾技巧</title>
-    <url>/29.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="杀和尾技巧"><a href="#杀和尾技巧" class="headerlink" title="杀和尾技巧"></a>杀和尾技巧</h2><p>使用7和尾指标 选取最冷和最热的两组号 然后分别去头去尾 留下五个号码 然后取重复的部分杀除</p>
-<p>比如:<br>0135679 重合01359<br>0134589</p>
-<p>如果不去头尾的话 下期大概率可能出0或9两个和尾值</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>什么是基金套利 该怎么操作套利?</title>
     <url>/3.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>你好，我是廊坊周润发，主业养猫，副业赚钱。</p>
@@ -997,6 +918,85 @@
       </tags>
   </entry>
   <entry>
+    <title>彩票研究之缩水技巧</title>
+    <url>/28.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="缩水步骤"><a href="#缩水步骤" class="headerlink" title="缩水步骤"></a>缩水步骤</h2><h3 id="第一步大底-350注左右"><a href="#第一步大底-350注左右" class="headerlink" title="第一步大底 350注左右"></a>第一步大底 350注左右</h3><ul>
+<li>精准杀一码</li>
+<li>三胆码和三码二三重两组号码重复剩余号码 三码=01 用两组进行容错</li>
+<li>模糊杀码 三码=01</li>
+<li>六码重合+杀万能七码=123<br>这一步主要取决于杀号的准确率<h3 id="第二步大底瘦身-227注左右"><a href="#第二步大底瘦身-227注左右" class="headerlink" title="第二步大底瘦身 227注左右"></a>第二步大底瘦身 227注左右</h3></li>
+<li>三组六码=123</li>
+<li>六码重合号码=123</li>
+<li>八码=123 稳</li>
+<li>精准再杀一码</li>
+<li>杀和值<h3 id="第三步-大缩水-125注左右"><a href="#第三步-大缩水-125注左右" class="headerlink" title="第三步 大缩水 125注左右"></a>第三步 大缩水 125注左右</h3></li>
+<li>杀两码合</li>
+<li>杀和尾<h3 id="第四步-75注左右"><a href="#第四步-75注左右" class="headerlink" title="第四步 75注左右"></a>第四步 75注左右</h3></li>
+<li>百十个位杀号 参与容错</li>
+<li>杀小概率指标</li>
+<li>再杀一码</li>
+<li>和尾属性 跨度属性 三胆码三个条件容错0-2</li>
+</ul>
+<p>如果第一步杀一码未中 我们可以反向缩水 和上面的配合使用 能缩水到100注左右</p>
+<ul>
+<li>精准定一码</li>
+<li>三胆码和三码二三重两组号码重复剩余号码 三码=01</li>
+<li>模糊杀码 三码=01</li>
+<li>杀概率小指标</li>
+<li>杀和值</li>
+</ul>
+<p>两者450注大底包中组合 我接下来需要找到更多稳定的条件 让号码变得更少</p>
+<h2 id="关于杀和尾"><a href="#关于杀和尾" class="headerlink" title="关于杀和尾"></a>关于杀和尾</h2><p>在遗漏图中当前屏幕中出现一次的那个杀掉</p>
+<h2 id="关于四码出01的选择"><a href="#关于四码出01的选择" class="headerlink" title="关于四码出01的选择"></a>关于四码出01的选择</h2><p>可以从杀二码指标中 选择热度排行前四幅图中的四个号 准确率较高</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于定位杀号之遗漏图杀号法</title>
+    <url>/27.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="遗漏图杀号法"><a href="#遗漏图杀号法" class="headerlink" title="遗漏图杀号法"></a>遗漏图杀号法</h2><p>一般来说 出了遗漏0以外其他的三连号出现的概率极低 如果碰上可以杀掉</p>
+<p>基本上不会出现四连号 三连号是极限<br>以3D定位胆为例 遗漏周期9概率10%</p>
+<ul>
+<li>平行三连 可杀</li>
+<li>出现上三连 那么接下来遗漏会高过白线</li>
+<li>出现下三连 那么接下来会在最后第三个号左右出号</li>
+<li>出现两组双蛋  那么接下来会在蛋附近出号</li>
+<li>总之遗漏图通常是两条腿形状 尤其是高脚腿  如果出现肿瘤腿(一条腿几个号) 那么另一条腿通常在白线内出号</li>
+</ul>
+<p>关于上三连和下三连的规律 ，有的时候也会出现不正常的情况 所谓事出反常必有妖，以下三连为例，我们往前翻，如果发现前面上三连不正常 那么接下来的下三连也可能不正常</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/8271ab3041d560969da2b60d5d277af0.jpg" alt="8271ab3041d560969da2b60d5d277af0"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/e997645f620902ad8614081e30821538.jpg" alt="e997645f620902ad8614081e30821538"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/jhjh.jpg" alt></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/0eacbef574bc70533af5b1f2160e5ee3.jpg" alt="0eacbef574bc70533af5b1f2160e5ee3"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/uuujk.jpg" alt></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/588ce35634dbeb2e4ebd7732d4f9947b.jpg" alt="588ce35634dbeb2e4ebd7732d4f9947b"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/hghg.jpg" alt></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/a54f944ead543451016f9a682db4141a.jpg" alt="a54f944ead543451016f9a682db4141a"></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>彩票研究之杀和尾技巧</title>
+    <url>/29.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="杀和尾技巧"><a href="#杀和尾技巧" class="headerlink" title="杀和尾技巧"></a>杀和尾技巧</h2><p>使用7和尾指标 选取最冷和最热的两组号 然后分别去头去尾 留下五个号码 然后取重复的部分杀除</p>
+<p>比如:<br>0135679 重合01359<br>0134589</p>
+<p>如果不去头尾的话 下期大概率可能出0或9两个和尾值</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>彩票研究之六码出一只三码</title>
     <url>/30.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="六码出一至三码"><a href="#六码出一至三码" class="headerlink" title="六码出一至三码"></a>六码出一至三码</h2><p>三胆码指标中 热度排行第三的图30期命中概率在83%<br>遗漏图排行第一的图30期命中概率在70%</p>
@@ -1023,38 +1023,19 @@
       </tags>
   </entry>
   <entry>
-    <title>彩票研究之定胆方法汇总</title>
-    <url>/31.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="定胆方法"><a href="#定胆方法" class="headerlink" title="定胆方法"></a>定胆方法</h2><h3 id="指标共振冷码定胆"><a href="#指标共振冷码定胆" class="headerlink" title="指标共振冷码定胆"></a>指标共振冷码定胆</h3><p>单码的概率在25% 接近30%</p>
-<ul>
-<li>‌整体处于下降趋势</li>
-<li>‌概率30%左右</li>
-<li>‌mcnd和ADX指标同时死叉</li>
+    <title>关于彩票的盈利概率</title>
+    <url>/32.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="盈利思考"><a href="#盈利思考" class="headerlink" title="盈利思考"></a>盈利思考</h2><h3 id="彩票盈利存在的问题"><a href="#彩票盈利存在的问题" class="headerlink" title="彩票盈利存在的问题"></a>彩票盈利存在的问题</h3><ul>
+<li><p>如果单纯的将七码复式直接做三期倍投计划 即便计划的成功率高达80% 也很难盈利</p>
+</li>
+<li><p>十个倍投计划中 一旦错了两个计划 那么就会把之前七个计划的盈利全部都吐出来</p>
+</li>
 </ul>
-<h3 id="指标共振热码定胆"><a href="#指标共振热码定胆" class="headerlink" title="指标共振热码定胆"></a>指标共振热码定胆</h3><ul>
-<li>‌整体趋势向上</li>
-<li>‌概率25%以上</li>
-<li>‌ADX红线上翘</li>
-<li>‌MCDN上升通畅</li>
-</ul>
-<h3 id="趋势到位分析法"><a href="#趋势到位分析法" class="headerlink" title="趋势到位分析法"></a>趋势到位分析法</h3><ul>
-<li>‌适用于30-40%概率的条件</li>
-<li>‌K线和ADX压力支撑点</li>
-<li>‌mcdn死叉 如果放量是红柱子更佳</li>
-</ul>
-<h3 id="‌连红战法-适合3D"><a href="#‌连红战法-适合3D" class="headerlink" title="‌连红战法 适合3D"></a>‌连红战法 适合3D</h3><ul>
-<li>‌整体趋势向上</li>
-<li>‌尾部开出一个</li>
-<li>‌看二阶0-0遗漏数值在周期内 也或者周期附近</li>
-<li>经测试 3D准确率很高 快乐八13选五测试 k线位于在布林下方准确率较高</li>
-</ul>
-<h3 id="红√战法"><a href="#红√战法" class="headerlink" title="红√战法"></a>红√战法</h3><ul>
-<li>‌整体趋势向上 并处于布林上方</li>
-<li>‌看二阶0-2图 也需要满足条件</li>
-<li>‌看ADX红线往上翘</li>
-</ul>
-<h3 id="kdj上穿法"><a href="#kdj上穿法" class="headerlink" title="kdj上穿法"></a>kdj上穿法</h3><p>‌使用杀二码和 独胆指标<br>‌kdj三线上穿并且尾部开出红柱子<br>‌</p>
-<h3 id="kdj下穿共振法"><a href="#kdj下穿共振法" class="headerlink" title="kdj下穿共振法"></a>kdj下穿共振法</h3><p>kdj下穿配合macd下穿法 指标共振<br>‌</p>
+<h3 id="问题解决方案"><a href="#问题解决方案" class="headerlink" title="问题解决方案"></a>问题解决方案</h3><p>想要解决这个问题 有两种办法 一个是减少倍投期数 另一个就是提升产出投入比 将比率提升至4:1以上 </p>
+<p>关于提升产出投入比 要么想办法增加超额收益 比如将一注七码拆分成两注六码 运气好的话两注同时中奖获取两倍收益 要么降低投入成本 也就是尽可能地缩水从而减少投注注数</p>
+<p>我个人认为 福彩3D和排列三的投注 至少将七码缩水至四码才有可盈利空间</p>
+<p>而我目前具体的缩水方案是将多个高成功率的计划进行整合</p>
+<p>比如两个复式七码计划加一个杀一码计划 </p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1072,27 +1053,6 @@
 <p>那成功率的提升也不是那么的容易 不过这里有一个变相提升的方案 那就是一旦当前的三期计划没有中 那么就变成六期计划延续到下一个计划  </p>
 <p>让下一个计划的成功来抹平上一个计划的错误  如果下个计划还错 那就变成九期计划延续到下下个计划  连续两期计划已经是极限  如果连续三次都未中  那需要好好改进一下选号方案了</p>
 <p>这种抹平方式对资金要求较高</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于彩票的盈利概率</title>
-    <url>/32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="盈利思考"><a href="#盈利思考" class="headerlink" title="盈利思考"></a>盈利思考</h2><h3 id="彩票盈利存在的问题"><a href="#彩票盈利存在的问题" class="headerlink" title="彩票盈利存在的问题"></a>彩票盈利存在的问题</h3><ul>
-<li><p>如果单纯的将七码复式直接做三期倍投计划 即便计划的成功率高达80% 也很难盈利</p>
-</li>
-<li><p>十个倍投计划中 一旦错了两个计划 那么就会把之前七个计划的盈利全部都吐出来</p>
-</li>
-</ul>
-<h3 id="问题解决方案"><a href="#问题解决方案" class="headerlink" title="问题解决方案"></a>问题解决方案</h3><p>想要解决这个问题 有两种办法 一个是减少倍投期数 另一个就是提升产出投入比 将比率提升至4:1以上 </p>
-<p>关于提升产出投入比 要么想办法增加超额收益 比如将一注七码拆分成两注六码 运气好的话两注同时中奖获取两倍收益 要么降低投入成本 也就是尽可能地缩水从而减少投注注数</p>
-<p>我个人认为 福彩3D和排列三的投注 至少将七码缩水至四码才有可盈利空间</p>
-<p>而我目前具体的缩水方案是将多个高成功率的计划进行整合</p>
-<p>比如两个复式七码计划加一个杀一码计划 </p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1227,6 +1187,46 @@
       </tags>
   </entry>
   <entry>
+    <title>彩票研究之定胆方法汇总</title>
+    <url>/31.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="定胆方法"><a href="#定胆方法" class="headerlink" title="定胆方法"></a>定胆方法</h2><h3 id="指标共振冷码定胆"><a href="#指标共振冷码定胆" class="headerlink" title="指标共振冷码定胆"></a>指标共振冷码定胆</h3><p>单码的概率在25% 接近30%</p>
+<ul>
+<li>‌整体处于下降趋势</li>
+<li>‌概率30%左右</li>
+<li>‌mcnd和ADX指标同时死叉</li>
+</ul>
+<h3 id="指标共振热码定胆"><a href="#指标共振热码定胆" class="headerlink" title="指标共振热码定胆"></a>指标共振热码定胆</h3><ul>
+<li>‌整体趋势向上</li>
+<li>‌概率25%以上</li>
+<li>‌ADX红线上翘</li>
+<li>‌MCDN上升通畅</li>
+</ul>
+<h3 id="趋势到位分析法"><a href="#趋势到位分析法" class="headerlink" title="趋势到位分析法"></a>趋势到位分析法</h3><ul>
+<li>‌适用于30-40%概率的条件</li>
+<li>‌K线和ADX压力支撑点</li>
+<li>‌mcdn死叉 如果放量是红柱子更佳</li>
+</ul>
+<h3 id="‌连红战法-适合3D"><a href="#‌连红战法-适合3D" class="headerlink" title="‌连红战法 适合3D"></a>‌连红战法 适合3D</h3><ul>
+<li>‌整体趋势向上</li>
+<li>‌尾部开出一个</li>
+<li>‌看二阶0-0遗漏数值在周期内 也或者周期附近</li>
+<li>经测试 3D准确率很高 快乐八13选五测试 k线位于在布林下方准确率较高</li>
+</ul>
+<h3 id="红√战法"><a href="#红√战法" class="headerlink" title="红√战法"></a>红√战法</h3><ul>
+<li>‌整体趋势向上 并处于布林上方</li>
+<li>‌看二阶0-2图 也需要满足条件</li>
+<li>‌看ADX红线往上翘</li>
+</ul>
+<h3 id="kdj上穿法"><a href="#kdj上穿法" class="headerlink" title="kdj上穿法"></a>kdj上穿法</h3><p>‌使用杀二码和 独胆指标<br>‌kdj三线上穿并且尾部开出红柱子<br>‌</p>
+<h3 id="kdj下穿共振法"><a href="#kdj下穿共振法" class="headerlink" title="kdj下穿共振法"></a>kdj下穿共振法</h3><p>kdj下穿配合macd下穿法 指标共振<br>‌</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>福彩快乐八高性价比玩法推荐</title>
     <url>/36.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="快乐八"><a href="#快乐八" class="headerlink" title="快乐八"></a>快乐八</h2><p>推荐高性价比玩法</p>
@@ -1256,34 +1256,6 @@
 <p>但是拆开分别追 每组都是一个独立的计划 那么 则能盈利</p>
 <p>其实每期的计划倍投表也差不多是拆开追 东边不亮西边亮</p>
 <p>那么我们可不可以考虑将快乐八也拆分成子集来追 只要确保当期至少有一个能中</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于快了八选五玩法四胆拖的投注技巧</title>
-    <url>/38.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关于选五四胆拖的投注技巧"><a href="#关于选五四胆拖的投注技巧" class="headerlink" title="关于选五四胆拖的投注技巧"></a>关于选五四胆拖的投注技巧</h2><p>由于我们无法精准命中具体的四个胆码 那么我们可以求其次使用撒网的方式来投注 具体方案有两种</p>
-<h3 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一</h3><p>从六选四趋势图中找出最近走热的六码 然后将其拆分成15注四码单式 追踪投注一段时间 这相比四选四或者五选四来说容易太多了</p>
-<p>假设四胆10拖 每注20元 一共15注300元 如果亏损了就加倍 一旦盈利了就从头开始</p>
-<h3 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二</h3><p>相比上面方案一需要守号等待 有没有每天都能中奖的方案呢 答案是有的 而且成功率还很高<br>我们需要找出三组三选二  并确保其中两组能命中两码 允许其中一组没命中 只有一种情况允许两组未中 那就是其中一组号码三码全中 如下</p>
-<ul>
-<li>1-1-2 未中</li>
-<li>2-2-0 三组中两组</li>
-<li>0-1-3 三组中一组 但其中一组需要全中</li>
-</ul>
-<p>然后三组形成三角△关系  每两组组成一个六码 一共组成三组六码  最后将六码拆分成15注四码即可<br>假设四胆10拖 每注20元 一共3✘15注 900元 如果亏损了就加倍 一旦盈利了就从头开始</p>
-<p>方案二对三选二的功底要求非常高<br>如果想每天享受中奖的快感 那么前期练好三选二非常非常关键</p>
-<h3 id="方案三"><a href="#方案三" class="headerlink" title="方案三"></a>方案三</h3><p>使用冷热排序表 追踪六中四 等待三期遗漏后入手</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/a1ddf868cfe1d79caa2f4159454b7fb9.jpg" alt="a1ddf868cfe1d79caa2f4159454b7fb9"></p>
-<h2 id="关于降低成本-提高胆拖性价比"><a href="#关于降低成本-提高胆拖性价比" class="headerlink" title="关于降低成本 提高胆拖性价比"></a>关于降低成本 提高胆拖性价比</h2><p>一注四胆全拖152 盈利17500元</p>
-<p>假如我们使用20拖 也就是40元 最少一注应该也有4000元  如果投注四倍 也就有16000元</p>
-<p>这样一来 我们完全可以采用倍投四胆20拖的方式  因为和全拖奖金差不多 </p>
-<p>而且 一旦运气好拖码多中了一两个  那么倍投胆拖的盈利会远超一注全拖   可谓是有极大的性价比  </p>
-<p>前期资金量不多时 可以采用40块小成本 后面再采用四倍起投</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1330,13 +1302,26 @@
       </tags>
   </entry>
   <entry>
-    <title>快乐八杀号技巧</title>
-    <url>/40.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="快乐八杀号技巧"><a href="#快乐八杀号技巧" class="headerlink" title="快乐八杀号技巧"></a>快乐八杀号技巧</h2><ul>
-<li>杀除30周期中 所有的冷号 每期冷号中有两到三个号码下期可能开出 看看有没有办法将他们找出来用于 投注三选二</li>
-<li>从30周期中所有热号趋势图中 找出走势位于布林曲线下方的号 这些号码基本都能全杀中 这些号会归纳到下期的冷号区域</li>
+    <title>关于快了八选五玩法四胆拖的投注技巧</title>
+    <url>/38.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="关于选五四胆拖的投注技巧"><a href="#关于选五四胆拖的投注技巧" class="headerlink" title="关于选五四胆拖的投注技巧"></a>关于选五四胆拖的投注技巧</h2><p>由于我们无法精准命中具体的四个胆码 那么我们可以求其次使用撒网的方式来投注 具体方案有两种</p>
+<h3 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一</h3><p>从六选四趋势图中找出最近走热的六码 然后将其拆分成15注四码单式 追踪投注一段时间 这相比四选四或者五选四来说容易太多了</p>
+<p>假设四胆10拖 每注20元 一共15注300元 如果亏损了就加倍 一旦盈利了就从头开始</p>
+<h3 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二</h3><p>相比上面方案一需要守号等待 有没有每天都能中奖的方案呢 答案是有的 而且成功率还很高<br>我们需要找出三组三选二  并确保其中两组能命中两码 允许其中一组没命中 只有一种情况允许两组未中 那就是其中一组号码三码全中 如下</p>
+<ul>
+<li>1-1-2 未中</li>
+<li>2-2-0 三组中两组</li>
+<li>0-1-3 三组中一组 但其中一组需要全中</li>
 </ul>
-<p>三角弓箭法 在三选二趋势图中 存在无法突破固定两码的胆 该胆下期大概率不会开</p>
+<p>然后三组形成三角△关系  每两组组成一个六码 一共组成三组六码  最后将六码拆分成15注四码即可<br>假设四胆10拖 每注20元 一共3✘15注 900元 如果亏损了就加倍 一旦盈利了就从头开始</p>
+<p>方案二对三选二的功底要求非常高<br>如果想每天享受中奖的快感 那么前期练好三选二非常非常关键</p>
+<h3 id="方案三"><a href="#方案三" class="headerlink" title="方案三"></a>方案三</h3><p>使用冷热排序表 追踪六中四 等待三期遗漏后入手</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/a1ddf868cfe1d79caa2f4159454b7fb9.jpg" alt="a1ddf868cfe1d79caa2f4159454b7fb9"></p>
+<h2 id="关于降低成本-提高胆拖性价比"><a href="#关于降低成本-提高胆拖性价比" class="headerlink" title="关于降低成本 提高胆拖性价比"></a>关于降低成本 提高胆拖性价比</h2><p>一注四胆全拖152 盈利17500元</p>
+<p>假如我们使用20拖 也就是40元 最少一注应该也有4000元  如果投注四倍 也就有16000元</p>
+<p>这样一来 我们完全可以采用倍投四胆20拖的方式  因为和全拖奖金差不多 </p>
+<p>而且 一旦运气好拖码多中了一两个  那么倍投胆拖的盈利会远超一注全拖   可谓是有极大的性价比  </p>
+<p>前期资金量不多时 可以采用40块小成本 后面再采用四倍起投</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1367,17 +1352,13 @@
       </tags>
   </entry>
   <entry>
-    <title>快乐八玩转四中二</title>
-    <url>/41.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>除了利用趋势分析选号之外 我们还可以利用大数据次数统计分析来抓取四码 比如开奖次数 遗漏次数 跟随次数等</p>
-<p>找一个号码会每期变动的方形表格 由于号码的分布是随机无规律的 那么我们可以不变应万变 守住其中一个角落收割就行</p>
-<p>这就好比是池塘里到处游动的鱼🐠 我们无法知晓鱼儿游动的方向 但是我们只要在一个落脚点守株待兔 那么随着时间的推移 鱼儿自然落入我们的网中<br>通过守株待兔的方式在随机中找稳定 最后使用计划倍投来实现盈利</p>
-<h2 id="具体实操"><a href="#具体实操" class="headerlink" title="具体实操"></a>具体实操</h2><p>方案一 利用好号码跟随统计表 守住固定的四码位置  当四个码位中 连续三次未中两个号 那么此时开始入手投注 做六期倍投计划</p>
-<p>方案二 使用冷热表  同样的 每期开奖后表格数据都会发生改变 我们也只需要守住固定的四个码位  等待时机进行计划倍投即可</p>
-<p>可喜的是 由于热号区域开出的号码相对较多 我们在找位置的时候能更加具有针对性 命中率也更高</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/bf750f93a8c276d72f2806fffc2fe206.jpg" alt></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/80d4bd01a8bb15749f0ae5c1bb7c8a0d.jpg" alt>)<img src="https://gitee.com/songjianzaina/site_img/raw/master/img/99041e89aae40aeab74f9ff1bca32dff.jpg" alt></p>
-<p>这种守株待兔的方法不仅能用来四选二 还能六选四   结合选五胆拖 是个不错的选择</p>
+    <title>快乐八杀号技巧</title>
+    <url>/40.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="快乐八杀号技巧"><a href="#快乐八杀号技巧" class="headerlink" title="快乐八杀号技巧"></a>快乐八杀号技巧</h2><ul>
+<li>杀除30周期中 所有的冷号 每期冷号中有两到三个号码下期可能开出 看看有没有办法将他们找出来用于 投注三选二</li>
+<li>从30周期中所有热号趋势图中 找出走势位于布林曲线下方的号 这些号码基本都能全杀中 这些号会归纳到下期的冷号区域</li>
+</ul>
+<p>三角弓箭法 在三选二趋势图中 存在无法突破固定两码的胆 该胆下期大概率不会开</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1392,6 +1373,25 @@
 <p>任意一码与固定两码搭配 形态一致且当期为遗漏状态的话 那么下期固定两码中有一个胆码</p>
 <p>如果形态不一致 那么固定两码中一个胆码也没有 可以排除这两码</p>
 <p>任意一码与固定两码搭配 形态一致且当期为中出状态的话 那么下期固定两码都不会中出</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>快乐八玩转四中二</title>
+    <url>/41.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>除了利用趋势分析选号之外 我们还可以利用大数据次数统计分析来抓取四码 比如开奖次数 遗漏次数 跟随次数等</p>
+<p>找一个号码会每期变动的方形表格 由于号码的分布是随机无规律的 那么我们可以不变应万变 守住其中一个角落收割就行</p>
+<p>这就好比是池塘里到处游动的鱼🐠 我们无法知晓鱼儿游动的方向 但是我们只要在一个落脚点守株待兔 那么随着时间的推移 鱼儿自然落入我们的网中<br>通过守株待兔的方式在随机中找稳定 最后使用计划倍投来实现盈利</p>
+<h2 id="具体实操"><a href="#具体实操" class="headerlink" title="具体实操"></a>具体实操</h2><p>方案一 利用好号码跟随统计表 守住固定的四码位置  当四个码位中 连续三次未中两个号 那么此时开始入手投注 做六期倍投计划</p>
+<p>方案二 使用冷热表  同样的 每期开奖后表格数据都会发生改变 我们也只需要守住固定的四个码位  等待时机进行计划倍投即可</p>
+<p>可喜的是 由于热号区域开出的号码相对较多 我们在找位置的时候能更加具有针对性 命中率也更高</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/bf750f93a8c276d72f2806fffc2fe206.jpg" alt></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/80d4bd01a8bb15749f0ae5c1bb7c8a0d.jpg" alt>)<img src="https://gitee.com/songjianzaina/site_img/raw/master/img/99041e89aae40aeab74f9ff1bca32dff.jpg" alt></p>
+<p>这种守株待兔的方法不仅能用来四选二 还能六选四   结合选五胆拖 是个不错的选择</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1438,23 +1438,6 @@
       </tags>
   </entry>
   <entry>
-    <title>信用卡使用常识汇总</title>
-    <url>/48.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="信用卡"><a href="#信用卡" class="headerlink" title="信用卡"></a>信用卡</h2><ul>
-<li>关于还款宽限期:  有的三天, 有的五天, 各银行不同</li>
-<li>全额还款: 宽限期间全额还款，不算逾期，且免息, 在宽限期后至下个账单日之间全额还款, 不算逾期, 但会有罚息, 过了账单日后全额还款, 算逾期且罚息</li>
-<li>最低还款: 宽限期内最低还款，不算逾期，但会有利息,  在宽限期后最低还款, 算逾期且有罚息</li>
-<li>假如产生了循环利息, 优质客户首次可以减免 需要联系信用卡客服, 需要注意的是 一般仅限于近三个月内的账单, 时间太久的罚息退不了</li>
-<li>如果信用卡到期补发新卡 邮寄错了地址，可以直接让快递原路退回，联系信用卡客服重新邮寄，而不是自己另外花钱转送</li>
-</ul>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>信用卡</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关于彩票的投资策略</title>
     <url>/45.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>彩票策略 多种技巧结合在一起 提升中奖概率</p>
@@ -1485,101 +1468,20 @@
       </tags>
   </entry>
   <entry>
-    <title>快乐八利用趋势K线图进行定胆和杀号</title>
-    <url>/47.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h2><p>第一步 三选二趋势图对比分析找出胆码和冷码</p>
-<p>可以在10期热码中找 通过对比发现41为胆 以此类推</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/53e93ae4da746d7514e46c720bbff4ae.jpg" alt="53e93ae4da746d7514e46c720bbff4ae"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/d528cbb7ff6bc9e1e756730dd3a4c636.jpg" alt="d528cbb7ff6bc9e1e756730dd3a4c636"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/hgfhfh.jpg" alt></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/lllllf.jpg" alt></p>
-<p>第二步 对筛选出的胆码 三选三分析趋势 找到最优的四个胆码 排除不对劲的号码 比如66</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/e1ce014987fff24b3ccf61315f6dd077.jpg" alt="e1ce014987fff24b3ccf61315f6dd077"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/16c47546b8ae8c55f03d242fa78db9d0.jpg" alt="16c47546b8ae8c55f03d242fa78db9d0"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/d1aa0d6e145b3248e69bf37a8c5308f4.jpg" alt="d1aa0d6e145b3248e69bf37a8c5308f4"></p>
-<p>如果我们找出了多个胆码 需要投注选五选六 可以使用五选五或者六选六趋势分析 以及配合杀出的号 </p>
-<p>比如55和73来加强验证 为求 必出所有胆码 </p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/tytytt.jpg" alt></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/ead127656e32884c234b370ce9b24b66.jpg" alt="ead127656e32884c234b370ce9b24b66"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/ydfg.jpg" alt></p>
-<p>关于杀号也是同样的道理 根据已知的号码进行综合分析 </p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/74cb51ac4552650b91c26fd98abbf460.jpg" alt="74cb51ac4552650b91c26fd98abbf460"></p>
-<p><img src="/!%5B%5D(https:/gitee.com/songjianzaina/site_img/raw/master/img/fgfgdi.jpg)" alt="6017a5989741d53fa75231b28e9e4df6"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/c2151d5ebba436a3899e3069916ee04d.jpg" alt="c2151d5ebba436a3899e3069916ee04d"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/8abda0697dd7a8c0a4dfc13cf3d4dad7.jpg" alt="8abda0697dd7a8c0a4dfc13cf3d4dad7"></p>
-<p>通过三选三趋势图一条大红柱可以判断必然至少一个下期不开</p>
-<p>61 69 70<br>55 61 69<br>55 61 70</p>
-<p>注: 我发现24197期的 32 64 69 三码走势图可以用于杀号筛选</p>
-<p>我们在选取单式比如五选五 可以增加一个号码也就是选六个号然后查看六选六趋势图 对比看是否有某个号码下期可能不开</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>彩票</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ETF套利之场内对场内套利</title>
-    <url>/5.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>之前给大家介绍过有关基金场内外的套利, 详情可参见<a href="https://money.newban.cn/3.html">《什么是基金套利？该怎么操作套利》</a></p>
-<p>这次给大家介绍另外一种套利方式, 那就是纯场内套利, 以中概互联网ETF为例子, 给大家介绍</p>
-<p><strong>聊聊中概互联ETF的场内套利</strong></p>
-<p>先说传统的场内外套利：由于抄底大军过于强大，基金公司的外汇额度快耗光了。交银中国互联网LOF已暂停申购，易方达中证海外互联网每天限额300块，而且它是ETF联接基金。</p>
-<p>很显然，此路不通。</p>
-<p><strong>但是，场内对场内却出现了较强的套利信号。</strong></p>
-<p>从具体行情来看，中概互联ETF（513050）经常出现较高溢价；成立不久的中概互联ETF（159605），成交额也很活跃，却经常出现不小的折价。</p>
-<p>以前段时间为例，就出现套利机会。3月14日，中概互联ETF（159605）折价4.23%，中概互联ETF（513050）却溢价7.57%。可以卖出后者，买入前者。</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/17faf727bfb70b13fdfd2826.png!800.jpg" alt="img"></p>
-<p>具体指数对比、ETF测评，老张之前跟大家写过，成分股比较相似，主要是对单一个股的仓位限制。尤其是后两者，相似度更高，可以构成套利交易。</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/17faf727c4770993fe446889.png!800.jpg" alt="img"></p>
-<p>以近3个交易日为例，中概互联ETF（513050）涨幅为7.35%、0%、-1.47%，中概互联ETF（159605）则是两天涨停，第3天-1.24%。</p>
-<p><strong>这里面固然有指数成分股权重的差异，但是也有较高的折溢价问题。</strong>相比之下，套利多赚10%以上。</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/17faf727b9970fc3fbb53b84.png!800.jpg" alt="img"></p>
-<p>它们的套利交易也很方便，几只中概互联ETF都是T+0交易。也就是随时可以买，也可以随时卖。</p>
-<p><strong>因此，当两只ETF出现明显的折溢价之差时，比如折溢价率差8-10%以上，可以执行套利的策略</strong>。</p>
-<p><strong>其套利逻辑在于：</strong></p>
-<p><strong>溢价过高的ETF，上涨时涨的少，下跌时跌的多；溢价低的甚至出现折价的ETF，上涨时会补涨，或者下跌时跌的少。</strong></p>
-<p>最后，两者之间的折溢价率之差缩小</p>
-<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>该套利方式适合持有底仓套利, 若上涨则多赚 若下跌则少跌</p>
-<p>本文转载自<a href="https://xueqiu.com/1571617732/214824223" target="_blank" rel="noopener">https://xueqiu.com/1571617732/214824223</a></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>做空</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>策略组合之目标长投+回撤网格策略</title>
-    <url>/8.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>投资策略有很多, 大家听得最多的可能就是定投策略了, 定投主要分为以下两大类:</p>
-<ul>
-<li><strong>定期定额策略</strong>: 比如每月1号固定投资1000元</li>
-<li><strong>定期不定额策略</strong>: 比如每月1号根据投资标的净值涨跌买入不同额度资金, 跌得越多买的越多 反之减少投入资金</li>
+    <title>信用卡使用常识汇总</title>
+    <url>/48.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="信用卡"><a href="#信用卡" class="headerlink" title="信用卡"></a>信用卡</h2><ul>
+<li>关于还款宽限期:  有的三天, 有的五天, 各银行不同</li>
+<li>全额还款: 宽限期间全额还款，不算逾期，且免息, 在宽限期后至下个账单日之间全额还款, 不算逾期, 但会有罚息, 过了账单日后全额还款, 算逾期且罚息</li>
+<li>最低还款: 宽限期内最低还款，不算逾期，但会有利息,  在宽限期后最低还款, 算逾期且有罚息</li>
+<li>假如产生了循环利息, 优质客户首次可以减免 需要联系信用卡客服, 需要注意的是 一般仅限于近三个月内的账单, 时间太久的罚息退不了</li>
+<li>如果信用卡到期补发新卡 邮寄错了地址，可以直接让快递原路退回，联系信用卡客服重新邮寄，而不是自己另外花钱转送</li>
 </ul>
-<p>简单且行之有效的策略, 非常适合有固定收入的群体, 比如上班族</p>
-<p><strong>利用定投策略, 我们可以有效的降低投资成本, 再配合上市场估值,几乎可以秒杀大部分人</strong>,  比如整体市场估值低于50%的时候开启定投, 在50%以上则停止定投, 最后等到估值超过90%全部卖出</p>
-<p>但是市场是非常考验人性的, 人总是贪得无厌 跌的时候忍不住想买 想多吃点  涨的时候忍不住想卖 担心回撤错过了利润 , 我就是这种贪得无厌的人 </p>
-<p>一只股票或者基金在上涨的过程中绝对不是扶摇直上, 而是来回震荡着上涨的, 这种过山车的感觉, 对于任何一个投资者而言都不太好受, 于是我不禁思考 是否能在上涨回撤震荡过程加入网格策略来弥补内心的缺失感</p>
-<h3 id="网格策略"><a href="#网格策略" class="headerlink" title="网格策略"></a>网格策略</h3><p>简单举栗, 以某只股票为例, 比如我们在43块时投入了1万元, 当它回撤到40块时我们补了1万五, 回撤到38块时又补了2万元, 那么当股票反弹回40块时我们可以将38块买的2万元那部分卖出, 反弹回43块时将40块买的1万五那部分卖出, 最后涨到45元后将43块买的1万元那部分卖出  全部收网</p>
-<p>这种一格一格的买 一格一格的卖的投资手法, 我们称之为网格策略</p>
-<p><strong>这种策略非常适合震荡市场, 股票虽然没怎么上涨仅仅是来回波动, 我们也依然能获取收益</strong></p>
-<p>具体回撤多少买 也就是每一网的宽度, 这个自己来定 , 你可以选择百分比来买 不如每下跌5%买一份, 也可以选择股价来买, 比如每下跌5块</p>
-<p>同样的 你可以每一网投入相同的资金, 也可以跌的越多投入越多, 这个看自己的经济情况而定</p>
-<h3 id="目标长投"><a href="#目标长投" class="headerlink" title="目标长投"></a>目标长投</h3><p>网格策略可以让我们在震荡市场获取收益, 但它并不能成为我们的主要投资策略, 因为一旦收网后投资标的持续上涨, 那么可操作的空间就会非常小, 大头的利润压根吃不到, 也就是所谓的只能喝汤不能吃肉</p>
-<p><strong>要想吃肉, 那就必须长投, 也就是低位减仓 高位清仓, 这种利润一次下来非常可观</strong></p>
-<p>长投策略应该成为我们的主要投资策略, 而所谓的目标长投, 就是给投资标的定一个卖出的价格, 不到这个目标价咱不卖</p>
-<p>假设我们在43块买了一只股票, 有足够的把握认定这只股票能涨到100块以上, 那么 我们只需要静静等待那一天的到来即可</p>
-<p>但是 等待是煎熬的, 中途的反反复复可能让一部分人丧心病狂, 能坚持初心吗? 不好说</p>
-<h3 id="目标长投-回撤网格策略"><a href="#目标长投-回撤网格策略" class="headerlink" title="目标长投+回撤网格策略"></a>目标长投+回撤网格策略</h3><p>投资者也需要一些安慰剂, 而网格策略就是最好的安慰剂, 在等待的过程中配合网格策略应对来回的震荡, 享受长投利润的同时多捞取一部分利润,  这样 不至于在大幅回撤时懊恼不已, 不管涨与跌, 都稳如泰山, 幸福稳稳</p>
-<p>至于回撤多少买入, 根据自己的资金存量而定, <strong>在上涨趋势中 我个人认为 回撤逼近均线支撑点是个不错的位置</strong> </p>
-<p>目标长投+回撤网格策略 这种等待而又不失风度的组合策略 也许并不完美 不过没关系 策略本就用来完善的</p>
-<p>一个优良的策略 能让投资者不慌不忙 心情舒畅  如果你的策略做到了这一点, 那么它对于你而言就是好的策略</p>
-<h3 id="投资标的选择"><a href="#投资标的选择" class="headerlink" title="投资标的选择"></a>投资标的选择</h3><p>无论是网格策略还是长投策略, 我都极力推荐大家选择ETF(尤其是宽基ETF), 而非股票, 股票可能退市, ETF的生命力可不是股票能比的</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
       <tags>
-        <tag>投资策略</tag>
+        <tag>信用卡</tag>
       </tags>
   </entry>
   <entry>
@@ -1588,7 +1490,8 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>准备在网上开一个小店, 却被营业执照挡住了前进的步伐, 好在如今可以直接线上申请执照, 非常的方便。</p>
 <p>尤其是互联网工商营业执照, 足不出户即可办理, 无需实体店面地址, 只需要网店地址和店铺证明即可, 可以说是网店店主的福音, 算是大大降低了开店的门槛。</p>
 <p>当然各个地区的政策可能会有所不同, 这里以江西地区为例, 做一个简单演示</p>
-<h2 id="注册营业执照"><a href="#注册营业执照" class="headerlink" title="注册营业执照"></a>注册营业执照</h2><p>具体流程如下:</p>
+<h2 id="注册营业执照"><a href="#注册营业执照" class="headerlink" title="注册营业执照"></a>注册营业执照</h2><p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014123905575.png" alt="image-20251014123905575"></p>
+<p>具体流程如下:</p>
 <ol>
 <li><p>下载赣服通<code>App</code></p>
 <p>可自行到应用市场下载</p>
@@ -1600,15 +1503,16 @@
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251013164653524.png" alt="image-20251013164653524"></p>
 </li>
 <li><p>填写注册信息</p>
+<p>详细地址一栏可以不用精确到具体的门牌号, 只需要填写网址即可, 不过为了避免被税务局打电话, 最好还是在网址之前填上一个大致地址, 比如xxx县xxx镇 :</p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251013164904709.png" alt="image-20251013164904709"></p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251013165126721.png" alt="image-20251013165126721"></p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251013165231050.png" alt="image-20251013165231050"></p>
 <p>到这里, 有小伙伴可能会有疑问, 我都没有网店, 哪里来的店铺地址?</p>
 <p>目前拼多多和抖音小店都是支持个人身份证直接开店的, 我们可以先把店铺开通, 获取到店铺地址和开店证明, 等营业执照办下来了再升级为企业店铺</p>
-<p>提交申请后</p>
+<p>提交申请后会进入到个人信息以及经营场所证明上传页, 这里如实填写即可, 场所证明下文会有说明</p>
 </li>
 </ol>
-<ol start="3">
+<ol start="4">
 <li><p>等待审核</p>
 <p>提交申请后, 如果是工作日, 通常第二天就会有结果, 第二天我们登录赣服通<code>APP</code>, 进入到企业办理中的进入查询页面即可查看审核结果</p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251013170146934.png" alt="image-20251013170146934"></p>
@@ -1679,7 +1583,8 @@
 <h2 id="关于食品资质许可证办理"><a href="#关于食品资质许可证办理" class="headerlink" title="关于食品资质许可证办理"></a>关于食品资质许可证办理</h2><p>如果你的店铺涉及食品的销售, 则需要办理食品资质许可证</p>
 <p>网上申请办理具体流程如下:</p>
 <ol>
-<li><p>登录江西政务服务网</p>
+<li><p>登录<a href="https://www.jxzwfww.gov.cn/" target="_blank" rel="noopener">江西政务服务网</a></p>
+<p>官网: <a href="https://www.jxzwfww.gov.cn/" target="_blank" rel="noopener">点击进入</a></p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014092122616.png" alt="image-20251014092122616"></p>
 </li>
 <li><p>搜索关键词核发食品资质</p>
@@ -1702,6 +1607,8 @@
 <p>将准备好的电子材料上传, 然后点提交</p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014093302124.png" alt="image-20251014093302124"></p>
 </li>
+<li><p>等待审核</p>
+</li>
 </ol>
 <h3 id="材料模板参考"><a href="#材料模板参考" class="headerlink" title="材料模板参考"></a>材料模板参考</h3><p>大家可以将相应的模板打印出来自己填写好, 然后上传</p>
 <ol>
@@ -1716,11 +1623,123 @@
 </ol>
 <p>相应的模板PDF我已经准备好了, 大家可以自行下载:</p>
 <p>模板: <a href="https://url97.ctfile.com/d/21042697-155850567-c24f01?p=312306" target="_blank" rel="noopener">点击下载</a>  (访问密码: 312306)</p>
+<h2 id="关于营业执照的变更"><a href="#关于营业执照的变更" class="headerlink" title="关于营业执照的变更"></a>关于营业执照的变更</h2><p>比如需要修改经营地址, 名称变更, 法人变更等等</p>
+<p>同样可以登录江西政务服务网办理, 直接搜索对应关键词就行:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014115108528.png" alt="image-20251014115108528"></p>
+<p>或者直接登录<a href="https://fw.amr.jiangxi.gov.cn/" target="_blank" rel="noopener">江西省企业登记网络服务平台</a>办理:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014124001827.png" alt="image-20251014124001827"></p>
+<p>当然了还可以在赣服通APP上办理:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014124317267.png" alt="image-20251014124317267"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
       <tags>
         <tag>生意</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于商品返利的一些潜规则</title>
+    <url>/50.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="潜规则"><a href="#潜规则" class="headerlink" title="潜规则"></a>潜规则</h2><p>经常进货的朋友应该都参与过厂家促销活动，比如返利，进五千的货返两千。<br>有的小伙伴不禁产生疑问，为何不直接报价三千，整这么多弯弯绕绕干嘛？<br>对于厂商而言，好处不多说，变相促进产品销量是其一，再者引导消费者心理，消费者往往对于远低于市场价的产品容易冲动消费。</p>
+<p>对于中间商而言，可能有以下几种作用</p>
+<ul>
+<li>洗钱</li>
+<li>欺瞒消费者：比如你去商店买东西，老板说成本价卖给你，并把进货清单拿给你看，你信以为真，你以为你占了便宜，殊不知依然时冤大头。</li>
+<li>婚姻小金库：使用家庭公共财产消费，返利的金额进入自己小金库</li>
+</ul>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>返利</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>快乐八利用趋势K线图进行定胆和杀号</title>
+    <url>/47.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="具体方法"><a href="#具体方法" class="headerlink" title="具体方法"></a>具体方法</h2><p>第一步 三选二趋势图对比分析找出胆码和冷码</p>
+<p>可以在10期热码中找 通过对比发现41为胆 以此类推</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/53e93ae4da746d7514e46c720bbff4ae.jpg" alt="53e93ae4da746d7514e46c720bbff4ae"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/d528cbb7ff6bc9e1e756730dd3a4c636.jpg" alt="d528cbb7ff6bc9e1e756730dd3a4c636"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/hgfhfh.jpg" alt></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/lllllf.jpg" alt></p>
+<p>第二步 对筛选出的胆码 三选三分析趋势 找到最优的四个胆码 排除不对劲的号码 比如66</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/e1ce014987fff24b3ccf61315f6dd077.jpg" alt="e1ce014987fff24b3ccf61315f6dd077"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/16c47546b8ae8c55f03d242fa78db9d0.jpg" alt="16c47546b8ae8c55f03d242fa78db9d0"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/d1aa0d6e145b3248e69bf37a8c5308f4.jpg" alt="d1aa0d6e145b3248e69bf37a8c5308f4"></p>
+<p>如果我们找出了多个胆码 需要投注选五选六 可以使用五选五或者六选六趋势分析 以及配合杀出的号 </p>
+<p>比如55和73来加强验证 为求 必出所有胆码 </p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/tytytt.jpg" alt></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/ead127656e32884c234b370ce9b24b66.jpg" alt="ead127656e32884c234b370ce9b24b66"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/ydfg.jpg" alt></p>
+<p>关于杀号也是同样的道理 根据已知的号码进行综合分析 </p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/74cb51ac4552650b91c26fd98abbf460.jpg" alt="74cb51ac4552650b91c26fd98abbf460"></p>
+<p><img src="/!%5B%5D(https:/gitee.com/songjianzaina/site_img/raw/master/img/fgfgdi.jpg)" alt="6017a5989741d53fa75231b28e9e4df6"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/c2151d5ebba436a3899e3069916ee04d.jpg" alt="c2151d5ebba436a3899e3069916ee04d"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/8abda0697dd7a8c0a4dfc13cf3d4dad7.jpg" alt="8abda0697dd7a8c0a4dfc13cf3d4dad7"></p>
+<p>通过三选三趋势图一条大红柱可以判断必然至少一个下期不开</p>
+<p>61 69 70<br>55 61 69<br>55 61 70</p>
+<p>注: 我发现24197期的 32 64 69 三码走势图可以用于杀号筛选</p>
+<p>我们在选取单式比如五选五 可以增加一个号码也就是选六个号然后查看六选六趋势图 对比看是否有某个号码下期可能不开</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>彩票</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于前后端分离的商品经营模式探讨</title>
+    <url>/51.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>如今大部分网店基本上都能实现自动铺货和代发，有的小伙伴不禁会想，既然很多工作都已经交给供货商了，为什么供货商他们不直接开店？他们凭借自身成本优势应该可以占领更多的市场才对，反而要多此一举让其他人来代理呢？</p>
+<h2 id="商业模式"><a href="#商业模式" class="headerlink" title="商业模式"></a>商业模式</h2><p>这其实涉及到一个商业分工的问题，传统的自产自销模式，有很大的局限性，尤其是互联网时代，大部分供货商对于市场营销、内容创作、流量获取、客户服务等面向终端消费者的“卖货”能力有所缺乏，如果非要自己获取客户流量，那投入的成本也是一个大头。</p>
+<p>而且供货商自己开店，一张营业执照在一个平台理论上只能开一个店铺，如果专心做供应商给他人供货，那么就相当于有千万家店，在损失一部分的利润的情况下来换取<strong>店群</strong>，相比流量投入的未知收益，这种<strong>成本可控</strong>经营的方案，我想大部分人都不会拒绝。</p>
+<p>即便是自带流量的知名品牌产品也会做一些授权分发来进一步<strong>扩大影响力</strong>，更何况是普通的生产商。让众多店主来给产品引流，增加的不仅是销量，还有知名度，它能让好的产品被更多的人发现。</p>
+<h2 id="前后端分离"><a href="#前后端分离" class="headerlink" title="前后端分离"></a>前后端分离</h2><p>所谓生意无非就是把东西卖出去获取收益，总结起来也就两点，那就是产品（后端）+流量（前端）。</p>
+<p>有的人有产品，却缺少渠道和流量，有的人有流量，但需要好的产品</p>
+<p>电商平台很好地解决了这个问题，无论你是带货博主还是开网店，只要涉及到客户流量的获取，那你充当的就是前端的角色。</p>
+<p>我个人认为流量的获取才是难度最大的，所以我们回到文章开头，虽然铺货和代发都自动化了，看上去是在躺着经营，实际上你得绞尽脑汁想办法把上架的商品卖出去，这才是最消耗精气神的。冲动之下，作为店主的你也许还会花钱给商品打广告或者让亲朋好友来支持你的店铺，当你把东西卖出去的那一刻，供应商笑开了花，他们是纯赚的，而你则得精打细算，说不定月底一算总账还是亏钱状态。</p>
+<p>这就是为什么供应商为何不自己开店的原因之一，费力未必讨好嘛！</p>
+<h2 id="方向"><a href="#方向" class="headerlink" title="方向"></a>方向</h2><p>作为个体，我还是更建议大家成为纯流量主，它和前端店主差不多，但比店主更加轻量化，抛去了店铺和营业执照的累赘，轻装上阵，进退有余。<br>当然了，也并不是说开店不好，如果有十足把握的话是可以主动进攻的，如果没有，那么被动防守，把更多的时间和精力来经营自己，比经营店铺更具性价比。</p>
+<p>说白了，只要你有流量，无论是自己开店还是自己开发产品，都是水到渠成的事，作为个体而言，这个顺序很重要，别总想着一上来就开工建厂，这是我们该想的事吗！😅。别说没钱，就算有钱，也不是这么造的。</p>
+<p>供应商、店主、纯流量主这三个群体，没有哪个容易一说，需要根据自身情况来给自己定位角色。</p>
+<p>记住，不要想着把所有钱都赚到自己口袋，钱是永远赚不完的，合作共赢才是长久之道。</p>
+<h2 id="未来趋势"><a href="#未来趋势" class="headerlink" title="未来趋势"></a>未来趋势</h2><p>未来商业分工会越来越明细，一个人就是一家小公司，个体的占比会越来越重，所担任的角色也会越来越细化清晰化。</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>商业经营</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ETF套利之场内对场内套利</title>
+    <url>/5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>之前给大家介绍过有关基金场内外的套利, 详情可参见<a href="https://money.newban.cn/3.html">《什么是基金套利？该怎么操作套利》</a></p>
+<p>这次给大家介绍另外一种套利方式, 那就是纯场内套利, 以中概互联网ETF为例子, 给大家介绍</p>
+<p><strong>聊聊中概互联ETF的场内套利</strong></p>
+<p>先说传统的场内外套利：由于抄底大军过于强大，基金公司的外汇额度快耗光了。交银中国互联网LOF已暂停申购，易方达中证海外互联网每天限额300块，而且它是ETF联接基金。</p>
+<p>很显然，此路不通。</p>
+<p><strong>但是，场内对场内却出现了较强的套利信号。</strong></p>
+<p>从具体行情来看，中概互联ETF（513050）经常出现较高溢价；成立不久的中概互联ETF（159605），成交额也很活跃，却经常出现不小的折价。</p>
+<p>以前段时间为例，就出现套利机会。3月14日，中概互联ETF（159605）折价4.23%，中概互联ETF（513050）却溢价7.57%。可以卖出后者，买入前者。</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/17faf727bfb70b13fdfd2826.png!800.jpg" alt="img"></p>
+<p>具体指数对比、ETF测评，老张之前跟大家写过，成分股比较相似，主要是对单一个股的仓位限制。尤其是后两者，相似度更高，可以构成套利交易。</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/17faf727c4770993fe446889.png!800.jpg" alt="img"></p>
+<p>以近3个交易日为例，中概互联ETF（513050）涨幅为7.35%、0%、-1.47%，中概互联ETF（159605）则是两天涨停，第3天-1.24%。</p>
+<p><strong>这里面固然有指数成分股权重的差异，但是也有较高的折溢价问题。</strong>相比之下，套利多赚10%以上。</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/17faf727b9970fc3fbb53b84.png!800.jpg" alt="img"></p>
+<p>它们的套利交易也很方便，几只中概互联ETF都是T+0交易。也就是随时可以买，也可以随时卖。</p>
+<p><strong>因此，当两只ETF出现明显的折溢价之差时，比如折溢价率差8-10%以上，可以执行套利的策略</strong>。</p>
+<p><strong>其套利逻辑在于：</strong></p>
+<p><strong>溢价过高的ETF，上涨时涨的少，下跌时跌的多；溢价低的甚至出现折价的ETF，上涨时会补涨，或者下跌时跌的少。</strong></p>
+<p>最后，两者之间的折溢价率之差缩小</p>
+<h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><p>该套利方式适合持有底仓套利, 若上涨则多赚 若下跌则少跌</p>
+<p>本文转载自<a href="https://xueqiu.com/1571617732/214824223" target="_blank" rel="noopener">https://xueqiu.com/1571617732/214824223</a></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>做空</tag>
       </tags>
   </entry>
   <entry>
@@ -1742,6 +1761,64 @@
 ]]></content>
       <tags>
         <tag>年化利率</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>策略组合之配置策略+估值择时策略+定期不定额</title>
+    <url>/9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="配置策略"><a href="#配置策略" class="headerlink" title="配置策略"></a>配置策略</h3><p>这里指的是资产配置策略, 该策略无需择时 选好几个品种后按照一定的比例分别买入, 然后定期平衡即可, 这种策略平滑风险,收益稳健,生命力顽强 对于资金量大的投资者非常友好, 大部分家族基本都在使用</p>
+<p>而对于个人投资者而言, 有一些经典资产配置策略是非常不错的, 比如:</p>
+<ul>
+<li><strong>股债平衡策略</strong>: 50%股票+50%债券</li>
+<li><strong>全球ETF平衡策略</strong>: 20%纳指ETF+20%标普ETF+20%中证500+20%沪深300ETF+20%国债ETF</li>
+</ul>
+<p>类似的策略有很多, 大家可以自行延伸</p>
+<h5 id="关于平衡"><a href="#关于平衡" class="headerlink" title="关于平衡"></a>关于平衡</h5><p>资产配置的平衡就是将偏移的比例归置回原位, 我们可以选择按季度平衡, 也可以选择按照比例偏差度平衡, 比如比例偏差超过7%后平衡一次</p>
+<h3 id="估值策略"><a href="#估值策略" class="headerlink" title="估值策略"></a>估值策略</h3><p>单纯的资产配置策略是不择时的, 但是如果我们加上估值择时买入的话, 收益效果会大幅提升</p>
+<p>具体做法就是, 比如当市场估值低于30% 然后进行资产配置, 足够低的起点 自然上涨空间大增</p>
+<h3 id="定期不定额策略"><a href="#定期不定额策略" class="headerlink" title="定期不定额策略"></a>定期不定额策略</h3><p>短期市场不可预测, 估值不会按照我们的想法来走, 也许它到不了30%, 为了避免踏空, 我们可以定期不定额分批进行资产配置, 虽然成本上相比一把梭要高一些 但是这样可以应对各种突发状况</p>
+<p>毕竟策略并不是完美的 有的就有失, 根据自己的喜好使用即可</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>以上就是以资产配置为核心的策略组合</p>
+<p>各种各样的策略都可以组合到一起, 如果它们合到一起能让整体策略变得更好, 那为何不用呢</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>投资策略</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>策略组合之目标长投+回撤网格策略</title>
+    <url>/8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>投资策略有很多, 大家听得最多的可能就是定投策略了, 定投主要分为以下两大类:</p>
+<ul>
+<li><strong>定期定额策略</strong>: 比如每月1号固定投资1000元</li>
+<li><strong>定期不定额策略</strong>: 比如每月1号根据投资标的净值涨跌买入不同额度资金, 跌得越多买的越多 反之减少投入资金</li>
+</ul>
+<p>简单且行之有效的策略, 非常适合有固定收入的群体, 比如上班族</p>
+<p><strong>利用定投策略, 我们可以有效的降低投资成本, 再配合上市场估值,几乎可以秒杀大部分人</strong>,  比如整体市场估值低于50%的时候开启定投, 在50%以上则停止定投, 最后等到估值超过90%全部卖出</p>
+<p>但是市场是非常考验人性的, 人总是贪得无厌 跌的时候忍不住想买 想多吃点  涨的时候忍不住想卖 担心回撤错过了利润 , 我就是这种贪得无厌的人 </p>
+<p>一只股票或者基金在上涨的过程中绝对不是扶摇直上, 而是来回震荡着上涨的, 这种过山车的感觉, 对于任何一个投资者而言都不太好受, 于是我不禁思考 是否能在上涨回撤震荡过程加入网格策略来弥补内心的缺失感</p>
+<h3 id="网格策略"><a href="#网格策略" class="headerlink" title="网格策略"></a>网格策略</h3><p>简单举栗, 以某只股票为例, 比如我们在43块时投入了1万元, 当它回撤到40块时我们补了1万五, 回撤到38块时又补了2万元, 那么当股票反弹回40块时我们可以将38块买的2万元那部分卖出, 反弹回43块时将40块买的1万五那部分卖出, 最后涨到45元后将43块买的1万元那部分卖出  全部收网</p>
+<p>这种一格一格的买 一格一格的卖的投资手法, 我们称之为网格策略</p>
+<p><strong>这种策略非常适合震荡市场, 股票虽然没怎么上涨仅仅是来回波动, 我们也依然能获取收益</strong></p>
+<p>具体回撤多少买 也就是每一网的宽度, 这个自己来定 , 你可以选择百分比来买 不如每下跌5%买一份, 也可以选择股价来买, 比如每下跌5块</p>
+<p>同样的 你可以每一网投入相同的资金, 也可以跌的越多投入越多, 这个看自己的经济情况而定</p>
+<h3 id="目标长投"><a href="#目标长投" class="headerlink" title="目标长投"></a>目标长投</h3><p>网格策略可以让我们在震荡市场获取收益, 但它并不能成为我们的主要投资策略, 因为一旦收网后投资标的持续上涨, 那么可操作的空间就会非常小, 大头的利润压根吃不到, 也就是所谓的只能喝汤不能吃肉</p>
+<p><strong>要想吃肉, 那就必须长投, 也就是低位减仓 高位清仓, 这种利润一次下来非常可观</strong></p>
+<p>长投策略应该成为我们的主要投资策略, 而所谓的目标长投, 就是给投资标的定一个卖出的价格, 不到这个目标价咱不卖</p>
+<p>假设我们在43块买了一只股票, 有足够的把握认定这只股票能涨到100块以上, 那么 我们只需要静静等待那一天的到来即可</p>
+<p>但是 等待是煎熬的, 中途的反反复复可能让一部分人丧心病狂, 能坚持初心吗? 不好说</p>
+<h3 id="目标长投-回撤网格策略"><a href="#目标长投-回撤网格策略" class="headerlink" title="目标长投+回撤网格策略"></a>目标长投+回撤网格策略</h3><p>投资者也需要一些安慰剂, 而网格策略就是最好的安慰剂, 在等待的过程中配合网格策略应对来回的震荡, 享受长投利润的同时多捞取一部分利润,  这样 不至于在大幅回撤时懊恼不已, 不管涨与跌, 都稳如泰山, 幸福稳稳</p>
+<p>至于回撤多少买入, 根据自己的资金存量而定, <strong>在上涨趋势中 我个人认为 回撤逼近均线支撑点是个不错的位置</strong> </p>
+<p>目标长投+回撤网格策略 这种等待而又不失风度的组合策略 也许并不完美 不过没关系 策略本就用来完善的</p>
+<p>一个优良的策略 能让投资者不慌不忙 心情舒畅  如果你的策略做到了这一点, 那么它对于你而言就是好的策略</p>
+<h3 id="投资标的选择"><a href="#投资标的选择" class="headerlink" title="投资标的选择"></a>投资标的选择</h3><p>无论是网格策略还是长投策略, 我都极力推荐大家选择ETF(尤其是宽基ETF), 而非股票, 股票可能退市, ETF的生命力可不是股票能比的</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>投资策略</tag>
       </tags>
   </entry>
   <entry>
@@ -1786,30 +1863,6 @@
 ]]></content>
       <tags>
         <tag>复利</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>策略组合之配置策略+估值择时策略+定期不定额</title>
-    <url>/9.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="配置策略"><a href="#配置策略" class="headerlink" title="配置策略"></a>配置策略</h3><p>这里指的是资产配置策略, 该策略无需择时 选好几个品种后按照一定的比例分别买入, 然后定期平衡即可, 这种策略平滑风险,收益稳健,生命力顽强 对于资金量大的投资者非常友好, 大部分家族基本都在使用</p>
-<p>而对于个人投资者而言, 有一些经典资产配置策略是非常不错的, 比如:</p>
-<ul>
-<li><strong>股债平衡策略</strong>: 50%股票+50%债券</li>
-<li><strong>全球ETF平衡策略</strong>: 20%纳指ETF+20%标普ETF+20%中证500+20%沪深300ETF+20%国债ETF</li>
-</ul>
-<p>类似的策略有很多, 大家可以自行延伸</p>
-<h5 id="关于平衡"><a href="#关于平衡" class="headerlink" title="关于平衡"></a>关于平衡</h5><p>资产配置的平衡就是将偏移的比例归置回原位, 我们可以选择按季度平衡, 也可以选择按照比例偏差度平衡, 比如比例偏差超过7%后平衡一次</p>
-<h3 id="估值策略"><a href="#估值策略" class="headerlink" title="估值策略"></a>估值策略</h3><p>单纯的资产配置策略是不择时的, 但是如果我们加上估值择时买入的话, 收益效果会大幅提升</p>
-<p>具体做法就是, 比如当市场估值低于30% 然后进行资产配置, 足够低的起点 自然上涨空间大增</p>
-<h3 id="定期不定额策略"><a href="#定期不定额策略" class="headerlink" title="定期不定额策略"></a>定期不定额策略</h3><p>短期市场不可预测, 估值不会按照我们的想法来走, 也许它到不了30%, 为了避免踏空, 我们可以定期不定额分批进行资产配置, 虽然成本上相比一把梭要高一些 但是这样可以应对各种突发状况</p>
-<p>毕竟策略并不是完美的 有的就有失, 根据自己的喜好使用即可</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>以上就是以资产配置为核心的策略组合</p>
-<p>各种各样的策略都可以组合到一起, 如果它们合到一起能让整体策略变得更好, 那为何不用呢</p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
-]]></content>
-      <tags>
-        <tag>投资策略</tag>
       </tags>
   </entry>
 </search>

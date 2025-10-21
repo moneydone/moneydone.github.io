@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://money.newban.cn/10.html</loc>
-    <lastmod>2024-04-08T14:16:19.165Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://money.newban.cn/13.html</loc>
-    <lastmod>2024-04-08T14:16:19.165Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://money.newban.cn/11.html</loc>
     <lastmod>2022-09-06T06:02:25.670Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -25,7 +13,25 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://money.newban.cn/10.html</loc>
+    <lastmod>2024-04-08T14:16:19.165Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://money.newban.cn/13.html</loc>
+    <lastmod>2024-04-08T14:16:19.165Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://money.newban.cn/14.html</loc>
+    <lastmod>2024-04-08T14:16:19.165Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://money.newban.cn/16.html</loc>
     <lastmod>2024-04-08T14:16:19.165Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -43,8 +49,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://money.newban.cn/16.html</loc>
-    <lastmod>2024-04-08T14:16:19.165Z</lastmod>
+    <loc>https://money.newban.cn/20.html</loc>
+    <lastmod>2022-09-06T06:02:25.671Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -57,12 +63,6 @@
   <url>
     <loc>https://money.newban.cn/18.html</loc>
     <lastmod>2022-09-06T06:02:25.670Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://money.newban.cn/20.html</loc>
-    <lastmod>2022-09-06T06:02:25.671Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -91,19 +91,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://money.newban.cn/8.html</loc>
-    <lastmod>2022-09-06T06:02:25.684Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://money.newban.cn/6.html</loc>
-    <lastmod>2024-04-08T14:16:19.164Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://money.newban.cn/7.html</loc>
     <lastmod>2024-04-08T14:16:19.164Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -111,6 +99,18 @@
   <url>
     <loc>https://money.newban.cn/9.html</loc>
     <lastmod>2022-09-06T06:02:25.670Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://money.newban.cn/8.html</loc>
+    <lastmod>2022-09-06T06:02:25.684Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://money.newban.cn/7.html</loc>
+    <lastmod>2024-04-08T14:16:19.164Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
