@@ -1630,6 +1630,7 @@
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014124001827.png" alt="image-20251014124001827"></p>
 <p>当然了还可以在赣服通APP上办理:</p>
 <p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014124317267.png" alt="image-20251014124317267"></p>
+<p>想在赣服通便捷办理, 需要先以法人身份登录到<a href="https://fw.amr.jiangxi.gov.cn/" target="_blank" rel="noopener">江西省企业登记网络服务平台</a>, 给自己进行委托授权, 否则查询不到你的企业, 具体操作可参见文章《<a href="https://money.newban.cn/52.html">互联网个体工商营业执照注销流程</a>》</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
 ]]></content>
@@ -1863,6 +1864,86 @@
 ]]></content>
       <tags>
         <tag>复利</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>互联网个体工商营业执照注销流程</title>
+    <url>/52.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="具体流程"><a href="#具体流程" class="headerlink" title="具体流程"></a>具体流程</h2><p>这里以江西省为例, 个体工商户直接走简易注销流程, 只需要办理税务清算和工商注销即可</p>
+<h3 id="第一步-办理税务注销"><a href="#第一步-办理税务注销" class="headerlink" title="第一步 办理税务注销"></a>第一步 办理税务注销</h3><ol>
+<li><p>登录电子税务局官网</p>
+<p>官网: <a href="https://etax.jiangxi.chinatax.gov.cn:8443/" target="_blank" rel="noopener">点击进入</a></p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024160854253.png" alt="image-20251024160854253"></p>
+<p>需要以企业身份登录, 如果你使用的是个人身份, 可以点击右上方头像进入个人信息页面, 进行身份切换:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024161548382.png" alt="image-20251024161548382"></p>
+</li>
+<li><p>进入企业注销页面</p>
+<p>在搜索栏搜索”注销”关键字, 点击”清税申报(税务注销办理)”选项:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024161802250.png" alt="image-20251024161802250"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024163049102.png" alt="image-20251024163049102"></p>
+<p>注销原因选择其他:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024163137379.png" alt="image-20251024163137379"></p>
+<p>提交预检, 审核通过后即可下载清税证明:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024164425376.png" alt="image-20251024164425376"></p>
+</li>
+<li><p>下载清税证明</p>
+</li>
+</ol>
+<h3 id="第二步-办理工商注销"><a href="#第二步-办理工商注销" class="headerlink" title="第二步 办理工商注销"></a>第二步 办理工商注销</h3><ol>
+<li><p>以法人身份登录<a href="http://fw.amr.jiangxi.gov.cn/" target="_blank" rel="noopener">江西省企业登记网络服务平台</a></p>
+<p>点击右上方的 法人登录:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024202854668.png" alt="image-20251024202854668"></p>
+<p>如果没有账号, 需要先注册:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024203001738.png" alt="image-20251024203001738"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024203024364.png" alt="image-20251024203024364"></p>
+<p>企业类型选择个体工商户:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024203342771.png" alt="image-20251024203342771"></p>
+<p>有一点需要特别注意的是,  这个企业名称一定要严格按照营业执照上的来</p>
+<p>比如你的企业名称后面可能带了括号, 类似于xxx工作室(个体工商户) 这种</p>
+<p>这后面的括号内容是工商局那边自动加上的, 你也必须连括号一起完整的填入, 否则会提示信用库中检索不到你的企业信息</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024204036767.png" alt="image-20251024204036767"></p>
+<p>跟着它的提示一步步往下操作即可:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024204112715.png" alt="image-20251024204112715"></p>
+<p>注册完成后, 相当于已经激活了企业, 接下来登录可以直接使用电子营业执照扫码登录:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024204352266.png" alt="image-20251024204352266"></p>
+<p>当然了, 使用用户名密码登录也是没问题的</p>
+</li>
+</ol>
+<ol start="2">
+<li><p>授权委托人</p>
+<p>以法人身份登录后给自己进行授权:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024211837302.png" alt="image-20251024211837302"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024211856778.png" alt="image-20251024211856778"></p>
+<p>填入法人的身份信息, 勾选全部授权后保存:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024212004159.png" alt="image-20251024212004159"></p>
+<p>授权完成后, 退出登录</p>
+<p>然后再以个人账号登录该平台, 因为法人账号只有一个后台页面, 无法进行业务办理</p>
+<p>这里不得不吐槽一下, 网站逻辑太过混乱, 尤其江西政务服务网和企业登记平台, 再加上一个可信网, 三个网站串台, 直接把人给搞蒙 </p>
+</li>
+<li><p>开始简易注销流程</p>
+<p><strong>第一种注销途径, 赣服通APP注销:</strong></p>
+<p>由于上一步已经做好了授权, 此时我们可以直接在赣服通app上进行企业变更和注销:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251014124317267.png" alt="image-20251014124317267"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024214157198.png" alt="image-20251024214157198"></p>
+<p>如果你不提前授权的话, 是无法看到自己名下的企业的, 大部分人这一块搞不明白, 不知道要去哪里授权:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024214052787.png" alt="image-20251024214052787"></p>
+<p><strong>第二种注销途径, 江西省企业登记网络服务平台注销:</strong></p>
+<p>以个人身份登录<a href="http://fw.amr.jiangxi.gov.cn/" target="_blank" rel="noopener">江西省企业登记网络服务平台</a>, 成功后, 在业务导航栏中找到”企业注销一网通办”:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024204558270.png" alt="image-20251024204558270"></p>
+<p>然后选择简易注销:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024204658732.png" alt="image-20251024204658732"></p>
+<p>点击填报信息:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img1/raw/master/img/image-20251024204826464.png" alt="image-20251024204826464"></p>
+<p>然后根据它的操作一步步往下走即可</p>
+<p>最后提交等待审核</p>
+<p>由于网站有时莫名其妙无非访问, 所以这里强烈推荐大家使用赣服通App注销, 方便快捷</p>
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://money.newban.cn/">投资与财富 – 富贵如龙 游尽五湖四海 贫穷如虎 惊散九族六亲</a></em></p>
+]]></content>
+      <tags>
+        <tag>生意</tag>
       </tags>
   </entry>
 </search>
